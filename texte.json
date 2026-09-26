@@ -1,0 +1,32 @@
+{
+  "zeilen": {
+    "beobachtet": {"titel": "wurde tatsächlich gezählt",
+      "satz": "So viel mehr oder weniger gab es am Ende des Zeitraums als am Anfang."},
+    "pruefung": {
+      "geprueft": {"zahl": "geprüft", "titel": "geht nicht auf die Zählweise zurück",
+        "satz": "Die Reihe {zeitraum} wurde darauf geprüft, ob sie springt, weil sich die Erfassung geändert hat. Es gibt keinen solchen Sprung."},
+      "nicht_geprueft": {"zahl": "nicht geprüft", "titel": "Zählweise nicht geprüft",
+        "satz": "{grund} Ein Teil des Rests kann deshalb auf die Erfassung zurückgehen."},
+      "bruch": {"zahl": "Bruch", "titel": "Die Zählweise hat sich {bruchjahr} geändert",
+        "satz": "Die Reihe springt, weil anders erfasst wurde — nicht, weil sich etwas verändert hat."}
+    },
+    "einwohner": {"titel": "kommen von mehr oder weniger Einwohnern",
+      "satz": "So viel käme heraus, wenn sich nur die Zahl der Menschen verändert hätte — bei gleichem Altersaufbau."},
+    "alterung": {"titel": "kommen allein von der Alterung",
+      "satz": "So viel käme heraus, wenn in jeder Altersgruppe derselbe Anteil betroffen wäre wie am Anfang und sich nur der Altersaufbau verändert hätte."},
+    "rest": {"titel": "bleiben unerklärt",
+      "satz": "Was weder die Zahl der Menschen noch die Alterung erklärt. Dieses Werkzeug nennt dafür keinen Grund."}
+  },
+  "leichte_sprache": {
+    "beobachtet": "Diese Zahl hat ein Amt gezählt. Das Amt heißt: Statistisches Bundesamt. Wir vergleichen den Anfang mit dem Ende vom Zeitraum. Die Zahl zeigt: So viel hat sich verändert. Ein Plus heißt: Es sind mehr geworden. Ein Minus heißt: Es sind weniger geworden. Die Zahl steht in Prozent. Plus 10 Prozent heißt: Aus 100 sind 110 geworden.",
+    "pruefung": {
+      "geprueft": "Manchmal ändert ein Amt die Art zu zählen. Dann springt die Zahl. Aber in Wirklichkeit hat sich nichts geändert. Wir haben diese Zahlen nach so einem Sprung durchsucht. Wir haben keinen Sprung gefunden.",
+      "nicht_geprueft": "Manchmal ändert ein Amt die Art zu zählen. Dann springt die Zahl. Aber in Wirklichkeit hat sich nichts geändert. Bei diesen Zahlen konnten wir das nicht prüfen. Darum wissen wir es nicht. Ein Teil vom Rest kann also von der Art zu zählen kommen.",
+      "bruch": "Manchmal ändert ein Amt die Art zu zählen. Dann springt die Zahl. Aber in Wirklichkeit hat sich nichts geändert. Bei diesen Zahlen gibt es so einen Sprung. Die Zahlen davor und danach passen nicht zusammen. Darum rechnen wir hier nichts aus."
+    },
+    "einwohner": "In Deutschland leben mal mehr Menschen. Und mal leben hier weniger Menschen. Mehr Menschen heißt: Mehr Menschen werden krank. Mehr Menschen heißt auch: Mehr Menschen brauchen Pflege. Das hat nichts mit dem Alter zu tun. Diese Zahl zeigt: So viel kommt nur von der Zahl der Menschen.",
+    "alterung": "Die Menschen in Deutschland werden älter. Ältere Menschen sind öfter krank. Ältere Menschen brauchen öfter Pflege. Darum steigt die Zahl. So rechnen wir: Wir teilen die Menschen nach dem Alter ein. So entstehen Alters-Gruppen. In jeder Alters-Gruppe bleibt der Anteil gleich. Anteil heißt: So viele von 100 Menschen sind betroffen. Nur die Alters-Gruppen werden anders groß. Diese Zahl zeigt: So viel kommt nur vom Älterwerden.",
+    "rest": "Das ist der Rest. Wir nehmen die gezählte Zahl. Wir ziehen den Teil von der Zahl der Menschen ab. Wir ziehen auch den Teil vom Älterwerden ab. Dann bleibt der Rest übrig. Woher kommt der Rest? Das wissen wir nicht. Dieses Werkzeug rät nicht."
+  },
+  "bruch_hinweis": "Die Zählweise hat sich {bruchjahr} geändert. Zahlen vor und nach diesem Jahr passen nicht zusammen. Darum rechnet das Werkzeug hier nichts aus."
+}

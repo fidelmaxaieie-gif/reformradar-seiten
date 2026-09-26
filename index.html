@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reformradar — wie viel davon ist Alterung?</title>
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header>
+  <h1>Wie viel davon ist Alterung?</h1>
+  <p class="unterzeile">Eine Zahl hat sich verändert. Dieses Werkzeug rechnet aus,
+  wie viel davon allein daran liegt, dass die Bevölkerung älter geworden ist —
+  und wie viel daran, dass mehr oder weniger Menschen hier leben.
+  <a href="rechner.html">Zum Beitragssatz-Rechner</a></p>
+</header>
+
+<form id="auswahl" aria-label="Auswahl">
+  <label>Zahl <select id="outcome"></select></label>
+  <label id="sache-feld" hidden><span id="sache-name"></span> <select id="sache"></select></label>
+  <label><span id="gebiet-name">Gebiet</span> <select id="gebiet"></select></label>
+  <label>Zeitraum <select id="zeitraum"></select></label>
+</form>
+
+<main id="ergebnis" aria-live="polite">
+  <noscript><p class="fehler">Diese Seite braucht JavaScript.</p></noscript>
+</main>
+
+<footer>
+  <p id="quellenvermerk"></p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

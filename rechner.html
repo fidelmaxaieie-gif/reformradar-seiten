@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reformradar — Beitragssatz-Rechner</title>
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<header>
+  <h1>Was die Demografie den Beitragssatz kostet</h1>
+  <p class="unterzeile">Welchen GKV-Beitragssatz bräuchte es, wenn sich nur die Bevölkerung
+  verändert — und was ändert eine Reform daran? <a href="index.html">Zum Werkzeug „Wie viel davon ist Alterung?"</a></p>
+</header>
+
+<form id="regler" aria-label="Regler">
+  <fieldset><legend>Demografie</legend>
+    <label>Bevölkerungsvariante <select id="variante"></select>
+      <small class="beleg">jung · moderat · alt — Destatis 12421-0002 (Varianten 05, 02, 04). Wie sich Geburten, Lebenserwartung und Wanderung entwickeln.</small></label>
+    <label>Zieljahr <input id="jahr" type="range" min="2025" max="2035" step="1"> <output for="jahr"></output>
+      <small class="beleg">2025–2035 — Destatis 12421-0002. 2025 ist der Ausgangspunkt.</small></label>
+    <label>Wirkung der gesetzlichen Verschiebung des Rentenbeginns <input id="regelalter" type="range" min="0" max="1" step="0.05"> <output for="regelalter"></output>
+      <small class="beleg" id="beleg-regelalter"></small></label>
+  </fieldset>
+  <fieldset><legend>Reform</legend>
+    <label class="schalter"><input id="pkv" type="checkbox"> Privatversicherte einbeziehen
+      <small class="beleg">an/aus — Mikrozensus 2023 (12251-0201, 12251-0203). Alle Privatversicherten werden gesetzlich versichert, zum Stichtag, ohne Verhaltensänderung.</small></label>
+    <label id="honorar-feld">Honorarausgleich <input id="honorar" type="range" min="0" max="1" step="0.05"> <output for="honorar"></output>
+      <small class="beleg" id="beleg-honorar"></small></label>
+  </fieldset>
+  <fieldset><legend>Datenannahmen</legend>
+    <label>Faktor netto → brutto <input id="faktor" type="range" min="1.2" max="1.6" step="0.05"> <output for="faktor"></output>
+      <small class="beleg">1,2–1,6 — Annahme. Rechnet das Nettoeinkommen des Mikrozensus in Bruttoeinkommen um; Beamte liegen unten, Angestellte oben.</small></label>
+    <label>Einkommen der Spitzenklasse
+      <select id="spitze"><option value="bbg">an der Beitragsbemessungsgrenze</option><option value="3500">3.500 € netto × Faktor</option></select>
+      <small class="beleg">an der BBG · 3.500 € netto × Faktor — Annahme. Die Mikrozensus-Klasse „3.000 € und mehr" ist nach oben offen.</small></label>
+    <label>Kosten der Privatversicherten relativ zur GKV <input id="morbiditaet" type="range" min="0.85" max="1" step="0.01"> <output for="morbiditaet"></output>
+      <small class="beleg">85–100 % — Annahme. Wie teuer Privatversicherte je Alter im Vergleich zu GKV-Versicherten sind (Risikoselektion).</small></label>
+  </fieldset>
+</form>
+
+<main id="ergebnis" aria-live="polite">
+  <noscript><p class="fehler">Diese Seite braucht JavaScript.</p></noscript>
+</main>
+<p class="pflicht">Statische Rechnung ohne Verhaltensänderung, Preise und Einkommen von 2024.</p>
+<p class="hinweis" id="hinweis-datenstaende"></p>
+<p id="probe"></p>
+<p class="hinweis">Zerlegung in fester Reihenfolge: erst Ausgaben je Versichertem, dann Beitragsbasis je Versichertem, dann die Hebel in der Reihenfolge der Regler. Eine andere Reihenfolge verschöbe die Zeilen, nicht den Satz. Die Zeilen sind einzeln gerundet; ihre Summe kann vom Satz um 0,01 abweichen.</p>
+<p class="hinweis">Die Zahl der Versicherten kürzt sich im Beitragssatz heraus: weniger Versicherte senken Ausgaben und Beitragsbasis im gleichen Verhältnis. Die beiden Zeilen zeigen deshalb Werte je Versichertem.</p>
+
+<section id="annahmen"><h2>Woher die Zahlen kommen</h2><ul id="quellen"></ul></section>
+
+<footer><p id="quellenvermerk"></p></footer>
+<script type="module" src="rechner_app.js"></script>
+</body>
+</html>

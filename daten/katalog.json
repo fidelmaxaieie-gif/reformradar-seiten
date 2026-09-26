@@ -1,0 +1,1019 @@
+{
+ "daten": {
+  "keine_sache": "-",
+  "outcomes": [
+   {
+    "wert": "krankenhaus",
+    "name": "Krankenhausfälle",
+    "sachachse": "Diagnose",
+    "gebiet_bezeichnung": "Gebiet",
+    "sachen": [
+     {
+      "wert": "ICD10-A00-A09",
+      "name": "A00-A09  Infektiöse Darmkrankheiten"
+     },
+     {
+      "wert": "ICD10-A15-A19",
+      "name": "A15-A19  Tuberkulose"
+     },
+     {
+      "wert": "ICD10-A20-A28",
+      "name": "A20-A28  Bestimmte bakterielle Zoonosen"
+     },
+     {
+      "wert": "ICD10-A30-A49",
+      "name": "A30-A49  Sonstige bakterielle Krankheiten"
+     },
+     {
+      "wert": "ICD10-A50-A64",
+      "name": "A50-A64  Infektionen, vorw.d. Geschlechtsverkehr übertragen"
+     },
+     {
+      "wert": "ICD10-A65-A69",
+      "name": "A65-A69  Sonstige Spirochätenkrankheiten"
+     },
+     {
+      "wert": "ICD10-A70-A74",
+      "name": "A70-A74  Sonstige Krankheiten durch Chlamydien"
+     },
+     {
+      "wert": "ICD10-A75-A79",
+      "name": "A75-A79  Rickettsiosen"
+     },
+     {
+      "wert": "ICD10-A80-A89",
+      "name": "A80-A89  Virusinfektionen des Zentralnervensystems"
+     },
+     {
+      "wert": "ICD10-A90-A99",
+      "name": "A90-A99  Athropoden-Virus-Kh. u. virales hämorrhag.Fieber"
+     },
+     {
+      "wert": "ICD10-B00-B09",
+      "name": "B00-B09  Virusinfektionen,gekennz.d.Haut-/Schleimhautläsion"
+     },
+     {
+      "wert": "ICD10-B15-B19",
+      "name": "B15-B19  Virushepatitis"
+     },
+     {
+      "wert": "ICD10-B20-B24",
+      "name": "B20-B24  HIV-Krankheit"
+     },
+     {
+      "wert": "ICD10-B25-B34",
+      "name": "B25-B34  Sonstige Viruskrankheiten"
+     },
+     {
+      "wert": "ICD10-B35-B49",
+      "name": "B35-B49  Mykosen"
+     },
+     {
+      "wert": "ICD10-B50-B64",
+      "name": "B50-B64  Protozoenkrankheiten"
+     },
+     {
+      "wert": "ICD10-B65-B83",
+      "name": "B65-B83  Helminthosen"
+     },
+     {
+      "wert": "ICD10-B85-B89",
+      "name": "B85-B89  Pedikulose/Akarinose/sonst.Parasitenbefall d. Haut"
+     },
+     {
+      "wert": "ICD10-B90-B94",
+      "name": "B90-B94  Folgezustände von infektiösen und parasitären Kh."
+     },
+     {
+      "wert": "ICD10-B99-B99",
+      "name": "B99-B99  Sonstige Infektionskrankheiten"
+     },
+     {
+      "wert": "ICD10-C00-C14",
+      "name": "C00-C14  Bösartige Neubildung, Lippe, Mundhöhle, Pharynx"
+     },
+     {
+      "wert": "ICD10-C15-C26",
+      "name": "C15-C26  Bösartige Neubildungen der Verdauungsorgane"
+     },
+     {
+      "wert": "ICD10-C30-C39",
+      "name": "C30-C39  BN d. Atmungsorgane u. so. intrathorakaler Organe"
+     },
+     {
+      "wert": "ICD10-C40-C41",
+      "name": "C40-C41  BN des Knochens und des Gelenkknorpels"
+     },
+     {
+      "wert": "ICD10-C43-C44",
+      "name": "C43-C44  Melanom und sonstige BN der Haut"
+     },
+     {
+      "wert": "ICD10-C45-C49",
+      "name": "C45-C49  BN d. mesothelialen Gewebes u.d. Weichteilgewebes"
+     },
+     {
+      "wert": "ICD10-C50-C50",
+      "name": "C50-C50  Bösartige Neubildungen der Brustdrüse (Mamma)"
+     },
+     {
+      "wert": "ICD10-C51-C58",
+      "name": "C51-C58  BN der weiblichen Genitalorgane"
+     },
+     {
+      "wert": "ICD10-C60-C63",
+      "name": "C60-C63  BN der männlichen Genitalorgane"
+     },
+     {
+      "wert": "ICD10-C64-C68",
+      "name": "C64-C68  Bösartige Neubildungen der Harnorgane"
+     },
+     {
+      "wert": "ICD10-C69-C72",
+      "name": "C69-C72  BN des Auges/Gehirns/Zentralnervensystems"
+     },
+     {
+      "wert": "ICD10-C73-C75",
+      "name": "C73-C75  BN der Schilddrüse und sonstiger endokriner Drüsen"
+     },
+     {
+      "wert": "ICD10-C76-C80",
+      "name": "C76-C80  BN ungenau bez., sekundärer u.n.n. bez. Lokalisat."
+     },
+     {
+      "wert": "ICD10-C81-C96",
+      "name": "C81-C96  BN des lymphat., blutbild. und verwandten Gewebes"
+     },
+     {
+      "wert": "ICD10-D00-D09",
+      "name": "D00-D09  In-situ-Neubildungen"
+     },
+     {
+      "wert": "ICD10-D10-D36",
+      "name": "D10-D36  Gutartige Neubildungen"
+     },
+     {
+      "wert": "ICD10-D37-D48",
+      "name": "D37-D48  Neubildungen unsicheren o. unbekannten Verhaltens"
+     },
+     {
+      "wert": "ICD10-D50-D53",
+      "name": "D50-D53  Alimentäre Anämien"
+     },
+     {
+      "wert": "ICD10-D55-D59",
+      "name": "D55-D59  Hämolytische Anämien"
+     },
+     {
+      "wert": "ICD10-D60-D64",
+      "name": "D60-D64  Aplastische und sonstige Anämien"
+     },
+     {
+      "wert": "ICD10-D65-D69",
+      "name": "D65-D69  Koagulopathien,Purpura u.sonst.hämorrhag.Diathesen"
+     },
+     {
+      "wert": "ICD10-D70-D77",
+      "name": "D70-D77  Sonstige Kh. des Blutes und der blutbilden Organe"
+     },
+     {
+      "wert": "ICD10-D80-D90",
+      "name": "D80-D90  Best. Störungen mit Beteiligung des Immunsystems"
+     },
+     {
+      "wert": "ICD10-E00-E07",
+      "name": "E00-E07  Krankheiten der Schilddrüse"
+     },
+     {
+      "wert": "ICD10-E10-E14",
+      "name": "E10-E14  Diabetes mellitus"
+     },
+     {
+      "wert": "ICD10-E15-E16",
+      "name": "E15-E16  Blutglukoseregulationsstörung"
+     },
+     {
+      "wert": "ICD10-E20-E35",
+      "name": "E20-E35  Krankheiten sonstiger endokriner Drüsen"
+     },
+     {
+      "wert": "ICD10-E40-E46",
+      "name": "E40-E46  Mangelernährung"
+     },
+     {
+      "wert": "ICD10-E50-E64",
+      "name": "E50-E64  Sonstige alimentäre Mangelzustände"
+     },
+     {
+      "wert": "ICD10-E65-E68",
+      "name": "E65-E68  Adipositas und sonstige Überernährung"
+     },
+     {
+      "wert": "ICD10-E70-E90",
+      "name": "E70-E90  Stoffwechselstörungen"
+     },
+     {
+      "wert": "ICD10-F00-F09",
+      "name": "F00-F09  Organische, einschl. symptomat. psych. Störungen"
+     },
+     {
+      "wert": "ICD10-F10-F19",
+      "name": "F10-F19  Psych. u. Verhaltensstörungen d.psychotrope Subst."
+     },
+     {
+      "wert": "ICD10-F20-F29",
+      "name": "F20-F29  Schizophrenie, schizotype und wahnhafte Störungen"
+     },
+     {
+      "wert": "ICD10-F30-F39",
+      "name": "F30-F39  Affektive Störungen"
+     },
+     {
+      "wert": "ICD10-F40-F48",
+      "name": "F40-F48  Neurotische, Belastungs- und somatoforme Störungen"
+     },
+     {
+      "wert": "ICD10-F50-F59",
+      "name": "F50-F59  Verhaltensauffälligk. m. körperl. Stör. u.Faktoren"
+     },
+     {
+      "wert": "ICD10-F60-F69",
+      "name": "F60-F69  Persönlichkeits- und Verhaltensstörungen"
+     },
+     {
+      "wert": "ICD10-F70-F79",
+      "name": "F70-F79  Intelligenzstörung"
+     },
+     {
+      "wert": "ICD10-F80-F89",
+      "name": "F80-F89  Entwicklungsstörungen"
+     },
+     {
+      "wert": "ICD10-F90-F98",
+      "name": "F90-F98  Verhaltens-u.emot.Störungen/Beginn Kindheit u.Jgd."
+     },
+     {
+      "wert": "ICD10-F99-F99",
+      "name": "F99-F99  Nicht näher bezeichnete psychische Störungen"
+     },
+     {
+      "wert": "ICD10-G00-G09",
+      "name": "G00-G09  Entzündliche Krankheiten des Zentralnervensystems"
+     },
+     {
+      "wert": "ICD10-G10-G14",
+      "name": "G10-G14  Systematrophien, vorw.d.Zentralnervensystem betr."
+     },
+     {
+      "wert": "ICD10-G20-G26",
+      "name": "G20-G26  Extrapyramidale Krankheiten und Bewegungsstörungen"
+     },
+     {
+      "wert": "ICD10-G30-G32",
+      "name": "G30-G32  Sonst. degenerative Krankheiten des Nervensystems"
+     },
+     {
+      "wert": "ICD10-G35-G37",
+      "name": "G35-G37  Demyelinisierende Kh. des Zentralnervensystems"
+     },
+     {
+      "wert": "ICD10-G40-G47",
+      "name": "G40-G47  Episodische und paroxysmale Kh. des Nervensystems"
+     },
+     {
+      "wert": "ICD10-G50-G59",
+      "name": "G50-G59  Kh. von Nerven, Nervenwurzeln und Nervenplexus"
+     },
+     {
+      "wert": "ICD10-G60-G64",
+      "name": "G60-G64  Polyneuropathien u.sonst. Kh. d.periph. Nervensys."
+     },
+     {
+      "wert": "ICD10-G70-G73",
+      "name": "G70-G73  Kh. im Bereich d.neuromuskul. Synapse u.d.Muskels"
+     },
+     {
+      "wert": "ICD10-G80-G83",
+      "name": "G80-G83  Zerebrale Lähmung und sonstige Lähmungssyndrome"
+     },
+     {
+      "wert": "ICD10-G90-G99",
+      "name": "G90-G99  Sonstige Krankheiten des Nervensystems"
+     },
+     {
+      "wert": "ICD10-H00-H06",
+      "name": "H00-H06  Affekt. d.Augenlides, d.Tränenapparates u.d.Orbita"
+     },
+     {
+      "wert": "ICD10-H10-H13",
+      "name": "H10-H13  Affektionen der Konjunktiva"
+     },
+     {
+      "wert": "ICD10-H15-H22",
+      "name": "H15-H22  Affektionen v.Sklera,Hornhaut,Iris u.Ziliarkörper"
+     },
+     {
+      "wert": "ICD10-H25-H28",
+      "name": "H25-H28  Affektionen der Linse"
+     },
+     {
+      "wert": "ICD10-H30-H36",
+      "name": "H30-H36  Affektionen der Aderhaut und der Netzhaut"
+     },
+     {
+      "wert": "ICD10-H40-H42",
+      "name": "H40-H42  Glaukom"
+     },
+     {
+      "wert": "ICD10-H43-H45",
+      "name": "H43-H45  Affektionen des Glaskörpers und des Augapfels"
+     },
+     {
+      "wert": "ICD10-H46-H48",
+      "name": "H46-H48  Affektionen des N. opticus und der Sehbahn"
+     },
+     {
+      "wert": "ICD10-H49-H52",
+      "name": "H49-H52  Affekt.d.Augenmuskels,Stör.d.Blickbewegung u.Ä."
+     },
+     {
+      "wert": "ICD10-H53-H54",
+      "name": "H53-H54  Sehstörungen und Blindheit"
+     },
+     {
+      "wert": "ICD10-H55-H59",
+      "name": "H55-H59  Sonst. Affekt. d. Auges u.d. Augenanhangsgebilde"
+     },
+     {
+      "wert": "ICD10-H60-H62",
+      "name": "H60-H62  Krankheiten des äußeren Ohres"
+     },
+     {
+      "wert": "ICD10-H65-H75",
+      "name": "H65-H75  Kh. des Mittelohres und des Warzenfortsatzes"
+     },
+     {
+      "wert": "ICD10-H80-H83",
+      "name": "H80-H83  Krankheiten des Innenohres"
+     },
+     {
+      "wert": "ICD10-H90-H95",
+      "name": "H90-H95  Sonstige Krankheiten des Ohres"
+     },
+     {
+      "wert": "ICD10-I00-I02",
+      "name": "I00-I02  Akutes rheumatisches Fieber"
+     },
+     {
+      "wert": "ICD10-I05-I09",
+      "name": "I05-I09  Chronische rheumatische Herzkrankheiten"
+     },
+     {
+      "wert": "ICD10-I10-I15",
+      "name": "I10-I15  Hypertonie (Hochdruckkrankheit)"
+     },
+     {
+      "wert": "ICD10-I20-I25",
+      "name": "I20-I25  Ischämische Herzkrankheiten"
+     },
+     {
+      "wert": "ICD10-I26-I28",
+      "name": "I26-I28  Pulmonale Herzkrankheit u. Kh.d. Lungenkreislaufes"
+     },
+     {
+      "wert": "ICD10-I30-I52",
+      "name": "I30-I52  Sonstige Formen der Herzkrankheit"
+     },
+     {
+      "wert": "ICD10-I60-I69",
+      "name": "I60-I69  Zerebrovaskuläre Krankheiten"
+     },
+     {
+      "wert": "ICD10-I70-I79",
+      "name": "I70-I79  Kh. der Arterien, Arteriolen und Kapillaren"
+     },
+     {
+      "wert": "ICD10-I80-I89",
+      "name": "I80-I89  Kh. d.Venen,Lymphgefäße.u.Lymphknoten.,ao.n.klass."
+     },
+     {
+      "wert": "ICD10-I95-I99",
+      "name": "I95-I99  Sonst. u. n.n.bez. Krankheiten d. Kreislaufsystems"
+     },
+     {
+      "wert": "ICD10-J00-J06",
+      "name": "J00-J06  Akute Infektionen der oberen Atemwege"
+     },
+     {
+      "wert": "ICD10-J09-J18",
+      "name": "J09-J18  Grippe und Pneumonie"
+     },
+     {
+      "wert": "ICD10-J20-J22",
+      "name": "J20-J22  Sonstige akute Infektionen der unteren Atemwege"
+     },
+     {
+      "wert": "ICD10-J30-J39",
+      "name": "J30-J39  Sonstige Krankheiten der oberen Atemwege"
+     },
+     {
+      "wert": "ICD10-J40-J47",
+      "name": "J40-J47  Chronische Krankheiten der unteren Atemwege"
+     },
+     {
+      "wert": "ICD10-J60-J70",
+      "name": "J60-J70  Lungenkrankheiten durch exogene Substanzen"
+     },
+     {
+      "wert": "ICD10-J80-J84",
+      "name": "J80-J84  Sonst.Kh.d.Atmungsorg.,hpts.Interstitium betreff."
+     },
+     {
+      "wert": "ICD10-J85-J86",
+      "name": "J85-J86  Purulente u. nekrot. Kh.-Zust. d. unteren Atemwege"
+     },
+     {
+      "wert": "ICD10-J90-J94",
+      "name": "J90-J94  Sonstige Krankheiten der Pleura"
+     },
+     {
+      "wert": "ICD10-J95-J99",
+      "name": "J95-J99  Sonstige Krankheiten des Atmungssystems"
+     },
+     {
+      "wert": "ICD10-K00-K14",
+      "name": "K00-K14  Kh. d. Mundhöhle, d. Speicheldrüsen u.d. Kiefer"
+     },
+     {
+      "wert": "ICD10-K20-K31",
+      "name": "K20-K31  Kh. des Ösophagus, des Magens und des Duodenums"
+     },
+     {
+      "wert": "ICD10-K35-K38",
+      "name": "K35-K38  Krankheiten der Appendix"
+     },
+     {
+      "wert": "ICD10-K40-K46",
+      "name": "K40-K46  Hernien"
+     },
+     {
+      "wert": "ICD10-K50-K52",
+      "name": "K50-K52  Nichtinfektiöse Enteritis und Kolitis"
+     },
+     {
+      "wert": "ICD10-K55-K64",
+      "name": "K55-K64  Sonstige Krankheiten des Darmes"
+     },
+     {
+      "wert": "ICD10-K65-K67",
+      "name": "K65-K67  Krankheiten des Peritoneums"
+     },
+     {
+      "wert": "ICD10-K70-K77",
+      "name": "K70-K77  Krankheiten der Leber"
+     },
+     {
+      "wert": "ICD10-K80-K87",
+      "name": "K80-K87  Kh. d. Gallenblase, d. Gallenwege u.d. Pankreas"
+     },
+     {
+      "wert": "ICD10-K90-K93",
+      "name": "K90-K93  Sonstige Krankheiten des Verdauungssystems"
+     },
+     {
+      "wert": "ICD10-L00-L08",
+      "name": "L00-L08  Infektionen der Haut und der Unterhaut"
+     },
+     {
+      "wert": "ICD10-L10-L14",
+      "name": "L10-L14  Bullöse Dermatosen"
+     },
+     {
+      "wert": "ICD10-L20-L30",
+      "name": "L20-L30  Dermatitis und Ekzem"
+     },
+     {
+      "wert": "ICD10-L40-L45",
+      "name": "L40-L45  Papulosquamöse Hautkrankheiten"
+     },
+     {
+      "wert": "ICD10-L50-L54",
+      "name": "L50-L54  Urtikaria und Erythem"
+     },
+     {
+      "wert": "ICD10-L55-L59",
+      "name": "L55-L59  Kh.d. Haut u.d. Unterhaut durch Strahleneinwirkung"
+     },
+     {
+      "wert": "ICD10-L60-L75",
+      "name": "L60-L75  Krankheiten der Hautanhangsgebilde"
+     },
+     {
+      "wert": "ICD10-L80-L99",
+      "name": "L80-L99  Sonstige Krankheiten der Haut und der Unterhaut"
+     },
+     {
+      "wert": "ICD10-M00-M03",
+      "name": "M00-M03  Infektiöse Arthropathien"
+     },
+     {
+      "wert": "ICD10-M05-M14",
+      "name": "M05-M14  Entzündliche Polyarthropathien"
+     },
+     {
+      "wert": "ICD10-M15-M19",
+      "name": "M15-M19  Arthrose"
+     },
+     {
+      "wert": "ICD10-M20-M25",
+      "name": "M20-M25  Sonstige Gelenkkrankheiten"
+     },
+     {
+      "wert": "ICD10-M30-M36",
+      "name": "M30-M36  Systemkrankheiten des Bindegewebes"
+     },
+     {
+      "wert": "ICD10-M40-M43",
+      "name": "M40-M43  Deformitäten der Wirbelsäule und des Rückens"
+     },
+     {
+      "wert": "ICD10-M45-M49",
+      "name": "M45-M49  Spondylopathien"
+     },
+     {
+      "wert": "ICD10-M50-M54",
+      "name": "M50-M54  Sonst. Krankheiten der Wirbelsäule und des Rückens"
+     },
+     {
+      "wert": "ICD10-M60-M63",
+      "name": "M60-M63  Krankheiten der Muskeln"
+     },
+     {
+      "wert": "ICD10-M65-M68",
+      "name": "M65-M68  Krankheiten der Synovialis und der Sehnen"
+     },
+     {
+      "wert": "ICD10-M70-M79",
+      "name": "M70-M79  Sonstige Krankheiten des Weichteilgewebes"
+     },
+     {
+      "wert": "ICD10-M80-M85",
+      "name": "M80-M85  Veränderungen der Knochendichte und -struktur"
+     },
+     {
+      "wert": "ICD10-M86-M90",
+      "name": "M86-M90  Sonstige Osteopathien"
+     },
+     {
+      "wert": "ICD10-M91-M94",
+      "name": "M91-M94  Chondropathien"
+     },
+     {
+      "wert": "ICD10-M95-M99",
+      "name": "M95-M99  Sonst.Kh.d.Muskel-Skelett-Systems u.d.Bindegewebes"
+     },
+     {
+      "wert": "ICD10-N00-N08",
+      "name": "N00-N08  Glomeruläre Krankheiten"
+     },
+     {
+      "wert": "ICD10-N10-N16",
+      "name": "N10-N16  Tubulointerstitielle Nierenkrankheiten"
+     },
+     {
+      "wert": "ICD10-N17-N19",
+      "name": "N17-N19  Niereninsuffizienz"
+     },
+     {
+      "wert": "ICD10-N20-N23",
+      "name": "N20-N23  Urolithiasis"
+     },
+     {
+      "wert": "ICD10-N25-N29",
+      "name": "N25-N29  Sonstige Krankheiten der Niere und des Ureters"
+     },
+     {
+      "wert": "ICD10-N30-N39",
+      "name": "N30-N39  Sonstige Krankheiten des Harnsystems"
+     },
+     {
+      "wert": "ICD10-N40-N51",
+      "name": "N40-N51  Krankheiten der männlichen Genitalorgane"
+     },
+     {
+      "wert": "ICD10-N60-N64",
+      "name": "N60-N64  Krankheiten der Mamma (Brustdrüse)"
+     },
+     {
+      "wert": "ICD10-N70-N77",
+      "name": "N70-N77  Entzündliche Krankh. der weiblichen Beckenorgane"
+     },
+     {
+      "wert": "ICD10-N80-N98",
+      "name": "N80-N98  Nichtentzündl. Kh. des weiblichen Genitaltraktes"
+     },
+     {
+      "wert": "ICD10-N99-N99",
+      "name": "N99-N99  Sonstige Krankheiten des Urogenitalsystems"
+     },
+     {
+      "wert": "ICD10-O00-O08",
+      "name": "O00-O08  Schwangerschaft mit abortivem Ausgang"
+     },
+     {
+      "wert": "ICD10-O10-O16",
+      "name": "O10-O16  Ödeme/Proteinurie/Hypert.(Schwangerschaft/Geburt)"
+     },
+     {
+      "wert": "ICD10-O20-O29",
+      "name": "O20-O29  Sonstige Schwangerschaftsbedingte Kh. der Mutter"
+     },
+     {
+      "wert": "ICD10-O30-O48",
+      "name": "O30-O48  Betreuung d. Mutter bei Entbindungskomplikationen"
+     },
+     {
+      "wert": "ICD10-O60-O75",
+      "name": "O60-O75  Komplikationen bei Wehentätigkeit und Entbindung"
+     },
+     {
+      "wert": "ICD10-O80-O84",
+      "name": "O80-O84  Entbindung"
+     },
+     {
+      "wert": "ICD10-O85-O92",
+      "name": "O85-O92  Komplikationen, die vorw. im Wochenbett auftreten"
+     },
+     {
+      "wert": "ICD10-O94-O99",
+      "name": "O94-O99  Sonst.Kh.-zustände d.Gestationsperiode,ao.n.klass."
+     },
+     {
+      "wert": "ICD10-P00-P04",
+      "name": "P00-P04  Schädigung d.Fetus/Neugeb.d.mütterl.Faktoren u.Ä."
+     },
+     {
+      "wert": "ICD10-P05-P08",
+      "name": "P05-P08  Störungen i.Zusammenhang m.d.Schwangerschaftsdauer"
+     },
+     {
+      "wert": "ICD10-P10-P15",
+      "name": "P10-P15  Geburtstrauma"
+     },
+     {
+      "wert": "ICD10-P20-P29",
+      "name": "P20-P29  Perinatale Kh.d. Atmungs- u. Herz-Kreislaufsystems"
+     },
+     {
+      "wert": "ICD10-P35-P39",
+      "name": "P35-P39  Perinatale Infektionskrankheiten"
+     },
+     {
+      "wert": "ICD10-P50-P61",
+      "name": "P50-P61  Hämorrhag. u. hämatolog. Kh. beim Fetus u. Neugeb."
+     },
+     {
+      "wert": "ICD10-P70-P74",
+      "name": "P70-P74  Transit.Stoffwechelstörungen beim Fetus u. Neugeb."
+     },
+     {
+      "wert": "ICD10-P75-P78",
+      "name": "P75-P78  Kh.d. Verdauungssystems beim Fetus u. Neugeborenen"
+     },
+     {
+      "wert": "ICD10-P80-P83",
+      "name": "P80-P83  Kh.-Zustände d.Haut u.d.Temp-reg.b.Fetus u.Neugeb."
+     },
+     {
+      "wert": "ICD10-P90-P96",
+      "name": "P90-P96  Sonst. Störungen mit Urspr. i.d. Perinatalperiode"
+     },
+     {
+      "wert": "ICD10-Q00-Q07",
+      "name": "Q00-Q07  Angeborene Fehlbildungen des Nervensystems"
+     },
+     {
+      "wert": "ICD10-Q10-Q18",
+      "name": "Q10-Q18  Angeborene Fehlbildungen, Auge/Ohr/Gesicht/Hals"
+     },
+     {
+      "wert": "ICD10-Q20-Q28",
+      "name": "Q20-Q28  Angeborene Fehlbildungen des Kreislaufsystems"
+     },
+     {
+      "wert": "ICD10-Q30-Q34",
+      "name": "Q30-Q34  Angeborene Fehlbildungen des Atmungssystems"
+     },
+     {
+      "wert": "ICD10-Q35-Q37",
+      "name": "Q35-Q37  Lippen-, Kiefer- und Gaumenspalte"
+     },
+     {
+      "wert": "ICD10-Q38-Q45",
+      "name": "Q38-Q45  Sonst. angeb. Fehlbildungen d. Verdauungssystems"
+     },
+     {
+      "wert": "ICD10-Q50-Q56",
+      "name": "Q50-Q56  Angeborene Fehlbildungen der Genitalorgane"
+     },
+     {
+      "wert": "ICD10-Q60-Q64",
+      "name": "Q60-Q64  Angeborene Fehlbildungen des Harnsystems"
+     },
+     {
+      "wert": "ICD10-Q65-Q79",
+      "name": "Q65-Q79  Angeb. Fehlbild./Deform.d.Muskel-Skelett-Systems"
+     },
+     {
+      "wert": "ICD10-Q80-Q89",
+      "name": "Q80-Q89  Sonstige angeborene Fehlbildungen"
+     },
+     {
+      "wert": "ICD10-Q90-Q99",
+      "name": "Q90-Q99  Chromosomenanomalien, andernorts nicht klass."
+     },
+     {
+      "wert": "ICD10-R00-R09",
+      "name": "R00-R09  Symptome, d.d. Kreislauf- u. Atmungssystem betr."
+     },
+     {
+      "wert": "ICD10-R10-R19",
+      "name": "R10-R19  Symptome, d.d. Verdauungssystem u. Abdomen betr."
+     },
+     {
+      "wert": "ICD10-R20-R23",
+      "name": "R20-R23  Symptome, d.d. Haut u.d. Unterhautgewebe betreffen"
+     },
+     {
+      "wert": "ICD10-R25-R29",
+      "name": "R25-R29  Symptome, Nervensys., Muskel-Skelett-System betr."
+     },
+     {
+      "wert": "ICD10-R30-R39",
+      "name": "R30-R39  Symptome, die das Harnsystem betreffen"
+     },
+     {
+      "wert": "ICD10-R40-R46",
+      "name": "R40-R46  Symptome, Wahrnehmungsvermögen,Stimmung betreffend"
+     },
+     {
+      "wert": "ICD10-R47-R49",
+      "name": "R47-R49  Symptome, die die Sprache und die Stimme betreffen"
+     },
+     {
+      "wert": "ICD10-R50-R69",
+      "name": "R50-R69  Allgemeinsymptome"
+     },
+     {
+      "wert": "ICD10-R70-R79",
+      "name": "R70-R79  Aborme Blutuntsuchungsbef. o. Vorlieg.einer Diag."
+     },
+     {
+      "wert": "ICD10-R80-R82",
+      "name": "R80-R82  Aborme Urinuntsuchungsbef. o. Vorlieg.einer Diag."
+     },
+     {
+      "wert": "ICD10-R83-R89",
+      "name": "R83-R89  Abnorme Bef. anderer Körperflüssigkeiten, Gewebe"
+     },
+     {
+      "wert": "ICD10-R90-R94",
+      "name": "R90-R94  Abn.Befunde b.bildgeb.Diagnostik u.Funktionsprüf."
+     },
+     {
+      "wert": "ICD10-R95-R99",
+      "name": "R95-R99  Ungenau bezeichnete und unbekannte Diagnose"
+     },
+     {
+      "wert": "ICD10-S00-S09",
+      "name": "S00-S09  Verletzungen des Kopfes"
+     },
+     {
+      "wert": "ICD10-S10-S19",
+      "name": "S10-S19  Verletzungen des Halses"
+     },
+     {
+      "wert": "ICD10-S20-S29",
+      "name": "S20-S29  Verletzungen des Thorax"
+     },
+     {
+      "wert": "ICD10-S30-S39",
+      "name": "S30-S39  Verletzungen Abdomen,Lumbosakralgeg., LWS, Becken"
+     },
+     {
+      "wert": "ICD10-S40-S49",
+      "name": "S40-S49  Verletzungen der Schulter und des Oberarmes"
+     },
+     {
+      "wert": "ICD10-S50-S59",
+      "name": "S50-S59  Verletzungen des Ellenbogens und des Unterarmes"
+     },
+     {
+      "wert": "ICD10-S60-S69",
+      "name": "S60-S69  Verletzungen des Handgelenkes und der Hand"
+     },
+     {
+      "wert": "ICD10-S70-S79",
+      "name": "S70-S79  Verletzungen der Hüfte und des Oberschenkels"
+     },
+     {
+      "wert": "ICD10-S80-S89",
+      "name": "S80-S89  Verletzungen des Knies und des Unterschenkels"
+     },
+     {
+      "wert": "ICD10-S90-S99",
+      "name": "S90-S99  Verletzungen der Knöchelregion und des Fußes"
+     },
+     {
+      "wert": "ICD10-T00-T07",
+      "name": "T00-T07  Verletzungen mit Beteil. mehrerer Körperregionen"
+     },
+     {
+      "wert": "ICD10-T08-T14",
+      "name": "T08-T14  Sonst.Verletzungen, Rumpf,Extremit.,and.Körperreg."
+     },
+     {
+      "wert": "ICD10-T15-T19",
+      "name": "T15-T19  Eindringen von Fremdkörpern in eine Körperöffnung"
+     },
+     {
+      "wert": "ICD10-T20-T32",
+      "name": "T20-T32  Verbrennungen oder Verätzungen"
+     },
+     {
+      "wert": "ICD10-T33-T35",
+      "name": "T33-T35  Erfrierungen"
+     },
+     {
+      "wert": "ICD10-T36-T50",
+      "name": "T36-T50  Vergiftungen durch Arzneimittel,Drogen, Substanzen"
+     },
+     {
+      "wert": "ICD10-T51-T65",
+      "name": "T51-T65  Toxische Wirkungen v.vorw.nicht med.verwend.Subst."
+     },
+     {
+      "wert": "ICD10-T66-T78",
+      "name": "T66-T78  Sonst. und n.n.bez. Schäden durch äußere Ursachen"
+     },
+     {
+      "wert": "ICD10-T79-T79",
+      "name": "T79-T79  Bestimmte Frühkomplikationen eines Traumas"
+     },
+     {
+      "wert": "ICD10-T80-T88",
+      "name": "T80-T88  Komplikationen bei chirurg.Eingriff.u.med.Behandl."
+     },
+     {
+      "wert": "ICD10-T89-T89",
+      "name": "T89-T89  Sonst. Komplikationen eines Traumas, ao.n.klass."
+     },
+     {
+      "wert": "ICD10-T90-T98",
+      "name": "T90-T98  Folgen v.Verletz.,Vergift.u.sonst.Auswirk.äuß.Urs."
+     },
+     {
+      "wert": "ICD10-U00-U49",
+      "name": "U00-U49  Vorl.Zuord. f. Kh. m.unkl.Ätiologie u.n.b.Schl-Nr."
+     },
+     {
+      "wert": "ICD10-U50-U52",
+      "name": "U50-U52  Funktionseinschränkung"
+     },
+     {
+      "wert": "ICD10-U55-U55",
+      "name": "U55-U55  Erfolgte Registrierung zur Organtransplantation"
+     },
+     {
+      "wert": "ICD10-Z00-Z13",
+      "name": "Z00-Z13  Inanspruchnahme Gesundheitswesen, Untersuchung"
+     },
+     {
+      "wert": "ICD10-Z20-Z29",
+      "name": "Z20-Z29  Pers. mit potent.Gesundheitsrisiken,übertragb. Kh."
+     },
+     {
+      "wert": "ICD10-Z30-Z39",
+      "name": "Z30-Z39  Inanspruchn. Gesundheitswesen, Reproduktionsprobl."
+     },
+     {
+      "wert": "ICD10-Z40-Z54",
+      "name": "Z40-Z54  Inanspruchn. Gesundheitswesen, med.Betreuung u.Ä."
+     },
+     {
+      "wert": "ICD10-Z55-Z65",
+      "name": "Z55-Z65  Pers.m.Gesundheitsrisiken,sozökon.,psychsoz.Umst."
+     },
+     {
+      "wert": "ICD10-Z70-Z76",
+      "name": "Z70-Z76  Sonstige Inanspruchnahme Gesundheitswesen"
+     },
+     {
+      "wert": "ICD10-Z80-Z99",
+      "name": "Z80-Z99  Pers.m.Gesundheitsrisiken,Fam.-/Eigenanamnese u.Ä."
+     }
+    ],
+    "gebiete": [
+     {
+      "wert": "DG",
+      "name": "Deutschland"
+     }
+    ],
+    "zeitraeume": [
+     {
+      "wert": "2011-2019",
+      "name": "2011 bis 2019"
+     }
+    ]
+   },
+   {
+    "wert": "pflege",
+    "name": "Pflegebedürftige",
+    "sachachse": null,
+    "gebiet_bezeichnung": "Bundesland",
+    "sachen": [],
+    "gebiete": [
+     {
+      "wert": "01",
+      "name": "Schleswig-Holstein"
+     },
+     {
+      "wert": "02",
+      "name": "Hamburg"
+     },
+     {
+      "wert": "03",
+      "name": "Niedersachsen"
+     },
+     {
+      "wert": "04",
+      "name": "Bremen"
+     },
+     {
+      "wert": "05",
+      "name": "Nordrhein-Westfalen"
+     },
+     {
+      "wert": "06",
+      "name": "Hessen"
+     },
+     {
+      "wert": "07",
+      "name": "Rheinland-Pfalz"
+     },
+     {
+      "wert": "08",
+      "name": "Baden-Württemberg"
+     },
+     {
+      "wert": "09",
+      "name": "Bayern"
+     },
+     {
+      "wert": "10",
+      "name": "Saarland"
+     },
+     {
+      "wert": "11",
+      "name": "Berlin"
+     },
+     {
+      "wert": "12",
+      "name": "Brandenburg"
+     },
+     {
+      "wert": "13",
+      "name": "Mecklenburg-Vorpommern"
+     },
+     {
+      "wert": "14",
+      "name": "Sachsen"
+     },
+     {
+      "wert": "15",
+      "name": "Sachsen-Anhalt"
+     },
+     {
+      "wert": "16",
+      "name": "Thüringen"
+     }
+    ],
+    "zeitraeume": [
+     {
+      "wert": "2019-2021",
+      "name": "2019 bis 2021"
+     }
+    ]
+   }
+  ]
+ },
+ "beleg": {
+  "quelle": "Statistisches Bundesamt (Destatis), Genesis-Online",
+  "tabelle": "23131-0010, 22421-0010 (Bezeichnungen)",
+  "abrufdatum": "2026-09-18 bis 2026-09-19",
+  "pruefsumme": "c3c4c52c7421",
+  "lizenz": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+  "lizenz_url": "https://www.govdata.de/dl-de/by-2-0",
+  "quellenvermerk": "Datenquelle: Statistisches Bundesamt (Destatis), Genesis-Online, Tabelle 23131-0010, 22421-0010 (Bezeichnungen), Abrufdatum 2026-09-18 bis 2026-09-19; Datenlizenz by-2-0 (https://www.govdata.de/dl-de/by-2-0); eigene Berechnung — die Daten wurden verändert."
+ }
+}
