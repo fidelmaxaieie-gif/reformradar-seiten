@@ -1,0 +1,349 @@
+{
+ "daten": {
+  "-|01|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 21.631926597058666,
+   "einwohner": 0.719995271685713,
+   "alterung": 4.878668645306374,
+   "rest": 16.033262680066578,
+   "absolut": {
+    "basis": 130349.0,
+    "beobachtet": 28197.0,
+    "einwohner": 938.50663668961,
+    "alterung": 6359.295792470406,
+    "rest": 20899.197570839984
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|02|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.764306498545103,
+   "einwohner": 0.37816330085423727,
+   "alterung": 2.328986722507339,
+   "rest": 14.057156475183527,
+   "absolut": {
+    "basis": 77325.0,
+    "beobachtet": 12963.0,
+    "einwohner": 292.414772385539,
+    "alterung": 1800.8889831787997,
+    "rest": 10869.696244435661
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|03|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.991353519413487,
+   "einwohner": 0.3683601950682025,
+   "alterung": 2.7410309263753443,
+   "rest": 15.881962397969938,
+   "absolut": {
+    "basis": 456255.0,
+    "beobachtet": 86649.0,
+    "einwohner": 1680.6618080084274,
+    "alterung": 12506.090653133828,
+    "rest": 72462.24753885774
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|04|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 21.61036557149468,
+   "einwohner": -0.6691575591062432,
+   "alterung": 2.424683283342005,
+   "rest": 19.854839847258916,
+   "absolut": {
+    "basis": 34576.0,
+    "beobachtet": 7472.0,
+    "einwohner": -231.36791763657465,
+    "alterung": 838.3584920483315,
+    "rest": 6865.009425588243
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|05|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 23.52301119082433,
+   "einwohner": -0.11534580364776263,
+   "alterung": 2.423120508065941,
+   "rest": 21.215236486406152,
+   "absolut": {
+    "basis": 964987.0,
+    "beobachtet": 226994.0,
+    "einwohner": -1113.0720102464352,
+    "alterung": 23382.79789717028,
+    "rest": 204724.27411307616
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|06|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.587620270848824,
+   "einwohner": 0.10644626873253306,
+   "alterung": 2.6718098258307843,
+   "rest": 15.809364176285507,
+   "absolut": {
+    "basis": 310653.0,
+    "beobachtet": 57743.0,
+    "einwohner": 330.67852720567595,
+    "alterung": 8300.057378238107,
+    "rest": 49112.264094556216
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|07|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 19.069794976024628,
+   "einwohner": 0.3107757333025621,
+   "alterung": 2.5819011479704836,
+   "rest": 16.17711809475158,
+   "absolut": {
+    "basis": 202708.0,
+    "beobachtet": 38656.0,
+    "einwohner": 629.9672734629576,
+    "alterung": 5233.720179028008,
+    "rest": 32792.312547509035
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|08|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.512844528546575,
+   "einwohner": 0.24364438949519732,
+   "alterung": 3.505789539819362,
+   "rest": 10.763410599232015,
+   "absolut": {
+    "basis": 471913.0,
+    "beobachtet": 68488.0,
+    "einwohner": 1149.7895477984705,
+    "alterung": 16544.276591047746,
+    "rest": 50793.93386115378
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|09|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.510508215513948,
+   "einwohner": 0.4992956934069761,
+   "alterung": 3.287588503049153,
+   "rest": 13.723624019057818,
+   "absolut": {
+    "basis": 491996.0,
+    "beobachtet": 86151.0,
+    "einwohner": 2456.514839734586,
+    "alterung": 16174.80393146171,
+    "rest": 67519.6812288037
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|10|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 27.546187497740338,
+   "einwohner": -0.4426809886794831,
+   "alterung": 2.700857421653995,
+   "rest": 25.288011064765826,
+   "absolut": {
+    "basis": 55318.0,
+    "beobachtet": 15238.0,
+    "einwohner": -244.88226931771646,
+    "alterung": 1494.060308510557,
+    "rest": 13988.82196080716
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|11|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.065660453553086,
+   "einwohner": 0.22099328751076552,
+   "alterung": 2.7945009858059633,
+   "rest": 14.050166180236356,
+   "absolut": {
+    "basis": 158482.0,
+    "beobachtet": 27046.0,
+    "einwohner": 350.2345819128114,
+    "alterung": 4428.781052325006,
+    "rest": 22266.984365762182
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|12|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 19.922582824038294,
+   "einwohner": 0.5709378802377018,
+   "alterung": 3.329592777532684,
+   "rest": 16.02205216626791,
+   "absolut": {
+    "basis": 153971.0,
+    "beobachtet": 30675.0,
+    "einwohner": 879.0787635807918,
+    "alterung": 5126.607295494849,
+    "rest": 24669.31394092436
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|13|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 19.292011340246223,
+   "einwohner": 0.16197264789970725,
+   "alterung": 3.554554872220116,
+   "rest": 15.575483820126399,
+   "absolut": {
+    "basis": 102996.0,
+    "beobachtet": 19870.0,
+    "einwohner": 166.82534843078247,
+    "alterung": 3661.0493361918307,
+    "rest": 16042.125315377387
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|14|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 23.8672790775561,
+   "einwohner": -0.6838078349613995,
+   "alterung": 2.083262377584469,
+   "rest": 22.46782453493303,
+   "absolut": {
+    "basis": 250812.0,
+    "beobachtet": 59862.0,
+    "einwohner": -1715.0721070233856,
+    "alterung": 5225.072034467158,
+    "rest": 56352.00007255623
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|15|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 28.28366956629033,
+   "einwohner": -1.1490757487996126,
+   "alterung": 3.409838577390979,
+   "rest": 26.022906737698968,
+   "absolut": {
+    "basis": 129672.0,
+    "beobachtet": 36676.0,
+    "einwohner": -1490.0295049834335,
+    "alterung": 4421.60588007443,
+    "rest": 33744.423624909
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  },
+  "-|16|2019-2021": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 22.760192341731077,
+   "einwohner": -1.0188470821551632,
+   "alterung": 2.9904431358658266,
+   "rest": 20.78859628802041,
+   "absolut": {
+    "basis": 135592.0,
+    "beobachtet": 30861.0,
+    "einwohner": -1381.4751356358288,
+    "alterung": 4054.8016567831914,
+    "rest": 28187.673478852637
+   },
+   "pruefung": {
+    "zustand": "nicht_geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2019-2021",
+    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+   }
+  }
+ },
+ "beleg": {
+  "quelle": "Statistisches Bundesamt (Destatis), Genesis-Online",
+  "tabelle": "22421-0010, 12411-0013",
+  "abrufdatum": "2026-09-19 bis 2026-09-24",
+  "pruefsumme": "f390f780a6e6",
+  "lizenz": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+  "lizenz_url": "https://www.govdata.de/dl-de/by-2-0",
+  "quellenvermerk": "Datenquelle: Statistisches Bundesamt (Destatis), Genesis-Online, Tabelle 22421-0010, 12411-0013, Abrufdatum 2026-09-19 bis 2026-09-24; Datenlizenz by-2-0 (https://www.govdata.de/dl-de/by-2-0); eigene Berechnung — die Daten wurden verändert."
+ }
+}

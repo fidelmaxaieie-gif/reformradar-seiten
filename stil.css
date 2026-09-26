@@ -1,0 +1,47 @@
+:root { --gross: 2.6rem; --klein: 0.82rem; }
+body { font: 16px/1.6 system-ui, sans-serif; max-width: 52rem; margin: 0 auto;
+       padding: 1.5rem 1rem; color: #1a1a1a; background: #fff; }
+h1 { font-size: 1.6rem; margin-bottom: .2rem; }
+.unterzeile { color: #444; margin-top: 0; }
+form { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1.5rem 0;
+       padding: .8rem; background: #f4f4f4; border-radius: 6px; }
+label { display: flex; flex-direction: column; font-size: var(--klein); gap: .25rem;
+        min-width: 0; }
+label[hidden] { display: none; }
+select { font-size: 1rem; padding: .3rem; max-width: 100%; }
+#sache-feld { flex: 1 1 18rem; }
+
+.urteil { font-size: 1.25rem; font-weight: 600; margin: 1.2rem 0 1rem; }
+.zeile { display: flex; gap: 1rem; align-items: baseline;
+         border-top: 1px solid #e3e3e3; padding: .7rem 0; }
+.zeile.ergebnis { border-top: 2px solid #333; }
+.zahl { font-size: var(--gross); font-weight: 700; min-width: 6.5rem; flex-shrink: 0;
+        text-align: right; font-variant-numeric: tabular-nums; }
+.zahl.wort { font-size: 1.1rem; }
+.zahl.beobachtet { color: #1e3a8a; } .zahl.alterung { color: #3f6212; }
+.zahl.einwohner { color: #475569; }
+.zahl.rest { color: #7c2d12; }      .zahl.pruefung { color: #777; }
+.zahl.pruefung.nicht_geprueft { color: #92400e; }
+.text { font-size: var(--klein); }
+.text b { font-size: .95rem; display: block; }
+button.hilfe { font-size: var(--klein); border: 1px solid #bbb; background: #fff;
+               border-radius: 50%; width: 1.4rem; height: 1.4rem; cursor: pointer; }
+.leicht { margin: .5rem 0 0; padding: .7rem; background: #f4f4f4;
+          border-left: 3px solid #555; font-size: .95rem; line-height: 1.8; }
+.fehler { padding: .8rem; background: #fef2f2; border-left: 3px solid #b91c1c;
+          color: #7f1d1d; }
+footer { margin-top: 2.5rem; border-top: 1px solid #ddd; padding-top: .8rem;
+         font-size: .78rem; color: #555; }
+@media (max-width: 30rem) {
+  :root { --gross: 1.9rem; }
+  .zahl { min-width: 4.8rem; }
+}
+@media print { form, button.hilfe { display: none; } }
+
+fieldset { border: 0; padding: 0; margin: 0; display: flex; gap: 1rem; flex-wrap: wrap; flex: 1 1 100%; }
+legend { font-weight: 600; font-size: var(--klein); margin-bottom: .3rem; }
+label.schalter { flex-direction: row; align-items: center; gap: .4rem; flex-wrap: wrap; }
+label.schalter .beleg { flex-basis: 100%; }
+.pflicht { font-size: var(--klein); color: #555; border-left: 3px solid #999; padding-left: .6rem; }
+.hinweis { font-size: var(--klein); color: #555; }
+.beleg { display: block; font-size: var(--klein); color: #666; max-width: 22rem; line-height: 1.35; }

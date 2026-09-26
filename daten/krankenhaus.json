@@ -1,0 +1,4533 @@
+{
+ "daten": {
+  "ICD10-A00-A09|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -13.937682273856392,
+   "einwohner": 2.102198787104273,
+   "alterung": 3.4244228505347,
+   "rest": -19.464303911495367,
+   "absolut": {
+    "basis": 282199.0,
+    "beobachtet": -39332.0,
+    "einwohner": 5932.383955220387,
+    "alterung": 9663.687039980417,
+    "rest": -54928.070995200804
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A15-A19|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.9811320754717,
+   "einwohner": 3.5263806028410882,
+   "alterung": -0.8405617237489321,
+   "rest": 14.295313196379542,
+   "absolut": {
+    "basis": 5883.0,
+    "beobachtet": 999.0,
+    "einwohner": 207.45697086514122,
+    "alterung": -49.45024620814968,
+    "rest": 840.9932753430085
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A20-A28|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 47.3463687150838,
+   "einwohner": 4.286351514105572,
+   "alterung": 2.06798636246742,
+   "rest": 40.99203083851081,
+   "absolut": {
+    "basis": 716.0,
+    "beobachtet": 339.0,
+    "einwohner": 30.6902768409959,
+    "alterung": 14.806782355266726,
+    "rest": 293.5029408037374
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A30-A49|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 60.07241862638218,
+   "einwohner": 3.9456915225209745,
+   "alterung": 9.314286039427085,
+   "rest": 46.812441064434125,
+   "absolut": {
+    "basis": 154104.0,
+    "beobachtet": 92574.0,
+    "einwohner": 6080.468463865722,
+    "alterung": 14353.687358198715,
+    "rest": 72139.84417793556
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A50-A64|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.000414765657403,
+   "einwohner": 3.401484125223698,
+   "alterung": -3.276800956612692,
+   "rest": 8.875731597046398,
+   "absolut": {
+    "basis": 2411.0,
+    "beobachtet": 217.0,
+    "einwohner": 82.00978225914336,
+    "alterung": -79.003671063932,
+    "rest": 213.99388880478864
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A65-A69|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -24.406104844061048,
+   "einwohner": 2.433425647931837,
+   "alterung": 0.3638670150375923,
+   "rest": -27.203397507030477,
+   "absolut": {
+    "basis": 7535.0,
+    "beobachtet": -1839.0,
+    "einwohner": 183.35862257166391,
+    "alterung": 27.417379583082578,
+    "rest": -2049.7760021547465
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A70-A74|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -30.612244897959183,
+   "einwohner": 1.228111141233066,
+   "alterung": 0.22237472663975064,
+   "rest": -32.062730765832,
+   "absolut": {
+    "basis": 196.0,
+    "beobachtet": -60.0,
+    "einwohner": 2.4070978368168094,
+    "alterung": 0.4358544642139113,
+    "rest": -62.84295230103072
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A75-A79|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -24.742268041237114,
+   "einwohner": 1.8180377828786831,
+   "alterung": -1.0493296192128045,
+   "rest": -25.510976204902992,
+   "absolut": {
+    "basis": 97.0,
+    "beobachtet": -24.0,
+    "einwohner": 1.7634966493923228,
+    "alterung": -1.0178497306364205,
+    "rest": -24.745646918755902
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A80-A89|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 0.273224043715847,
+   "einwohner": 3.0897271248595226,
+   "alterung": 2.0870909578349446,
+   "rest": -4.90359403897862,
+   "absolut": {
+    "basis": 5490.0,
+    "beobachtet": 15.0,
+    "einwohner": 169.6260191547878,
+    "alterung": 114.58129358513844,
+    "rest": -269.20731273992624
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-A90-A99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 455.9105431309904,
+   "einwohner": 7.382712347409358,
+   "alterung": -4.306957885004334,
+   "rest": 452.8347886685854,
+   "absolut": {
+    "basis": 313.0,
+    "beobachtet": 1427.0,
+    "einwohner": 23.10788964739129,
+    "alterung": -13.480778180063567,
+    "rest": 1417.3728885326723
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B00-B09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 26.731156019538357,
+   "einwohner": 3.3655756464587356,
+   "alterung": 4.919789476864393,
+   "rest": 18.44579089621523,
+   "absolut": {
+    "basis": 31323.0,
+    "beobachtet": 8373.0,
+    "einwohner": 1054.1992597402698,
+    "alterung": 1541.0256578382339,
+    "rest": 5777.775082421496
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B15-B19|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -23.338975878121033,
+   "einwohner": 2.481104526977754,
+   "alterung": 0.23691925437828956,
+   "rest": -26.056999659477075,
+   "absolut": {
+    "basis": 4726.0,
+    "beobachtet": -1103.0,
+    "einwohner": 117.25699994496864,
+    "alterung": 11.196803961917965,
+    "rest": -1231.4538039068866
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B20-B24|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -26.32386799693016,
+   "einwohner": 1.9090181597469673,
+   "alterung": -1.071244545107405,
+   "rest": -27.16164161156972,
+   "absolut": {
+    "basis": 1303.0,
+    "beobachtet": -343.0,
+    "einwohner": 24.874506621502984,
+    "alterung": -13.958316422749487,
+    "rest": -353.9161901987535
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B25-B34|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.887417218543046,
+   "einwohner": 3.8439467251408788,
+   "alterung": 4.795005819761431,
+   "rest": 8.248464673640736,
+   "absolut": {
+    "basis": 21442.0,
+    "beobachtet": 3621.0,
+    "einwohner": 824.2190568047072,
+    "alterung": 1028.145147873246,
+    "rest": 1768.6357953220468
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B35-B49|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 15.845580625129372,
+   "einwohner": 3.452866625065432,
+   "alterung": 5.564226355639514,
+   "rest": 6.828487644424428,
+   "absolut": {
+    "basis": 9662.0,
+    "beobachtet": 1531.0,
+    "einwohner": 333.615973313822,
+    "alterung": 537.6155504818898,
+    "rest": 659.7684762042882
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B50-B64|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -31.19345109866437,
+   "einwohner": 2.574383669873917,
+   "alterung": -2.5575772909313907,
+   "rest": -31.210257477606895,
+   "absolut": {
+    "basis": 2321.0,
+    "beobachtet": -724.0,
+    "einwohner": 59.75144497777361,
+    "alterung": -59.36136892251758,
+    "rest": -724.390076055256
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B65-B83|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -1.4760147601476015,
+   "einwohner": 2.803901761737177,
+   "alterung": -1.0014875568530035,
+   "rest": -3.278428965031775,
+   "absolut": {
+    "basis": 1355.0,
+    "beobachtet": -20.0,
+    "einwohner": 37.99286887153875,
+    "alterung": -13.570156395358197,
+    "rest": -44.42271247618055
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B85-B89|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1023.7045203969129,
+   "einwohner": 26.496540564493003,
+   "alterung": 30.949652136858344,
+   "rest": 966.2583276955615,
+   "absolut": {
+    "basis": 907.0,
+    "beobachtet": 9285.0,
+    "einwohner": 240.3236229199515,
+    "alterung": 280.71334488130515,
+    "rest": 8763.963032198742
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B90-B94|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 150.0,
+   "einwohner": 2.5549862566734887,
+   "alterung": -20.82168311066475,
+   "rest": 168.26669685399125,
+   "absolut": {
+    "basis": 2.0,
+    "beobachtet": 3.0,
+    "einwohner": 0.051099725133469776,
+    "alterung": -0.416433662213295,
+    "rest": 3.365333937079825
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-B99-B99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 27.28916107134952,
+   "einwohner": 3.7918546864943194,
+   "alterung": 10.271774543548116,
+   "rest": 13.225531841307083,
+   "absolut": {
+    "basis": 27106.0,
+    "beobachtet": 7397.0,
+    "einwohner": 1027.8201313211503,
+    "alterung": 2784.2672077741518,
+    "rest": 3584.912660904698
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C00-C14|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -3.247290987578187,
+   "einwohner": 2.7702545345869933,
+   "alterung": 3.956469976278584,
+   "rest": -9.974015498443764,
+   "absolut": {
+    "basis": 56755.0,
+    "beobachtet": -1843.0,
+    "einwohner": 1572.2579611048482,
+    "alterung": 2245.4945350369103,
+    "rest": -5660.7524961417585
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C15-C26|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 3.7020785149024733,
+   "einwohner": 2.9516086762024636,
+   "alterung": 4.963907745087181,
+   "rest": -4.213437906387171,
+   "absolut": {
+    "basis": 328167.0,
+    "beobachtet": 12149.0,
+    "einwohner": 9686.20564443334,
+    "alterung": 16289.90712982025,
+    "rest": -13827.11277425359
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C30-C39|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 2.513679650026023,
+   "einwohner": 2.9603604456817485,
+   "alterung": 3.975262701087391,
+   "rest": -4.421943496743117,
+   "absolut": {
+    "basis": 213273.0,
+    "beobachtet": 5361.0,
+    "einwohner": 6313.649533318836,
+    "alterung": 8478.162020490112,
+    "rest": -9430.811553808948
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C40-C41|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 4.508656121559348,
+   "einwohner": 3.414312846437638,
+   "alterung": -1.3436304073036085,
+   "rest": 2.437973682425318,
+   "absolut": {
+    "basis": 8029.0,
+    "beobachtet": 362.0,
+    "einwohner": 274.13517844047794,
+    "alterung": -107.88008540240673,
+    "rest": 195.7449069619288
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C43-C44|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 27.85804228245742,
+   "einwohner": 3.831420825394918,
+   "alterung": 14.019900523417501,
+   "rest": 10.006720933645,
+   "absolut": {
+    "basis": 90534.0,
+    "beobachtet": 25221.0,
+    "einwohner": 3468.738530063035,
+    "alterung": 12692.776739870802,
+    "rest": 9059.484730066164
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C45-C49|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 2.8383016466777216,
+   "einwohner": 2.975802832240626,
+   "alterung": 3.7375539131658835,
+   "rest": -3.875055098728788,
+   "absolut": {
+    "basis": 25931.0,
+    "beobachtet": 736.0,
+    "einwohner": 771.6554324283168,
+    "alterung": 969.1851052230452,
+    "rest": -1004.840537651362
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C50-C50|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -5.206416743330267,
+   "einwohner": 2.9987369250872105,
+   "alterung": 0.7921771433570663,
+   "rest": -8.997330811774543,
+   "absolut": {
+    "basis": 139136.0,
+    "beobachtet": -7244.0,
+    "einwohner": 4172.322608089341,
+    "alterung": 1102.2035901812878,
+    "rest": -12518.526198270629
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C51-C58|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -1.2716532820070352,
+   "einwohner": 3.0229788778047304,
+   "alterung": 1.4830779971925476,
+   "rest": -5.7777101570043135,
+   "absolut": {
+    "basis": 75335.0,
+    "beobachtet": -958.0,
+    "einwohner": 2277.3611375941937,
+    "alterung": 1117.2768091850057,
+    "rest": -4352.637946779199
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C60-C63|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.148553904508267,
+   "einwohner": 3.3828879424661467,
+   "alterung": 5.73554044745922,
+   "rest": -2.9698744854171,
+   "absolut": {
+    "basis": 99129.0,
+    "beobachtet": 6095.0,
+    "einwohner": 3353.4229884872666,
+    "alterung": 5685.583890161851,
+    "rest": -2944.0068786491174
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C64-C68|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.56470957902562,
+   "einwohner": 3.282907025026162,
+   "alterung": 8.03896900088425,
+   "rest": -5.757166446884794,
+   "absolut": {
+    "basis": 130483.0,
+    "beobachtet": 7261.0,
+    "einwohner": 4283.635573464887,
+    "alterung": 10489.487921423799,
+    "rest": -7512.123494888686
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C69-C72|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.831321754489256,
+   "einwohner": 2.7525424639763827,
+   "alterung": 2.2753493231494835,
+   "rest": -13.859213541615123,
+   "absolut": {
+    "basis": 30573.0,
+    "beobachtet": -2700.0,
+    "einwohner": 841.5348075114995,
+    "alterung": 695.6425485664917,
+    "rest": -4237.177356077991
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C73-C75|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -11.654736842105264,
+   "einwohner": 3.135921070652991,
+   "alterung": -0.8028682415092073,
+   "rest": -13.987789671249049,
+   "absolut": {
+    "basis": 23750.0,
+    "beobachtet": -2768.0,
+    "einwohner": 744.7812542800855,
+    "alterung": -190.68120735843672,
+    "rest": -3322.1000469216488
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C76-C80|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -4.252299605781866,
+   "einwohner": 2.574113549498962,
+   "alterung": 3.599309899038842,
+   "rest": -10.42572305431967,
+   "absolut": {
+    "basis": 133175.0,
+    "beobachtet": -5663.0,
+    "einwohner": 3428.0757195452425,
+    "alterung": 4793.380958044978,
+    "rest": -13884.45667759022
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-C81-C96|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.639020370059733,
+   "einwohner": 3.387076310376699,
+   "alterung": 4.6659646276800295,
+   "rest": 6.585979432003004,
+   "absolut": {
+    "basis": 137113.0,
+    "beobachtet": 20072.0,
+    "einwohner": 4644.121941446803,
+    "alterung": 6397.644079950918,
+    "rest": 9030.233978602279
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D00-D09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.257953814256094,
+   "einwohner": 3.790038631614791,
+   "alterung": 4.300935478363381,
+   "rest": 8.166979704277923,
+   "absolut": {
+    "basis": 27974.0,
+    "beobachtet": 4548.0,
+    "einwohner": 1060.2254068079217,
+    "alterung": 1203.1436907173722,
+    "rest": 2284.630902474706
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D10-D36|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1.1831222296536625,
+   "einwohner": 3.1523663247359166,
+   "alterung": -1.3554842149083792,
+   "rest": -0.6137598801738747,
+   "absolut": {
+    "basis": 240719.0,
+    "beobachtet": 2848.0,
+    "einwohner": 7588.344693241051,
+    "alterung": -3262.908047285301,
+    "rest": -1477.4366459557496
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D37-D48|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 2.938791633747765,
+   "einwohner": 2.970214833252004,
+   "alterung": 4.98248638615895,
+   "rest": -5.013909585663189,
+   "absolut": {
+    "basis": 96196.0,
+    "beobachtet": 2827.0,
+    "einwohner": 2857.227860995098,
+    "alterung": 4792.952604029463,
+    "rest": -4823.180465024561
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D50-D53|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 25.343695374875985,
+   "einwohner": 3.620537395425765,
+   "alterung": 8.293832193375758,
+   "rest": 13.429325786074461,
+   "absolut": {
+    "basis": 42334.0,
+    "beobachtet": 10729.0,
+    "einwohner": 1532.7183009795435,
+    "alterung": 3511.110920743694,
+    "rest": 5685.170778276762
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D55-D59|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.608145294441387,
+   "einwohner": 2.7635535192077763,
+   "alterung": 2.2301862864086655,
+   "rest": -15.601885100057828,
+   "absolut": {
+    "basis": 7268.0,
+    "beobachtet": -771.0,
+    "einwohner": 200.8550697760212,
+    "alterung": 162.0899392961818,
+    "rest": -1133.945009072203
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D60-D64|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -2.6785973678858834,
+   "einwohner": 2.651368102625177,
+   "alterung": 8.092596559546847,
+   "rest": -13.422562030057907,
+   "absolut": {
+    "basis": 34421.0,
+    "beobachtet": -922.0,
+    "einwohner": 912.6274146046121,
+    "alterung": 2785.55266176162,
+    "rest": -4620.180076366232
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D65-D69|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -33.51456970520771,
+   "einwohner": 1.733518336686654,
+   "alterung": 2.8046444463646862,
+   "rest": -38.05273248825905,
+   "absolut": {
+    "basis": 23542.0,
+    "beobachtet": -7890.0,
+    "einwohner": 408.1048868227721,
+    "alterung": 660.2693955631745,
+    "rest": -8958.374282385947
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D70-D77|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -16.283560132401618,
+   "einwohner": 2.1379082415883395,
+   "alterung": 1.4169724497003102,
+   "rest": -19.838440823690267,
+   "absolut": {
+    "basis": 10876.0,
+    "beobachtet": -1771.0,
+    "einwohner": 232.51890035514776,
+    "alterung": 154.10992362940573,
+    "rest": -2157.6288239845535
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-D80-D90|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.411867364746946,
+   "einwohner": 3.583909146065993,
+   "alterung": 0.37143835923548063,
+   "rest": 14.456519859445471,
+   "absolut": {
+    "basis": 10314.0,
+    "beobachtet": 1899.0,
+    "einwohner": 369.6443893252465,
+    "alterung": 38.310152371547474,
+    "rest": 1491.045458303206
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E00-E07|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -33.27719189144836,
+   "einwohner": 2.003319973321385,
+   "alterung": -0.2960721717528627,
+   "rest": -34.98443969301688,
+   "absolut": {
+    "basis": 115779.0,
+    "beobachtet": -38528.0,
+    "einwohner": 2319.4238319117667,
+    "alterung": -342.7893997337469,
+    "rest": -40504.63443217802
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E10-E14|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -6.7266704867856495,
+   "einwohner": 2.5661575670730423,
+   "alterung": 3.534454041088869,
+   "rest": -12.827282094947561,
+   "absolut": {
+    "basis": 214653.0,
+    "beobachtet": -14439.0,
+    "einwohner": 5508.334202449297,
+    "alterung": 7586.811632818491,
+    "rest": -27534.145835267787
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E15-E16|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -17.036172695449242,
+   "einwohner": 2.4928460159438717,
+   "alterung": 3.705270670414802,
+   "rest": -23.234289381807915,
+   "absolut": {
+    "basis": 3428.0,
+    "beobachtet": -584.0,
+    "einwohner": 85.45476142655592,
+    "alterung": 127.01667858181942,
+    "rest": -796.4714400083753
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E20-E35|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.17357910906298,
+   "einwohner": 4.079094800941356,
+   "alterung": 2.5632730777214245,
+   "rest": 10.5312112304002,
+   "absolut": {
+    "basis": 13020.0,
+    "beobachtet": 2236.0,
+    "einwohner": 531.0981430825645,
+    "alterung": 333.7381547193295,
+    "rest": 1371.163702198106
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E40-E46|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -12.270803949224259,
+   "einwohner": 2.0603478323106477,
+   "alterung": 3.055674852642256,
+   "rest": -17.38682663417716,
+   "absolut": {
+    "basis": 2127.0,
+    "beobachtet": -261.0,
+    "einwohner": 43.82359839324748,
+    "alterung": 64.99420411570078,
+    "rest": -369.81780250894826
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E50-E64|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.56783015473192,
+   "einwohner": 3.617070373833722,
+   "alterung": 5.388156891906763,
+   "rest": 9.562602888991432,
+   "absolut": {
+    "basis": 2779.0,
+    "beobachtet": 516.0,
+    "einwohner": 100.51838568883913,
+    "alterung": 149.73688002608895,
+    "rest": 265.7447342850719
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E65-E68|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 116.39126172804929,
+   "einwohner": 9.420726961835628,
+   "alterung": -8.679476983327936,
+   "rest": 115.65001174954159,
+   "absolut": {
+    "basis": 14282.0,
+    "beobachtet": 16623.0,
+    "einwohner": 1345.4682246893644,
+    "alterung": -1239.6029027588957,
+    "rest": 16517.13467806953
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-E70-E90|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 53.54746486904492,
+   "einwohner": 4.74834855284179,
+   "alterung": 16.83354081585947,
+   "rest": 31.96557550034366,
+   "absolut": {
+    "basis": 128021.0,
+    "beobachtet": 68552.0,
+    "einwohner": 6078.883300833588,
+    "alterung": 21550.467287871455,
+    "rest": 40922.64941129496
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F00-F09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1.6376782443919842,
+   "einwohner": 2.5533154782836522,
+   "alterung": 9.47387293921045,
+   "rest": -10.389510173102117,
+   "absolut": {
+    "basis": 94463.0,
+    "beobachtet": 1547.0,
+    "einwohner": 2411.9384002510865,
+    "alterung": 8949.304594566367,
+    "rest": -9814.242994817454
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F10-F19|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.171903503263103,
+   "einwohner": 2.7120754278145816,
+   "alterung": -2.6004054894797637,
+   "rest": -8.28357344159792,
+   "absolut": {
+    "basis": 434709.0,
+    "beobachtet": -35524.0,
+    "einwohner": 11789.635971498488,
+    "alterung": -11304.196699262584,
+    "rest": -36009.439272235904
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F20-F29|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -5.782922133166167,
+   "einwohner": 3.136451327732005,
+   "alterung": -1.730233849616779,
+   "rest": -7.1891396112813934,
+   "absolut": {
+    "basis": 133998.0,
+    "beobachtet": -7749.0,
+    "einwohner": 4202.782050134332,
+    "alterung": -2318.4787538094915,
+    "rest": -9633.30329632484
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F30-F39|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.162718982657601,
+   "einwohner": 3.604192559237378,
+   "alterung": -1.1860754893400394,
+   "rest": 3.7446019127602628,
+   "absolut": {
+    "basis": 272396.0,
+    "beobachtet": 16787.0,
+    "einwohner": 9817.676363660248,
+    "alterung": -3230.8221899426935,
+    "rest": 10200.145826282445
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F40-F48|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -1.2372118225329944,
+   "einwohner": 2.9819964755569055,
+   "alterung": -1.7020551242122062,
+   "rest": -2.517153173877694,
+   "absolut": {
+    "basis": 155026.0,
+    "beobachtet": -1918.0,
+    "einwohner": 4622.869856196849,
+    "alterung": -2638.627976861215,
+    "rest": -3902.2418793356337
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F50-F59|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.552177384681531,
+   "einwohner": 3.2549374647291986,
+   "alterung": -5.04699130952886,
+   "rest": -8.760123539881869,
+   "absolut": {
+    "basis": 16281.0,
+    "beobachtet": -1718.0,
+    "einwohner": 529.9363686325609,
+    "alterung": -821.7006551043936,
+    "rest": -1426.2357135281673
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F60-F69|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 2.6553586753495884,
+   "einwohner": 4.049289786961237,
+   "alterung": -4.890565176278342,
+   "rest": 3.4966340646666927,
+   "absolut": {
+    "basis": 39618.0,
+    "beobachtet": 1052.0,
+    "einwohner": 1604.2476277983033,
+    "alterung": -1937.5441115379535,
+    "rest": 1385.2964837396503
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F70-F79|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 2.4311410905002813,
+   "einwohner": 3.3744076886424277,
+   "alterung": -1.9659610542779182,
+   "rest": 1.0226944561357716,
+   "absolut": {
+    "basis": 7116.0,
+    "beobachtet": 173.0,
+    "einwohner": 240.12285112379516,
+    "alterung": -139.89778862241667,
+    "rest": 72.77493749862151
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F80-F89|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.518424396442185,
+   "einwohner": 4.103154354222729,
+   "alterung": 3.5530140547260483,
+   "rest": 8.862255987493407,
+   "absolut": {
+    "basis": 7083.0,
+    "beobachtet": 1170.0,
+    "einwohner": 290.62642290959593,
+    "alterung": 251.659985496246,
+    "rest": 627.7135915941581
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F90-F98|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -7.733057691065314,
+   "einwohner": 2.675989476414124,
+   "alterung": -3.3454266336896814,
+   "rest": -7.0636205337897575,
+   "absolut": {
+    "basis": 30958.0,
+    "beobachtet": -2394.0,
+    "einwohner": 828.4328221082845,
+    "alterung": -1035.6771772576517,
+    "rest": -2186.755644850633
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-F99-F99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -42.016806722689076,
+   "einwohner": 1.6249882764969212,
+   "alterung": 1.0735426423621075,
+   "rest": -44.7153376415481,
+   "absolut": {
+    "basis": 238.0,
+    "beobachtet": -100.0,
+    "einwohner": 3.867472098062673,
+    "alterung": 2.5550314888218155,
+    "rest": -106.42250358688449
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G00-G09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.707460071433385,
+   "einwohner": 4.265316590517116,
+   "alterung": 2.055661551936798,
+   "rest": 12.38648192897947,
+   "absolut": {
+    "basis": 14839.0,
+    "beobachtet": 2776.0,
+    "einwohner": 632.930328866835,
+    "alterung": 305.0396176919014,
+    "rest": 1838.0300534412634
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G10-G14|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 43.79353233830846,
+   "einwohner": 3.8969708773605958,
+   "alterung": 2.6467880671962956,
+   "rest": 37.24977339375157,
+   "absolut": {
+    "basis": 8040.0,
+    "beobachtet": 3521.0,
+    "einwohner": 313.3164585397919,
+    "alterung": 212.8017606025822,
+    "rest": 2994.881780857626
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G20-G26|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 24.193134306462262,
+   "einwohner": 3.4231582951513233,
+   "alterung": 7.336280912255018,
+   "rest": 13.433695099055921,
+   "absolut": {
+    "basis": 54532.0,
+    "beobachtet": 13193.0,
+    "einwohner": 1866.7166815119197,
+    "alterung": 4000.620707070906,
+    "rest": 7325.662611417174
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G30-G32|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.074336360081677,
+   "einwohner": 3.1686733070463977,
+   "alterung": 11.616406870172138,
+   "rest": 2.2892561828631437,
+   "absolut": {
+    "basis": 23017.0,
+    "beobachtet": 3930.0,
+    "einwohner": 729.3335350828693,
+    "alterung": 2673.748369307521,
+    "rest": 526.9180956096097
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G35-G37|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.870675813749818,
+   "einwohner": 2.3279741891053454,
+   "alterung": -1.0935288207929894,
+   "rest": -12.105121182062172,
+   "absolut": {
+    "basis": 54808.0,
+    "beobachtet": -5958.0,
+    "einwohner": 1275.9160935648576,
+    "alterung": -599.3412761002216,
+    "rest": -6634.574817464636
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G40-G47|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -3.9173333394937524,
+   "einwohner": 2.57038124156872,
+   "alterung": 2.581151871919471,
+   "rest": -9.068866452981943,
+   "absolut": {
+    "basis": 432871.0,
+    "beobachtet": -16957.0,
+    "einwohner": 11126.434984190933,
+    "alterung": 11173.057919496534,
+    "rest": -39256.49290368747
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G50-G59|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -7.137562044736672,
+   "einwohner": 2.198520289100566,
+   "alterung": 0.9670950929420373,
+   "rest": -10.303177426779275,
+   "absolut": {
+    "basis": 62052.0,
+    "beobachtet": -4429.0,
+    "einwohner": 1364.2258097926833,
+    "alterung": 600.101847072393,
+    "rest": -6393.327656865076
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G60-G64|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 42.68539206298542,
+   "einwohner": 3.925890095781183,
+   "alterung": 6.060189052650054,
+   "rest": 32.699312914554184,
+   "absolut": {
+    "basis": 28197.0,
+    "beobachtet": 12036.0,
+    "einwohner": 1106.9832303074202,
+    "alterung": 1708.791507175736,
+    "rest": 9220.225262516844
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G70-G73|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 27.93708408953418,
+   "einwohner": 4.012194243006991,
+   "alterung": 3.181172941406872,
+   "rest": 20.74371690512032,
+   "absolut": {
+    "basis": 8265.0,
+    "beobachtet": 2309.0,
+    "einwohner": 331.60785418452775,
+    "alterung": 262.923943607278,
+    "rest": 1714.4682022081943
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G80-G83|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.321223709369026,
+   "einwohner": 3.0384093740834848,
+   "alterung": 1.522174267890584,
+   "rest": 4.760640067394956,
+   "absolut": {
+    "basis": 16736.0,
+    "beobachtet": 1560.0,
+    "einwohner": 508.508192846612,
+    "alterung": 254.75108547416812,
+    "rest": 796.7407216792199
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-G90-G99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 19.338290391377026,
+   "einwohner": 4.045678330798436,
+   "alterung": 1.6928119424905983,
+   "rest": 13.59980011808799,
+   "absolut": {
+    "basis": 34698.0,
+    "beobachtet": 6710.0,
+    "einwohner": 1403.7694672204416,
+    "alterung": 587.3718878053878,
+    "rest": 4718.858644974171
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H00-H06|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.749601825147432,
+   "einwohner": 3.0721855726146305,
+   "alterung": 4.822335923740042,
+   "rest": -1.1449196712072403,
+   "absolut": {
+    "basis": 23231.0,
+    "beobachtet": 1568.0,
+    "einwohner": 713.6994303741048,
+    "alterung": 1120.2768584440491,
+    "rest": -265.976288818154
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H10-H13|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 27.2307248050823,
+   "einwohner": 3.5465062867460877,
+   "alterung": 2.24164547034541,
+   "rest": 21.4425730479908,
+   "absolut": {
+    "basis": 3463.0,
+    "beobachtet": 943.0,
+    "einwohner": 122.81551271001702,
+    "alterung": 77.62818263806155,
+    "rest": 742.5563046519214
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H15-H22|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 41.85735015068646,
+   "einwohner": 4.446600261408689,
+   "alterung": 6.011216131913664,
+   "rest": 31.399533757364107,
+   "absolut": {
+    "basis": 17918.0,
+    "beobachtet": 7500.0,
+    "einwohner": 796.7418348392089,
+    "alterung": 1077.0897065162903,
+    "rest": 5626.168458644501
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H25-H28|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.34518422753717,
+   "einwohner": 2.129337539748,
+   "alterung": 4.668262936591454,
+   "rest": -15.142784703876623,
+   "absolut": {
+    "basis": 108290.0,
+    "beobachtet": -9037.0,
+    "einwohner": 2305.8596217931095,
+    "alterung": 5055.261934034885,
+    "rest": -16398.121555827995
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H30-H36|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 3.124573052435992,
+   "einwohner": 3.356634104289876,
+   "alterung": 4.4914251978288995,
+   "rest": -4.723486249682783,
+   "absolut": {
+    "basis": 73194.0,
+    "beobachtet": 2287.0,
+    "einwohner": 2456.854766293932,
+    "alterung": 3287.4537592988845,
+    "rest": -3457.3085255928163
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H40-H42|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.430657980663556,
+   "einwohner": 3.500926145173586,
+   "alterung": 5.1823845625730804,
+   "rest": 5.747347272916889,
+   "absolut": {
+    "basis": 62783.0,
+    "beobachtet": 9060.0,
+    "einwohner": 2197.9864617243325,
+    "alterung": 3253.656499920257,
+    "rest": 3608.35703835541
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H43-H45|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.972690296339338,
+   "einwohner": 3.462348141390243,
+   "alterung": 5.970004495937796,
+   "rest": -2.4596623409887015,
+   "absolut": {
+    "basis": 10326.0,
+    "beobachtet": 720.0,
+    "einwohner": 357.5220690799565,
+    "alterung": 616.4626642505368,
+    "rest": -253.98473333049333
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H46-H48|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 20.243297507972127,
+   "einwohner": 3.5312068834394226,
+   "alterung": 0.8248336065182392,
+   "rest": 15.887257018014466,
+   "absolut": {
+    "basis": 8467.0,
+    "beobachtet": 1714.0,
+    "einwohner": 298.9872868208159,
+    "alterung": 69.83866146389931,
+    "rest": 1345.1740517152848
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H49-H52|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -2.4129040787994978,
+   "einwohner": 2.603746368215315,
+   "alterung": 0.5949997413031376,
+   "rest": -5.611650188317951,
+   "absolut": {
+    "basis": 15127.0,
+    "beobachtet": -365.0,
+    "einwohner": 393.8687131199307,
+    "alterung": 90.00561086692562,
+    "rest": -848.8743239868563
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H53-H54|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 42.40055584505819,
+   "einwohner": 4.023879020680731,
+   "alterung": 1.29049395339415,
+   "rest": 37.08618287098331,
+   "absolut": {
+    "basis": 5757.0,
+    "beobachtet": 2441.0,
+    "einwohner": 231.65471522058968,
+    "alterung": 74.29373689690121,
+    "rest": 2135.051547882509
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H55-H59|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 8.124076809453472,
+   "einwohner": 3.124524151550174,
+   "alterung": 3.9443913747070014,
+   "rest": 1.0551612831962964,
+   "absolut": {
+    "basis": 2031.0,
+    "beobachtet": 165.0,
+    "einwohner": 63.45908551798403,
+    "alterung": 80.1105888202992,
+    "rest": 21.43032566171678
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H60-H62|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.669912865197336,
+   "einwohner": 3.5112725847657256,
+   "alterung": 3.4171225421591926,
+   "rest": 11.741517738272417,
+   "absolut": {
+    "basis": 7804.0,
+    "beobachtet": 1457.0,
+    "einwohner": 274.0197125151172,
+    "alterung": 266.6722431901034,
+    "rest": 916.3080442947794
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H65-H75|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1.4700468746165363,
+   "einwohner": 3.1515670795913464,
+   "alterung": 0.9920320431784085,
+   "rest": -2.673552248153219,
+   "absolut": {
+    "basis": 40747.0,
+    "beobachtet": 599.0,
+    "einwohner": 1284.1690379210859,
+    "alterung": 404.2232966339061,
+    "rest": -1089.392334554992
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H80-H83|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 3.751852350801563,
+   "einwohner": 2.6860931613360677,
+   "alterung": 1.8576132751581356,
+   "rest": -0.7918540856926406,
+   "absolut": {
+    "basis": 74230.0,
+    "beobachtet": 2785.0,
+    "einwohner": 1993.886953659763,
+    "alterung": 1378.906334149884,
+    "rest": -587.7932878096472
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-H90-H95|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -6.24213524074442,
+   "einwohner": 2.364607611947887,
+   "alterung": 1.3005490290490116,
+   "rest": -9.907291881741319,
+   "absolut": {
+    "basis": 30198.0,
+    "beobachtet": -1885.0,
+    "einwohner": 714.0642066560229,
+    "alterung": 392.73979579222055,
+    "rest": -2991.8040024482434
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I00-I02|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -20.260223048327138,
+   "einwohner": 15.077628745197726,
+   "alterung": 14.730234272090442,
+   "rest": -50.068086065615304,
+   "absolut": {
+    "basis": 538.0,
+    "beobachtet": -109.0,
+    "einwohner": 81.11764264916377,
+    "alterung": 79.24866038384658,
+    "rest": -269.36630303301035
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I05-I09|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -30.28409090909091,
+   "einwohner": 1.6058350153092102,
+   "alterung": 3.4747745568037414,
+   "rest": -35.36470048120386,
+   "absolut": {
+    "basis": 5280.0,
+    "beobachtet": -1599.0,
+    "einwohner": 84.78808880832631,
+    "alterung": 183.46809659923755,
+    "rest": -1867.2561854075639
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I10-I15|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -3.239093596637299,
+   "einwohner": 2.0680457316118432,
+   "alterung": 3.177892393201617,
+   "rest": -8.48503172145076,
+   "absolut": {
+    "basis": 272638.0,
+    "beobachtet": -8831.0,
+    "einwohner": 5638.278521751898,
+    "alterung": 8664.142262977024,
+    "rest": -23133.42078472892
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I20-I25|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -3.153866315580557,
+   "einwohner": 2.5743595693102446,
+   "alterung": 4.892184575317763,
+   "rest": -10.620410460208564,
+   "absolut": {
+    "basis": 660047.0,
+    "beobachtet": -20817.0,
+    "einwohner": 16991.98310644519,
+    "alterung": 32290.71752384763,
+    "rest": -70099.70063029282
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I26-I28|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 12.0817843866171,
+   "einwohner": 3.6081887168493894,
+   "alterung": 5.363917774738579,
+   "rest": 3.1096778950291326,
+   "absolut": {
+    "basis": 59718.0,
+    "beobachtet": 7215.0,
+    "einwohner": 2154.7381379281182,
+    "alterung": 3203.224416718385,
+    "rest": 1857.0374453534973
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I30-I52|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 23.401436790694987,
+   "einwohner": 3.6848951584126497,
+   "alterung": 10.77033846354192,
+   "rest": 8.946203168740416,
+   "absolut": {
+    "basis": 917183.0,
+    "beobachtet": 214634.0,
+    "einwohner": 33797.231960783894,
+    "alterung": 98783.7134300677,
+    "rest": 82053.05460914841
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I60-I69|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 0.6966181795863254,
+   "einwohner": 2.938398968119852,
+   "alterung": 7.32869143088187,
+   "rest": -9.570472219415397,
+   "absolut": {
+    "basis": 358446.0,
+    "beobachtet": 2497.0,
+    "einwohner": 10532.573565266885,
+    "alterung": 26269.40128633883,
+    "rest": -34304.974851605715
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I70-I79|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.592883208820812,
+   "einwohner": 3.0420431685097062,
+   "alterung": 6.780370484938568,
+   "rest": -4.229530444627462,
+   "absolut": {
+    "basis": 255396.0,
+    "beobachtet": 14284.0,
+    "einwohner": 7769.25657064705,
+    "alterung": 17316.795003713705,
+    "rest": -10802.051574360754
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I80-I89|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -37.93838195682181,
+   "einwohner": 1.3294643569308082,
+   "alterung": 1.0862382895578406,
+   "rest": -40.354084603310454,
+   "absolut": {
+    "basis": 223863.0,
+    "beobachtet": -84930.0,
+    "einwohner": 2976.1787933560154,
+    "alterung": 2431.6856221528687,
+    "rest": -90337.86441550888
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-I95-I99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -2.558678127644413,
+   "einwohner": 2.532198414087448,
+   "alterung": 5.947857652153855,
+   "rest": -11.038734193885716,
+   "absolut": {
+    "basis": 44906.0,
+    "beobachtet": -1149.0,
+    "einwohner": 1137.1090198301094,
+    "alterung": 2670.94495727621,
+    "rest": -4957.0539771063195
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J00-J06|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 12.199216564073867,
+   "einwohner": 4.184908205563065,
+   "alterung": 8.347655010869662,
+   "rest": -0.33334665235886285,
+   "absolut": {
+    "basis": 73267.0,
+    "beobachtet": 8938.0,
+    "einwohner": 3066.1566949698913,
+    "alterung": 6116.076396813876,
+    "rest": -244.23309178376803
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J09-J18|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.35885162570444,
+   "einwohner": 3.8107338410252383,
+   "alterung": 12.655419314521804,
+   "rest": 1.8926984701573943,
+   "absolut": {
+    "basis": 293319.0,
+    "beobachtet": 53850.0,
+    "einwohner": 11177.60639515682,
+    "alterung": 37120.74937916221,
+    "rest": 5551.644225680968
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J20-J22|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 33.326616042721966,
+   "einwohner": 3.7561213625825274,
+   "alterung": 12.023288248672262,
+   "rest": 17.547206431467178,
+   "absolut": {
+    "basis": 109171.0,
+    "beobachtet": 36383.0,
+    "einwohner": 4100.595252744971,
+    "alterung": 13125.944013957997,
+    "rest": 19156.460733297034
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J30-J39|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -18.173924271280544,
+   "einwohner": 2.4036794111779836,
+   "alterung": 0.16350817540265059,
+   "rest": -20.741111857861178,
+   "absolut": {
+    "basis": 309790.0,
+    "beobachtet": -56301.0,
+    "einwohner": 7446.358447888276,
+    "alterung": 506.5319765798713,
+    "rest": -64253.89042446815
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J40-J47|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 22.678169666490206,
+   "einwohner": 3.3025380833652056,
+   "alterung": 5.000110244494517,
+   "rest": 14.375521338630483,
+   "absolut": {
+    "basis": 241792.0,
+    "beobachtet": 54834.0,
+    "einwohner": 7985.272882530398,
+    "alterung": 12089.866562368183,
+    "rest": 34758.86055510142
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J60-J70|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 13.208833555654365,
+   "einwohner": 3.353108999026426,
+   "alterung": 12.867366933295909,
+   "rest": -3.0116423766679694,
+   "absolut": {
+    "basis": 33735.0,
+    "beobachtet": 4456.0,
+    "einwohner": 1131.1713208215647,
+    "alterung": 4340.806234947375,
+    "rest": -1015.9775557689395
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J80-J84|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 29.08722973692619,
+   "einwohner": 3.86034086259709,
+   "alterung": 8.088502300122425,
+   "rest": 17.138386574206677,
+   "absolut": {
+    "basis": 18778.0,
+    "beobachtet": 5462.0,
+    "einwohner": 724.8948071784815,
+    "alterung": 1518.8589619169888,
+    "rest": 3218.2462309045295
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J85-J86|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 29.986186377643183,
+   "einwohner": 5.140797602718276,
+   "alterung": 7.555742543153015,
+   "rest": 17.289646231771894,
+   "absolut": {
+    "basis": 9411.0,
+    "beobachtet": 2822.0,
+    "einwohner": 483.80046239181695,
+    "alterung": 711.0709307361302,
+    "rest": 1627.1286068720528
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J90-J94|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.635249800235912,
+   "einwohner": 2.9874202575647173,
+   "alterung": 5.447794447249547,
+   "rest": -2.799964904578352,
+   "absolut": {
+    "basis": 26281.0,
+    "beobachtet": 1481.0,
+    "einwohner": 785.1239178905834,
+    "alterung": 1431.7348586816533,
+    "rest": -735.8587765722367
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-J95-J99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 28.671528671528673,
+   "einwohner": 4.317150595018723,
+   "alterung": 7.350622910112832,
+   "rest": 17.003755166397116,
+   "absolut": {
+    "basis": 41958.0,
+    "beobachtet": 12030.0,
+    "einwohner": 1811.390046657956,
+    "alterung": 3084.174360625142,
+    "rest": 7134.435592716902
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K00-K14|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 13.929332255931829,
+   "einwohner": 3.1165617356483857,
+   "alterung": 1.6685341875737805,
+   "rest": 9.144236332709664,
+   "absolut": {
+    "basis": 68065.0,
+    "beobachtet": 9481.0,
+    "einwohner": 2121.287745369074,
+    "alterung": 1135.6877947720936,
+    "rest": 6224.024459858832
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K20-K31|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.985417438924598,
+   "einwohner": 3.0306151657002447,
+   "alterung": 4.068459737213544,
+   "rest": 7.886342536010806,
+   "absolut": {
+    "basis": 285958.0,
+    "beobachtet": 42852.0,
+    "einwohner": 8666.286515533106,
+    "alterung": 11634.086095341107,
+    "rest": 22551.627389125784
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K35-K38|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -14.518184491716498,
+   "einwohner": 2.636908316507372,
+   "alterung": -1.6582067004491905,
+   "rest": -15.49688610777468,
+   "absolut": {
+    "basis": 122412.0,
+    "beobachtet": -17772.0,
+    "einwohner": 3227.892208403004,
+    "alterung": -2029.8439861538632,
+    "rest": -18970.04822224914
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K40-K46|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 7.224290148249554,
+   "einwohner": 3.177643276019969,
+   "alterung": 3.569257085782119,
+   "rest": 0.477389786447466,
+   "absolut": {
+    "basis": 265161.0,
+    "beobachtet": 19156.0,
+    "einwohner": 8425.87068712731,
+    "alterung": 9464.277781230725,
+    "rest": 1265.8515316419653
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K50-K52|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -19.056406418749415,
+   "einwohner": 2.159522245931274,
+   "alterung": 0.9685043126152358,
+   "rest": -22.184432977295923,
+   "absolut": {
+    "basis": 117593.0,
+    "beobachtet": -22409.0,
+    "einwohner": 2539.446994657963,
+    "alterung": 1138.8932763336343,
+    "rest": -26087.340270991597
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K55-K64|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 16.216734733480934,
+   "einwohner": 3.053074073487982,
+   "alterung": 3.9174436243293327,
+   "rest": 9.24621703566362,
+   "absolut": {
+    "basis": 453476.0,
+    "beobachtet": 73539.0,
+    "einwohner": 13844.95818549036,
+    "alterung": 17764.666649863684,
+    "rest": 41929.37516464596
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K65-K67|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.297361016046848,
+   "einwohner": 2.3606409832313333,
+   "alterung": 0.8692560106566013,
+   "rest": -13.527258009934782,
+   "absolut": {
+    "basis": 26298.0,
+    "beobachtet": -2708.0,
+    "einwohner": 620.8013657701761,
+    "alterung": 228.596945682473,
+    "rest": -3557.398311452649
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K70-K77|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.63607467324525,
+   "einwohner": 3.3485484428285925,
+   "alterung": 2.217285810155951,
+   "rest": 0.07024042026070601,
+   "absolut": {
+    "basis": 84314.0,
+    "beobachtet": 4752.0,
+    "einwohner": 2823.2951340864997,
+    "alterung": 1869.4823579748886,
+    "rest": 59.22250793861167
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K80-K87|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.890000967449715,
+   "einwohner": 3.4033864140673957,
+   "alterung": 2.310645693710182,
+   "rest": 1.1759688596721376,
+   "absolut": {
+    "basis": 341103.0,
+    "beobachtet": 23502.0,
+    "einwohner": 11609.053159976307,
+    "alterung": 7881.681780616242,
+    "rest": 4011.265059407451
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-K90-K93|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 29.789612426381034,
+   "einwohner": 3.6813519382572713,
+   "alterung": 8.669288767036159,
+   "rest": 17.438971721087604,
+   "absolut": {
+    "basis": 59937.0,
+    "beobachtet": 17855.0,
+    "einwohner": 2206.491911233261,
+    "alterung": 5196.111608298463,
+    "rest": 10452.396480468276
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L00-L08|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 10.770477256066977,
+   "einwohner": 3.172470249927525,
+   "alterung": 1.1722517032916313,
+   "rest": 6.425755302847822,
+   "absolut": {
+    "basis": 129595.0,
+    "beobachtet": 13958.0,
+    "einwohner": 4111.362820393576,
+    "alterung": 1519.1795948807894,
+    "rest": 8327.457584725635
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L10-L14|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 36.1323155216285,
+   "einwohner": 4.190391824842186,
+   "alterung": 11.599575526531739,
+   "rest": 20.342348170254578,
+   "absolut": {
+    "basis": 4716.0,
+    "beobachtet": 1704.0,
+    "einwohner": 197.61887845955746,
+    "alterung": 547.0359818312368,
+    "rest": 959.3451397092058
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L20-L30|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.074261855055173,
+   "einwohner": 2.8010549766558412,
+   "alterung": 3.094116260940748,
+   "rest": 11.179090617458586,
+   "absolut": {
+    "basis": 33530.0,
+    "beobachtet": 5725.0,
+    "einwohner": 939.1937336727035,
+    "alterung": 1037.4571822934329,
+    "rest": 3748.3490840338636
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L40-L45|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 10.005189413596264,
+   "einwohner": 3.0028557457927274,
+   "alterung": 0.7202670742613202,
+   "rest": 6.282066593542216,
+   "absolut": {
+    "basis": 19270.0,
+    "beobachtet": 1928.0,
+    "einwohner": 578.6503022142585,
+    "alterung": 138.7954652101564,
+    "rest": 1210.554232575585
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L50-L54|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -0.26262938359338794,
+   "einwohner": 2.3415079254391746,
+   "alterung": 0.363943435594908,
+   "rest": -2.968080744627471,
+   "absolut": {
+    "basis": 12946.0,
+    "beobachtet": -34.0,
+    "einwohner": 303.13161602735556,
+    "alterung": 47.11611717211679,
+    "rest": -384.24773319947235
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L55-L59|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.012531328320802,
+   "einwohner": 2.420306292606428,
+   "alterung": 5.134741980461789,
+   "rest": -2.542516944747415,
+   "absolut": {
+    "basis": 3591.0,
+    "beobachtet": 180.0,
+    "einwohner": 86.91319896749683,
+    "alterung": 184.38858451838286,
+    "rest": -91.30178348587968
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L60-L75|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 20.597255039967823,
+   "einwohner": 3.038580697528874,
+   "alterung": -0.09333403358709877,
+   "rest": 17.65200837602605,
+   "absolut": {
+    "basis": 19891.0,
+    "beobachtet": 4097.0,
+    "einwohner": 604.4040865454683,
+    "alterung": -18.565072620809815,
+    "rest": 3511.1609860753415
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-L80-L99|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.881914653420637,
+   "einwohner": 3.354558226412084,
+   "alterung": 3.8385464548597406,
+   "rest": -0.3111900278511879,
+   "absolut": {
+    "basis": 44290.0,
+    "beobachtet": 3048.0,
+    "einwohner": 1485.733838477912,
+    "alterung": 1700.092224857379,
+    "rest": -137.8260633352911
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M00-M03|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 44.59568951547561,
+   "einwohner": 5.889630910345536,
+   "alterung": 9.379059860537232,
+   "rest": 29.326998744592846,
+   "absolut": {
+    "basis": 12342.0,
+    "beobachtet": 5504.0,
+    "einwohner": 726.8982469548462,
+    "alterung": 1157.5635679875052,
+    "rest": 3619.5381850576487
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M05-M14|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1.5095828029474514,
+   "einwohner": 2.519617808879211,
+   "alterung": 2.871714088397612,
+   "rest": -3.881749094329372,
+   "absolut": {
+    "basis": 55777.0,
+    "beobachtet": 842.0,
+    "einwohner": 1405.3672252585575,
+    "alterung": 1601.7559670855362,
+    "rest": -2165.1231923440937
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M15-M19|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 1.1109395965185176,
+   "einwohner": 3.588708373322258,
+   "alterung": 4.557434110197376,
+   "rest": -7.035202887001116,
+   "absolut": {
+    "basis": 421085.0,
+    "beobachtet": 4678.0,
+    "einwohner": 15111.51265380403,
+    "alterung": 19190.67142292462,
+    "rest": -29624.18407672865
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M20-M25|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -11.184258590319098,
+   "einwohner": 2.157952753894391,
+   "alterung": -0.10450035005638955,
+   "rest": -13.237710994157098,
+   "absolut": {
+    "basis": 246382.0,
+    "beobachtet": -27556.0,
+    "einwohner": 5316.807154100077,
+    "alterung": -257.4700524759337,
+    "rest": -32615.337101624144
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M30-M36|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.96302525165088,
+   "einwohner": 3.3797179473064243,
+   "alterung": 1.8334678953237964,
+   "rest": 9.749839409020659,
+   "absolut": {
+    "basis": 40433.0,
+    "beobachtet": 6050.0,
+    "einwohner": 1366.5213576344065,
+    "alterung": 741.3260741162705,
+    "rest": 3942.152568249323
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M40-M43|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -22.273021603908717,
+   "einwohner": 1.8177645273045024,
+   "alterung": 0.8073278423282892,
+   "rest": -24.898113973541513,
+   "absolut": {
+    "basis": 50963.0,
+    "beobachtet": -11351.0,
+    "einwohner": 926.3873360501935,
+    "alterung": 411.4384882857661,
+    "rest": -12688.82582433596
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M45-M49|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 6.937909052541401,
+   "einwohner": 3.152092397026917,
+   "alterung": 4.656276281391642,
+   "rest": -0.8704596258771568,
+   "absolut": {
+    "basis": 158751.0,
+    "beobachtet": 11014.0,
+    "einwohner": 5003.978201204201,
+    "alterung": 7391.8851594720445,
+    "rest": -1381.863360676245
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M50-M54|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -1.3712632250748182,
+   "einwohner": 2.4859668727822353,
+   "alterung": 0.8883070775609472,
+   "rest": -4.745537175418001,
+   "absolut": {
+    "basis": 393287.0,
+    "beobachtet": -5393.0,
+    "einwohner": 9776.984534959069,
+    "alterung": 3493.5962561271226,
+    "rest": -18663.58079108619
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M60-M63|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 23.682711478211335,
+   "einwohner": 3.5142284652552314,
+   "alterung": 4.951319814852514,
+   "rest": 15.21716319810359,
+   "absolut": {
+    "basis": 14044.0,
+    "beobachtet": 3326.0,
+    "einwohner": 493.53824566044466,
+    "alterung": 695.3633547978872,
+    "rest": 2137.098399541668
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M65-M68|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -9.785227867993713,
+   "einwohner": 2.0193806168556216,
+   "alterung": 0.5046368539014396,
+   "rest": -12.309245338750776,
+   "absolut": {
+    "basis": 28635.0,
+    "beobachtet": -2802.0,
+    "einwohner": 578.2496396366073,
+    "alterung": 144.50276311467724,
+    "rest": -3524.7524027512845
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M70-M79|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -6.674783213655676,
+   "einwohner": 2.294238737335847,
+   "alterung": 1.5378441267058383,
+   "rest": -10.506866077697362,
+   "absolut": {
+    "basis": 201235.0,
+    "beobachtet": -13432.0,
+    "einwohner": 4616.811323077792,
+    "alterung": 3094.6806283764936,
+    "rest": -21143.491951454285
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M80-M85|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 8.822631525389234,
+   "einwohner": 2.9447207067603105,
+   "alterung": 5.941459477171352,
+   "rest": -0.0635486585424292,
+   "absolut": {
+    "basis": 58962.0,
+    "beobachtet": 5202.0,
+    "einwohner": 1736.2662231200143,
+    "alterung": 3503.203336929773,
+    "rest": -37.469560049787106
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M86-M90|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -5.7134533212482195,
+   "einwohner": 2.606924662397746,
+   "alterung": 2.306975032679264,
+   "rest": -10.627353016325229,
+   "absolut": {
+    "basis": 30892.0,
+    "beobachtet": -1765.0,
+    "einwohner": 805.3311667079116,
+    "alterung": 712.6707270952783,
+    "rest": -3283.00189380319
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M91-M94|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -12.246138262851355,
+   "einwohner": 2.37036227213466,
+   "alterung": -2.297977838064912,
+   "rest": -12.318522696921104,
+   "absolut": {
+    "basis": 19745.0,
+    "beobachtet": -2418.0,
+    "einwohner": 468.02803063298865,
+    "alterung": -453.7357241259169,
+    "rest": -2432.2923065070718
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-M95-M99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -20.081199250468458,
+   "einwohner": 2.1722108646592453,
+   "alterung": 0.2943352251142226,
+   "rest": -22.547745340241924,
+   "absolut": {
+    "basis": 19212.0,
+    "beobachtet": -3858.0,
+    "einwohner": 417.3251513183342,
+    "alterung": 56.54768344894444,
+    "rest": -4331.872834767279
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N00-N08|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.530601659751037,
+   "einwohner": 3.5855219406256165,
+   "alterung": 1.2999292166540395,
+   "rest": 4.645150502471382,
+   "absolut": {
+    "basis": 7712.0,
+    "beobachtet": 735.0,
+    "einwohner": 276.51545206104754,
+    "alterung": 100.25054118835953,
+    "rest": 358.2340067505929
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N10-N16|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 36.659896154672694,
+   "einwohner": 4.386966197577114,
+   "alterung": 3.1320208446625384,
+   "rest": 29.14090911243304,
+   "absolut": {
+    "basis": 144253.0,
+    "beobachtet": 52883.0,
+    "einwohner": 6328.330348990915,
+    "alterung": 4518.034029051051,
+    "rest": 42036.635621958034
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N17-N19|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 21.662508731663507,
+   "einwohner": 3.1519136129839165,
+   "alterung": 8.850194256368995,
+   "rest": 9.660400862310595,
+   "absolut": {
+    "basis": 100210.0,
+    "beobachtet": 21708.0,
+    "einwohner": 3158.5326315711827,
+    "alterung": 8868.77966430737,
+    "rest": 9680.687704121447
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N20-N23|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 4.425693128982263,
+   "einwohner": 2.9733334752855884,
+   "alterung": -0.1269673271006982,
+   "rest": 1.5793269807973729,
+   "absolut": {
+    "basis": 127754.0,
+    "beobachtet": 5654.0,
+    "einwohner": 3798.5524480163504,
+    "alterung": -162.20583906422598,
+    "rest": 2017.6533910478756
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N25-N29|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 4.782608695652174,
+   "einwohner": 3.1466933907059578,
+   "alterung": 2.6732998474484186,
+   "rest": -1.0373845425022026,
+   "absolut": {
+    "basis": 6440.0,
+    "beobachtet": 308.0,
+    "einwohner": 202.64705436146366,
+    "alterung": 172.16051017567818,
+    "rest": -66.80756453714184
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N30-N39|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 21.03458036514601,
+   "einwohner": 3.774596058406556,
+   "alterung": 10.556473668434837,
+   "rest": 6.703510638304619,
+   "absolut": {
+    "basis": 211970.0,
+    "beobachtet": 44587.0,
+    "einwohner": 8001.011265004377,
+    "alterung": 22376.557234981326,
+    "rest": 14209.4315000143
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N40-N51|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 5.717573304765306,
+   "einwohner": 3.2472038238929675,
+   "alterung": 5.732508573147729,
+   "rest": -3.2621390922753917,
+   "absolut": {
+    "basis": 126015.0,
+    "beobachtet": 7205.0,
+    "einwohner": 4091.963898678723,
+    "alterung": 7223.820678452112,
+    "rest": -4110.784577130835
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N60-N64|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.10159893404397,
+   "einwohner": 2.905398140931294,
+   "alterung": -2.6772664817796485,
+   "rest": -10.329730593195617,
+   "absolut": {
+    "basis": 24016.0,
+    "beobachtet": -2426.0,
+    "einwohner": 697.7604175260597,
+    "alterung": -642.9723182642003,
+    "rest": -2480.7880992618593
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N70-N77|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -23.153048105958682,
+   "einwohner": 2.1703796537795372,
+   "alterung": -3.0716224081429795,
+   "rest": -22.251805351595237,
+   "absolut": {
+    "basis": 33447.0,
+    "beobachtet": -7744.0,
+    "einwohner": 725.9268827996418,
+    "alterung": -1027.3655468515824,
+    "rest": -7442.561335948059
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N80-N98|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -10.912901448362721,
+   "einwohner": 2.8782842023440507,
+   "alterung": -3.1796897717185284,
+   "rest": -10.611495878988244,
+   "absolut": {
+    "basis": 203264.0,
+    "beobachtet": -22182.0,
+    "einwohner": 5850.515601052612,
+    "alterung": -6463.16461758595,
+    "rest": -21569.350983466662
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-N99-N99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -36.56991402159157,
+   "einwohner": 2.287639192975989,
+   "alterung": 2.4713342093068116,
+   "rest": -41.32888742387437,
+   "absolut": {
+    "basis": 15469.0,
+    "beobachtet": -5657.0,
+    "einwohner": 353.87490676145575,
+    "alterung": 382.29068883767064,
+    "rest": -6393.165595599126
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O00-O08|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -4.015959753664672,
+   "einwohner": 2.719171791349832,
+   "alterung": -0.36443481685123774,
+   "rest": -6.370696728163266,
+   "absolut": {
+    "basis": 46116.0,
+    "beobachtet": -1852.0,
+    "einwohner": 1253.9732632988887,
+    "alterung": -168.0627601391168,
+    "rest": -2937.910503159772
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O10-O16|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 11.5172502244453,
+   "einwohner": 3.651922092582194,
+   "alterung": 0.5086314485970629,
+   "rest": 7.356696683266043,
+   "absolut": {
+    "basis": 23391.0,
+    "beobachtet": 2694.0,
+    "einwohner": 854.2210966759009,
+    "alterung": 118.97398214133898,
+    "rest": 1720.8049211827602
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O20-O29|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.478318248520244,
+   "einwohner": 2.9933828526815174,
+   "alterung": -0.4250633590100756,
+   "rest": 6.909998754848803,
+   "absolut": {
+    "basis": 101537.0,
+    "beobachtet": 9624.0,
+    "einwohner": 3039.391147127232,
+    "alterung": -431.5965828380604,
+    "rest": 7016.205435710828
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O30-O48|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 24.978517942632678,
+   "einwohner": 3.722247053426582,
+   "alterung": 1.2773373327128152,
+   "rest": 19.978933556493278,
+   "absolut": {
+    "basis": 244390.0,
+    "beobachtet": 61045.0,
+    "einwohner": 9096.799573869224,
+    "alterung": 3121.684707416849,
+    "rest": 48826.51571871393
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O60-O75|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -14.556273072432978,
+   "einwohner": 2.417598417332515,
+   "alterung": 0.9259589915762901,
+   "rest": -17.899830481341784,
+   "absolut": {
+    "basis": 380324.0,
+    "beobachtet": -55361.0,
+    "einwohner": 9194.707004735716,
+    "alterung": 3521.6442751226095,
+    "rest": -68077.35127985833
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O80-O84|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 141.57752210535764,
+   "einwohner": 7.628374162460273,
+   "alterung": 2.657393473214104,
+   "rest": 131.29175446968327,
+   "absolut": {
+    "basis": 66839.0,
+    "beobachtet": 94629.0,
+    "einwohner": 5098.729006446822,
+    "alterung": 1776.175223561575,
+    "rest": 87754.0957699916
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O85-O92|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 19.4679186228482,
+   "einwohner": 3.5449708588388678,
+   "alterung": 1.0938275905172863,
+   "rest": 14.829120173492047,
+   "absolut": {
+    "basis": 12780.0,
+    "beobachtet": 2488.0,
+    "einwohner": 453.04727575960726,
+    "alterung": 139.7911660681092,
+    "rest": 1895.1615581722835
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-O94-O99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -0.27559353745796566,
+   "einwohner": 2.7621079381582874,
+   "alterung": -0.014800805759885939,
+   "rest": -3.022900669856367,
+   "absolut": {
+    "basis": 39551.0,
+    "beobachtet": -109.0,
+    "einwohner": 1092.4413106209843,
+    "alterung": -5.853866686092488,
+    "rest": -1195.5874439348918
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P00-P04|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -31.515436451966778,
+   "einwohner": 1.7981511551046234,
+   "alterung": 7.209622007828668,
+   "rest": -40.52320961490007,
+   "absolut": {
+    "basis": 6381.0,
+    "beobachtet": -2011.0,
+    "einwohner": 114.74002520722603,
+    "alterung": 460.0459803195473,
+    "rest": -2585.7860055267734
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P05-P08|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 15.709474953155915,
+   "einwohner": 3.16807671835678,
+   "alterung": 12.702470368598405,
+   "rest": -0.16107213379926935,
+   "absolut": {
+    "basis": 76317.0,
+    "beobachtet": 11989.0,
+    "einwohner": 2417.7811091483436,
+    "alterung": 9694.144311203245,
+    "rest": -122.9254203515884
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P10-P15|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -11.810661764705882,
+   "einwohner": 2.05691903027709,
+   "alterung": 8.230501657202396,
+   "rest": -22.098082452185366,
+   "absolut": {
+    "basis": 2176.0,
+    "beobachtet": -257.0,
+    "einwohner": 44.758558098829475,
+    "alterung": 179.09571606072413,
+    "rest": -480.8542741595536
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P20-P29|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 28.6231064888085,
+   "einwohner": 4.10229529757153,
+   "alterung": 16.456914324210896,
+   "rest": 8.063896867026074,
+   "absolut": {
+    "basis": 30961.0,
+    "beobachtet": 8862.0,
+    "einwohner": 1270.1116470811214,
+    "alterung": 5095.225243918936,
+    "rest": 2496.663108999943
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P35-P39|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 32.47498642674319,
+   "einwohner": 4.461849574193713,
+   "alterung": 17.911540382782277,
+   "rest": 10.101596469767207,
+   "absolut": {
+    "basis": 12893.0,
+    "beobachtet": 4187.0,
+    "einwohner": 575.2662656007954,
+    "alterung": 2309.334901552119,
+    "rest": 1302.398832847086
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P50-P61|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 3.462193046438123,
+   "einwohner": 3.07086935462534,
+   "alterung": 12.319722961275522,
+   "rest": -11.928399269462739,
+   "absolut": {
+    "basis": 20565.0,
+    "beobachtet": 712.0,
+    "einwohner": 631.5242827787011,
+    "alterung": 2533.551026986311,
+    "rest": -2453.075309765012
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P70-P74|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.206947387819035,
+   "einwohner": 2.684934989361433,
+   "alterung": 10.772498373226279,
+   "rest": 4.749514025231323,
+   "absolut": {
+    "basis": 10853.0,
+    "beobachtet": 1976.0,
+    "einwohner": 291.3959943953963,
+    "alterung": 1169.139248446248,
+    "rest": 515.4647571583555
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P75-P78|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -0.7009345794392523,
+   "einwohner": 2.7379965810882325,
+   "alterung": 10.976888953476589,
+   "rest": -14.415820114004074,
+   "absolut": {
+    "basis": 856.0,
+    "beobachtet": -6.0,
+    "einwohner": 23.43725073411527,
+    "alterung": 93.9621694417596,
+    "rest": -123.39942017587487
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P80-P83|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 21.633051398828886,
+   "einwohner": 4.487359047816658,
+   "alterung": 17.99749731091908,
+   "rest": -0.8518049599068493,
+   "absolut": {
+    "basis": 3074.0,
+    "beobachtet": 665.0,
+    "einwohner": 137.94141712988406,
+    "alterung": 553.2430673376525,
+    "rest": -26.18448446753655
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-P90-P96|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 13.25068870523416,
+   "einwohner": 3.2190092685743994,
+   "alterung": 12.906352286401951,
+   "rest": -2.87467284974219,
+   "absolut": {
+    "basis": 10890.0,
+    "beobachtet": 1443.0,
+    "einwohner": 350.5501093477521,
+    "alterung": 1405.5017639891723,
+    "rest": -313.0518733369245
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q00-Q07|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 3.515151515151515,
+   "einwohner": 2.8977290961743867,
+   "alterung": 4.752943917309479,
+   "rest": -4.135521498332351,
+   "absolut": {
+    "basis": 3300.0,
+    "beobachtet": 116.0,
+    "einwohner": 95.62506017375476,
+    "alterung": 156.8471492712128,
+    "rest": -136.47220944496758
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q10-Q18|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -16.174298375184637,
+   "einwohner": 2.465725584224676,
+   "alterung": 1.239665070536278,
+   "rest": -19.87968902994559,
+   "absolut": {
+    "basis": 10832.0,
+    "beobachtet": -1752.0,
+    "einwohner": 267.08739528321695,
+    "alterung": 134.28052044048962,
+    "rest": -2153.3679157237066
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q20-Q28|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 25.55829003737125,
+   "einwohner": 3.899111226564108,
+   "alterung": 4.390835567203431,
+   "rest": 17.268343243603713,
+   "absolut": {
+    "basis": 21942.0,
+    "beobachtet": 5608.0,
+    "einwohner": 855.5429853326966,
+    "alterung": 963.4371401557767,
+    "rest": 3789.0198745115267
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q30-Q34|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -7.03125,
+   "einwohner": 2.720586146217802,
+   "alterung": 5.361583124166095,
+   "rest": -15.113419270383895,
+   "absolut": {
+    "basis": 2432.0,
+    "beobachtet": -171.0,
+    "einwohner": 66.16465507601694,
+    "alterung": 130.39370157971942,
+    "rest": -367.55835665573636
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q35-Q37|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.84995507637017,
+   "einwohner": 2.730382660283981,
+   "alterung": 6.513989895561626,
+   "rest": -18.094327632215776,
+   "absolut": {
+    "basis": 4452.0,
+    "beobachtet": -394.0,
+    "einwohner": 121.55663603584284,
+    "alterung": 290.0028301504036,
+    "rest": -805.5594661862465
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q38-Q45|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 4.6895167072995845,
+   "einwohner": 3.017534473221674,
+   "alterung": 8.386478487956177,
+   "rest": -6.714496253878267,
+   "absolut": {
+    "basis": 6973.0,
+    "beobachtet": 327.0,
+    "einwohner": 210.41267881774732,
+    "alterung": 584.7891449651843,
+    "rest": -468.20182378293157
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q50-Q56|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.453063591263449,
+   "einwohner": 2.37972073579489,
+   "alterung": 5.33393318296192,
+   "rest": -16.16671751002026,
+   "absolut": {
+    "basis": 15521.0,
+    "beobachtet": -1312.0,
+    "einwohner": 369.35645540272486,
+    "alterung": 827.8797693275196,
+    "rest": -2509.2362247302444
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q60-Q64|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -18.213296398891966,
+   "einwohner": 2.3864430978711035,
+   "alterung": 5.441190758214719,
+   "rest": -26.040930254977788,
+   "absolut": {
+    "basis": 8664.0,
+    "beobachtet": -1578.0,
+    "einwohner": 206.76142999955243,
+    "alterung": 471.42476729172324,
+    "rest": -2256.1861972912757
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q65-Q79|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -4.445989611027036,
+   "einwohner": 2.6758320083143188,
+   "alterung": 1.6488707320566334,
+   "rest": -8.770692351397988,
+   "absolut": {
+    "basis": 24449.0,
+    "beobachtet": -1087.0,
+    "einwohner": 654.2141677127678,
+    "alterung": 403.1324052805263,
+    "rest": -2144.346572993294
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q80-Q89|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -7.565109549400579,
+   "einwohner": 2.789794819055829,
+   "alterung": -0.1911013848524614,
+   "rest": -10.163802983603947,
+   "absolut": {
+    "basis": 7257.0,
+    "beobachtet": -549.0,
+    "einwohner": 202.45541001888154,
+    "alterung": -13.868227498743124,
+    "rest": -737.5871825201384
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Q90-Q99|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 13.774403470715836,
+   "einwohner": 3.046550172098393,
+   "alterung": 7.07365684466225,
+   "rest": 3.654196453955191,
+   "absolut": {
+    "basis": 922.0,
+    "beobachtet": 127.0,
+    "einwohner": 28.089192586747185,
+    "alterung": 65.21911610778595,
+    "rest": 33.69169130546686
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R00-R09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.722437093324839,
+   "einwohner": 2.469553136063829,
+   "alterung": 2.198696092395659,
+   "rest": 5.0541878648653515,
+   "absolut": {
+    "basis": 219770.0,
+    "beobachtet": 21367.0,
+    "einwohner": 5427.336927127477,
+    "alterung": 4832.07440225794,
+    "rest": 11107.588670614583
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R10-R19|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -0.1626798003119427,
+   "einwohner": 2.357287460993751,
+   "alterung": 0.2973649201217963,
+   "rest": -2.81733218142749,
+   "absolut": {
+    "basis": 178879.0,
+    "beobachtet": -291.0,
+    "einwohner": 4216.6922373510115,
+    "alterung": 531.9233954646679,
+    "rest": -5039.615632815679
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R20-R23|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 35.730346795814235,
+   "einwohner": 3.5845581387766585,
+   "alterung": -1.4632359986704706,
+   "rest": 33.60902465570805,
+   "absolut": {
+    "basis": 23126.0,
+    "beobachtet": 8263.0,
+    "einwohner": 828.96491517349,
+    "alterung": -338.387957052533,
+    "rest": 7772.423041879043
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R25-R29|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 89.39275475632004,
+   "einwohner": 5.1619842641293285,
+   "alterung": 19.061368885419185,
+   "rest": 65.16940160677153,
+   "absolut": {
+    "basis": 30696.0,
+    "beobachtet": 27440.0,
+    "einwohner": 1584.5226897171387,
+    "alterung": 5851.077793068273,
+    "rest": 20004.399517214588
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R30-R39|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 23.629993893227912,
+   "einwohner": 3.164877112318047,
+   "alterung": 14.313466879717131,
+   "rest": 6.151649901192731,
+   "absolut": {
+    "basis": 31113.0,
+    "beobachtet": 7352.0,
+    "einwohner": 984.688215955514,
+    "alterung": 4453.348950286391,
+    "rest": 1913.9628337580943
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R40-R46|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 38.871715610510044,
+   "einwohner": 3.5329679874600655,
+   "alterung": 3.5165042710237806,
+   "rest": 31.822243352026202,
+   "absolut": {
+    "basis": 63406.0,
+    "beobachtet": 24647.0,
+    "einwohner": 2240.113682128929,
+    "alterung": 2229.6746980853386,
+    "rest": 20177.211619785732
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R47-R49|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 44.151771715271245,
+   "einwohner": 4.257935714054029,
+   "alterung": 7.392693319838746,
+   "rest": 32.50114268137847,
+   "absolut": {
+    "basis": 3189.0,
+    "beobachtet": 1408.0,
+    "einwohner": 135.78556992118297,
+    "alterung": 235.75298996965762,
+    "rest": 1036.4614401091594
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R50-R69|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -2.4179979131291898,
+   "einwohner": 2.705749539235228,
+   "alterung": 4.4120116449878815,
+   "rest": -9.535759097352297,
+   "absolut": {
+    "basis": 259719.0,
+    "beobachtet": -6280.0,
+    "einwohner": 7027.345645806341,
+    "alterung": 11458.832524246074,
+    "rest": -24766.178170052415
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R70-R79|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 44.13768375761922,
+   "einwohner": 3.8654081454189484,
+   "alterung": 3.829590212475178,
+   "rest": 36.44268539972509,
+   "absolut": {
+    "basis": 5578.0,
+    "beobachtet": 2462.0,
+    "einwohner": 215.61246635146892,
+    "alterung": 213.61454205186544,
+    "rest": 2032.7729915966656
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R80-R82|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -31.428571428571427,
+   "einwohner": 1.7504121005127713,
+   "alterung": 0.8063391159459102,
+   "rest": -33.98532264503011,
+   "absolut": {
+    "basis": 770.0,
+    "beobachtet": -242.0,
+    "einwohner": 13.47817317394834,
+    "alterung": 6.208811192783509,
+    "rest": -261.68698436673185
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R83-R89|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -20.52334530528476,
+   "einwohner": 1.6036696999468696,
+   "alterung": 1.3096421611079816,
+   "rest": -23.436657166339614,
+   "absolut": {
+    "basis": 1949.0,
+    "beobachtet": -400.0,
+    "einwohner": 31.255522451964488,
+    "alterung": 25.524925719994563,
+    "rest": -456.78044817195905
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R90-R94|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 38.056304787592715,
+   "einwohner": 3.7784729616143906,
+   "alterung": 4.012480972403546,
+   "rest": 30.26535085357478,
+   "absolut": {
+    "basis": 11864.0,
+    "beobachtet": 4515.0,
+    "einwohner": 448.2780321659313,
+    "alterung": 476.0407425659567,
+    "rest": 3590.681225268112
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-R95-R99|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -67.90123456790124,
+   "einwohner": 1.5122743049224319,
+   "alterung": 1.7213854057929021,
+   "rest": -71.13489427861657,
+   "absolut": {
+    "basis": 162.0,
+    "beobachtet": -110.0,
+    "einwohner": 2.4498843739743394,
+    "alterung": 2.7886443573845012,
+    "rest": -115.23852873135884
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S00-S09|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 15.12140706979847,
+   "einwohner": 3.088245555590715,
+   "alterung": 6.736131686345163,
+   "rest": 5.297029827862592,
+   "absolut": {
+    "basis": 365753.0,
+    "beobachtet": 55307.0,
+    "einwohner": 11295.350766939708,
+    "alterung": 24637.603726758025,
+    "rest": 19374.045506302267
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S10-S19|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 22.46696035242291,
+   "einwohner": 3.187159247747223,
+   "alterung": 5.406775414988744,
+   "rest": 13.873025689686942,
+   "absolut": {
+    "basis": 24743.0,
+    "beobachtet": 5559.0,
+    "einwohner": 788.5988126700953,
+    "alterung": 1337.798440930665,
+    "rest": 3432.60274639924
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S20-S29|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 17.66705631280363,
+   "einwohner": 3.1534049806176423,
+   "alterung": 7.158202188226174,
+   "rest": 7.355449143959811,
+   "absolut": {
+    "basis": 93247.0,
+    "beobachtet": 16474.0,
+    "einwohner": 2940.4555422765334,
+    "alterung": 6674.808794455261,
+    "rest": 6858.735663268206
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S30-S39|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.777359269387544,
+   "einwohner": 3.1751901763066104,
+   "alterung": 8.372174905213948,
+   "rest": 3.2299941878669873,
+   "absolut": {
+    "basis": 135667.0,
+    "beobachtet": 20048.0,
+    "einwohner": 4307.685256489889,
+    "alterung": 11358.278528656605,
+    "rest": 4382.036214853506
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S40-S49|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 9.162788504926556,
+   "einwohner": 3.2949576045172706,
+   "alterung": 3.593397622254982,
+   "rest": 2.2744332781543037,
+   "absolut": {
+    "basis": 148481.0,
+    "beobachtet": 13605.0,
+    "einwohner": 4892.386000763288,
+    "alterung": 5335.51272350042,
+    "rest": 3377.1012757362914
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S50-S59|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -1.4389626818469323,
+   "einwohner": 3.0957368235768046,
+   "alterung": 2.2716150623069247,
+   "rest": -6.806314567730662,
+   "absolut": {
+    "basis": 151776.0,
+    "beobachtet": -2184.0,
+    "einwohner": 4698.585521351931,
+    "alterung": 3447.766476966958,
+    "rest": -10330.351998318889
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S60-S69|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -4.634064297041439,
+   "einwohner": 2.23100713071737,
+   "alterung": 0.031002901979562583,
+   "rest": -6.896074329738371,
+   "absolut": {
+    "basis": 62429.0,
+    "beobachtet": -2893.0,
+    "einwohner": 1392.7954416355467,
+    "alterung": 19.354801676821126,
+    "rest": -4305.150243312368
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S70-S79|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.057076760873347,
+   "einwohner": 3.7220118055172007,
+   "alterung": 13.636239105704687,
+   "rest": 0.6988258496514599,
+   "absolut": {
+    "basis": 195386.0,
+    "beobachtet": 35281.0,
+    "einwohner": 7272.289986327838,
+    "alterung": 26643.302139072162,
+    "rest": 1365.4078746000014
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S80-S89|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -8.145897407393683,
+   "einwohner": 2.791944666232738,
+   "alterung": 0.5233542508491016,
+   "rest": -11.461196324475523,
+   "absolut": {
+    "basis": 242883.0,
+    "beobachtet": -19785.0,
+    "einwohner": 6781.15896368606,
+    "alterung": 1271.1385050898234,
+    "rest": -27837.297468775883
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-S90-S99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -6.322959661695069,
+   "einwohner": 2.3174761305775586,
+   "alterung": -0.16161114689245004,
+   "rest": -8.478824645380179,
+   "absolut": {
+    "basis": 39491.0,
+    "beobachtet": -2497.0,
+    "einwohner": 915.1944987263837,
+    "alterung": -63.82185801929745,
+    "rest": -3348.3726407070862
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T00-T07|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -64.09295352323838,
+   "einwohner": 1.3330698572487782,
+   "alterung": 0.7945568910522678,
+   "rest": -66.22058027153943,
+   "absolut": {
+    "basis": 1334.0,
+    "beobachtet": -855.0,
+    "einwohner": 17.7831518956987,
+    "alterung": 10.599388926637253,
+    "rest": -883.382540822336
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T08-T14|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -51.02040816326531,
+   "einwohner": 1.1552957591989383,
+   "alterung": 0.9071048181743282,
+   "rest": -53.08280874063857,
+   "absolut": {
+    "basis": 5439.0,
+    "beobachtet": -2775.0,
+    "einwohner": 62.83653634283026,
+    "alterung": 49.337431060501714,
+    "rest": -2887.173967403332
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T15-T19|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 22.23374110166563,
+   "einwohner": 3.3070071066170867,
+   "alterung": 4.478057272014433,
+   "rest": 14.448676723034112,
+   "absolut": {
+    "basis": 14469.0,
+    "beobachtet": 3217.0,
+    "einwohner": 478.4908582564263,
+    "alterung": 647.9301066877683,
+    "rest": 2090.5790350558054
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T20-T32|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 12.956532151838104,
+   "einwohner": 3.156076942674347,
+   "alterung": 2.9154956846521594,
+   "rest": 6.884959524511597,
+   "absolut": {
+    "basis": 16702.0,
+    "beobachtet": 2164.0,
+    "einwohner": 527.1279709654694,
+    "alterung": 486.9460892506037,
+    "rest": 1149.9259397839269
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T33-T35|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -16.748768472906406,
+   "einwohner": 3.965276164295575,
+   "alterung": -2.19164060764856,
+   "rest": -18.522404029553417,
+   "absolut": {
+    "basis": 203.0,
+    "beobachtet": -34.0,
+    "einwohner": 8.049510613520017,
+    "alterung": -4.449030433526577,
+    "rest": -37.60048017999344
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T36-T50|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -55.34974241556955,
+   "einwohner": 1.183721574487946,
+   "alterung": -0.1108466273927673,
+   "rest": -56.42261736266473,
+   "absolut": {
+    "basis": 43675.0,
+    "beobachtet": -24174.0,
+    "einwohner": 516.9903976576104,
+    "alterung": -48.412264513791115,
+    "rest": -24642.57813314382
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T51-T65|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -47.15808467270358,
+   "einwohner": 1.0864420431291166,
+   "alterung": 0.14906995956964283,
+   "rest": -48.393596675402335,
+   "absolut": {
+    "basis": 29927.0,
+    "beobachtet": -14113.0,
+    "einwohner": 325.1395102472507,
+    "alterung": 44.61216680040701,
+    "rest": -14482.751677047658
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T66-T78|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 4.436962387288703,
+   "einwohner": 2.830206271167742,
+   "alterung": 1.3635357205404874,
+   "rest": 0.24322039558047284,
+   "absolut": {
+    "basis": 43363.0,
+    "beobachtet": 1924.0,
+    "einwohner": 1227.262345366468,
+    "alterung": 591.2699944979715,
+    "rest": 105.46766013556044
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T79-T79|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -13.429907952316283,
+   "einwohner": 2.4652119608812035,
+   "alterung": 5.585710414964128,
+   "rest": -21.480830328161613,
+   "absolut": {
+    "basis": 6627.0,
+    "beobachtet": -890.0,
+    "einwohner": 163.36959664759735,
+    "alterung": 370.1650291996727,
+    "rest": -1423.53462584727
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T80-T88|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -5.802561149129345,
+   "einwohner": 2.70431266884308,
+   "alterung": 3.4056535267053483,
+   "rest": -11.912527344677773,
+   "absolut": {
+    "basis": 295180.0,
+    "beobachtet": -17128.0,
+    "einwohner": 7982.590135891003,
+    "alterung": 10052.808080128847,
+    "rest": -35163.39821601985
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T89-T89|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 39.56412405699916,
+   "einwohner": 4.5463809320023225,
+   "alterung": 5.309873432729481,
+   "rest": 29.707869692267355,
+   "absolut": {
+    "basis": 1193.0,
+    "beobachtet": 472.0,
+    "einwohner": 54.2383245187877,
+    "alterung": 63.346790052462715,
+    "rest": 354.4148854287496
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-T90-T98|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -18.64406779661017,
+   "einwohner": 0.6488197693148164,
+   "alterung": 0.36273978580903626,
+   "rest": -19.655627351734022,
+   "absolut": {
+    "basis": 59.0,
+    "beobachtet": -11.0,
+    "einwohner": 0.38280366389574166,
+    "alterung": 0.2140164736273314,
+    "rest": -11.596820137523073
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-U00-U49|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -100.0,
+   "einwohner": 1306.5924460857746,
+   "alterung": 3070.4431797719435,
+   "rest": -4477.035625857718,
+   "absolut": {
+    "basis": 1.0,
+    "beobachtet": -1.0,
+    "einwohner": 13.065924460857746,
+    "alterung": 30.704431797719437,
+    "rest": -44.77035625857718
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-U50-U52|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt die Veränderung vollständig — sie hätte sogar mehr erwarten lassen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 47.82608695652174,
+   "einwohner": 37.581527729576116,
+   "alterung": 146.8252738734579,
+   "rest": -136.5807146465123,
+   "absolut": {
+    "basis": 23.0,
+    "beobachtet": 11.0,
+    "einwohner": 8.643751377802506,
+    "alterung": 33.76981299089532,
+    "rest": -31.413564368697823
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-U55-U55|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -100.0,
+   "einwohner": 2.9168199834229713,
+   "alterung": 14.933514335604379,
+   "rest": -117.85033431902734,
+   "absolut": {
+    "basis": 1.0,
+    "beobachtet": -1.0,
+    "einwohner": 0.029168199834229715,
+    "alterung": 0.14933514335604378,
+    "rest": -1.1785033431902734
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z00-Z13|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -17.156848108447047,
+   "einwohner": 2.1057164883289876,
+   "alterung": 2.58489903526964,
+   "rest": -21.847463632045674,
+   "absolut": {
+    "basis": 66982.0,
+    "beobachtet": -11492.0,
+    "einwohner": 1410.4510182125227,
+    "alterung": 1731.4170718043101,
+    "rest": -14633.868090016833
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z20-Z29|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.06734191075828,
+   "einwohner": 5.0758973076621965,
+   "alterung": 17.927293926454837,
+   "rest": -4.9358493233587515,
+   "absolut": {
+    "basis": 3653.0,
+    "beobachtet": 660.0,
+    "einwohner": 185.42252864890003,
+    "alterung": 654.8840471333951,
+    "rest": -180.30657578229517
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z30-Z39|DG|2011-2019": {
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 18.92502501317899,
+   "einwohner": 3.5665358139439074,
+   "alterung": 14.196664856748377,
+   "rest": 1.1618243424867019,
+   "absolut": {
+    "basis": 464755.0,
+    "beobachtet": 87955.0,
+    "einwohner": 16575.653522095006,
+    "alterung": 65979.70975498093,
+    "rest": 5399.636722924071
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z40-Z54|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 14.12983206590621,
+   "einwohner": 2.766768672496847,
+   "alterung": 4.429791687174598,
+   "rest": 6.933271706234765,
+   "absolut": {
+    "basis": 50496.0,
+    "beobachtet": 7135.0,
+    "einwohner": 1397.1075088640077,
+    "alterung": 2236.867610355685,
+    "rest": 3501.024880780307
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z55-Z65|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -26.262626262626263,
+   "einwohner": 4.305302137274777,
+   "alterung": 4.759659980967545,
+   "rest": -35.32758838086858,
+   "absolut": {
+    "basis": 99.0,
+    "beobachtet": -26.0,
+    "einwohner": 4.262249115902029,
+    "alterung": 4.712063381157869,
+    "rest": -34.9743124970599
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z70-Z76|DG|2011-2019": {
+   "urteil": "Die Alterung wirkte der Veränderung entgegen. Ohne sie wäre sie noch größer ausgefallen.",
+   "zeigt_ergebnis": true,
+   "beobachtet": -37.11857018308631,
+   "einwohner": 2.027558467120302,
+   "alterung": 2.978752207860178,
+   "rest": -42.124880858066795,
+   "absolut": {
+    "basis": 4588.0,
+    "beobachtet": -1703.0,
+    "einwohner": 93.02438247147946,
+    "alterung": 136.66515129662497,
+    "rest": -1932.6895337681044
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  },
+  "ICD10-Z80-Z99|DG|2011-2019": {
+   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "zeigt_ergebnis": true,
+   "beobachtet": 36.507936507936506,
+   "einwohner": 4.071970321776747,
+   "alterung": 11.959355437585362,
+   "rest": 20.476610748574398,
+   "absolut": {
+    "basis": 5229.0,
+    "beobachtet": 1909.0,
+    "einwohner": 212.92332812570612,
+    "alterung": 625.3546958313386,
+    "rest": 1070.7219760429552
+   },
+   "pruefung": {
+    "zustand": "geprueft",
+    "bruchjahr": null,
+    "zeitraum": "2011-2019"
+   }
+  }
+ },
+ "beleg": {
+  "quelle": "Statistisches Bundesamt (Destatis), Genesis-Online",
+  "tabelle": "23131-0010, Bundesbericht 23131 (Raten 2023), 12411-0013",
+  "abrufdatum": "2026-09-18 bis 2026-09-19",
+  "pruefsumme": "afe096612bc4",
+  "lizenz": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+  "lizenz_url": "https://www.govdata.de/dl-de/by-2-0",
+  "quellenvermerk": "Datenquelle: Statistisches Bundesamt (Destatis), Genesis-Online, Tabelle 23131-0010, Bundesbericht 23131 (Raten 2023), 12411-0013, Abrufdatum 2026-09-18 bis 2026-09-19; Datenlizenz by-2-0 (https://www.govdata.de/dl-de/by-2-0); eigene Berechnung — die Daten wurden verändert."
+ }
+}
