@@ -45,3 +45,8 @@ label.schalter .beleg { flex-basis: 100%; }
 .pflicht { font-size: var(--klein); color: #555; border-left: 3px solid #999; padding-left: .6rem; }
 .hinweis { font-size: var(--klein); color: #555; }
 .beleg { display: block; font-size: var(--klein); color: #666; max-width: 22rem; line-height: 1.35; }
+.wege { margin: 1rem 0 0; padding: .8rem 0 0; border-top: 1px solid #ddd; }
+.wege ul { list-style: none; padding: 0; margin: .5rem 0; }
+.wege li { margin: .2rem 0; }
+.wege .wegzahl { display: inline-block; min-width: 6.5rem; text-align: right; margin-right: .6rem;
+  font-variant-numeric: tabular-nums; font-weight: 600; }

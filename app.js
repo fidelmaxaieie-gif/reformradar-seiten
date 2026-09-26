@@ -67,6 +67,25 @@ function pruefzeile(p, zeitraumName) {
     `pruefung.${zustand}`, ersetzungen);
 }
 
+function personen(x) {
+  const betrag = Math.round(Math.abs(x)).toLocaleString("de-DE");
+  return `${x < 0 ? "−" : "+"}${betrag}`;
+}
+
+// Der Pflege-Rest nach Versorgungsart (Spec-Nachtrag K/L) — nur, wenn der Eintrag ihn traegt.
+// Die Zahlen kommen fertig aus Python; hier wird nur gezeichnet.
+function wegeblock(e) {
+  if (!e.wege) return "";
+  const zeilen = e.wege.map((w) =>
+    `<li><span class="wegzahl">${personen(w.personen)}</span> ${esc(text(`wege.namen.${w.weg}`))}</li>`).join("");
+  return `<section class="wege"><b>${esc(text("wege.titel"))}</b>
+    <div>${esc(text("wege.satz"))}
+      <button type="button" class="hilfe" data-hilfe="wege"
+              aria-label="Erklärung in Leichter Sprache" aria-expanded="false">?</button>
+      <div class="leicht" hidden></div></div>
+    <ul>${zeilen}</ul><p class="hinweis">${esc(text("wege.hinweis"))}</p></section>`;
+}
+
 function zeichne(e, zeitraumName) {
   const urteil = `<p class="urteil">${esc(e.urteil)}</p>`;
   if (!e.zeigt_ergebnis) {
@@ -79,7 +98,8 @@ function zeichne(e, zeitraumName) {
     pruefzeile(e.pruefung, zeitraumName) +
     zeile("einwohner", e.einwohner, "zeilen.einwohner", "einwohner") +
     zeile("alterung", e.alterung, "zeilen.alterung", "alterung") +
-    zeile("rest", e.rest, "zeilen.rest", "rest");
+    zeile("rest", e.rest, "zeilen.rest", "rest") +
+    wegeblock(e);
 }
 
 $("ergebnis").addEventListener("click", (ev) => {
