@@ -11,4 +11,4 @@ rechnen und keine Daten der Besucher erheben:
 Keine Prognose, keine Beratung. Quellen und Vermerke stehen auf den Seiten selbst; Daten des
 Statistischen Bundesamts unter Datenlizenz Deutschland – Namensnennung – Version 2.0.
 
-Gebaut aus dem (privaten) Forschungs-Repository, Stand `e9e7f2c`.
+Gebaut aus dem (privaten) Forschungs-Repository, Stand `af192e8`.

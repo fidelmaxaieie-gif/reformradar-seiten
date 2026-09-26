@@ -19,7 +19,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 11974.38592345612
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 9084.100869042522
+    },
+    {
+     "weg": "ambulant",
+     "personen": 2052.11349014342
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2211.402711802104
+    }
+   ]
   },
   "-|02|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -40,7 +58,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 4770.66291254031
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 5568.4399024538725
+    },
+    {
+     "weg": "ambulant",
+     "personen": 1755.451540928465
+    },
+    {
+     "weg": "stationaer",
+     "personen": -1224.8581114870012
+    }
+   ]
   },
   "-|03|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -61,7 +97,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 37679.51443186622
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 38768.94095693962
+    },
+    {
+     "weg": "ambulant",
+     "personen": 2371.3810707284283
+    },
+    {
+     "weg": "stationaer",
+     "personen": -6357.588920676528
+    }
+   ]
   },
   "-|04|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -82,7 +136,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 2684.841798930373
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 3737.5131476555616
+    },
+    {
+     "weg": "ambulant",
+     "personen": 871.0131501789328
+    },
+    {
+     "weg": "stationaer",
+     "personen": -428.35867117662747
+    }
+   ]
   },
   "-|05|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -103,7 +175,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 85016.62294465715
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 124505.16810607148
+    },
+    {
+     "weg": "ambulant",
+     "personen": 3194.9821888678416
+    },
+    {
+     "weg": "stationaer",
+     "personen": -7992.499126520299
+    }
+   ]
   },
   "-|06|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -124,7 +214,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 21211.239593724855
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 28802.222167620817
+    },
+    {
+     "weg": "ambulant",
+     "personen": 2604.0844070624007
+    },
+    {
+     "weg": "stationaer",
+     "personen": -3505.282073851835
+    }
+   ]
   },
   "-|07|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -145,7 +253,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 17330.481881468346
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 16813.910901878364
+    },
+    {
+     "weg": "ambulant",
+     "personen": 872.589842884161
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2224.6700787218506
+    }
+   ]
   },
   "-|08|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -166,7 +292,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 38586.7157961465
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 22709.88017792307
+    },
+    {
+     "weg": "ambulant",
+     "personen": -3826.8567850321706
+    },
+    {
+     "weg": "stationaer",
+     "personen": -6675.8053278836305
+    }
+   ]
   },
   "-|09|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -187,7 +331,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 43822.690830227075
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 32315.488133887353
+    },
+    {
+     "weg": "ambulant",
+     "personen": 881.1852973648929
+    },
+    {
+     "weg": "stationaer",
+     "personen": -9499.683032675604
+    }
+   ]
   },
   "-|10|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -208,7 +370,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 5388.665353565542
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 8001.028681825486
+    },
+    {
+     "weg": "ambulant",
+     "personen": 1382.9263201670128
+    },
+    {
+     "weg": "stationaer",
+     "personen": -783.7983947508801
+    }
+   ]
   },
   "-|11|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -229,7 +409,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 11895.551665078
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 10781.05805589899
+    },
+    {
+     "weg": "ambulant",
+     "personen": 1757.4829167656062
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2167.1082719804217
+    }
+   ]
   },
   "-|12|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -250,7 +448,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 12204.95006692506
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 13409.577061839547
+    },
+    {
+     "weg": "ambulant",
+     "personen": 1312.882951761836
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2258.0961396020793
+    }
+   ]
   },
   "-|13|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -271,7 +487,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 9339.947682234424
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 6677.195379411241
+    },
+    {
+     "weg": "ambulant",
+     "personen": 1578.3559498428222
+    },
+    {
+     "weg": "stationaer",
+     "personen": -1553.3736961110808
+    }
+   ]
   },
   "-|14|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -292,7 +526,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 24553.045835680357
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 29718.08254516432
+    },
+    {
+     "weg": "ambulant",
+     "personen": 6017.567138365746
+    },
+    {
+     "weg": "stationaer",
+     "personen": -3936.6954466541792
+    }
+   ]
   },
   "-|15|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -313,7 +565,25 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 13438.510319773117
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 19069.248482923656
+    },
+    {
+     "weg": "ambulant",
+     "personen": 3528.8692590301325
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2292.204436817909
+    }
+   ]
   },
   "-|16|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
@@ -334,14 +604,32 @@
     "bruchjahr": null,
     "zeitraum": "2019-2021",
     "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
-   }
+   },
+   "wege": [
+    {
+     "weg": "pflegegrad1",
+     "personen": 12110.298923903129
+    },
+    {
+     "weg": "angehoerige",
+     "personen": 14914.706799784411
+    },
+    {
+     "weg": "ambulant",
+     "personen": 3396.864794503381
+    },
+    {
+     "weg": "stationaer",
+     "personen": -2234.1970393382726
+    }
+   ]
   }
  },
  "beleg": {
   "quelle": "Statistisches Bundesamt (Destatis), Genesis-Online",
   "tabelle": "22421-0010, 12411-0013",
   "abrufdatum": "2026-09-19 bis 2026-09-24",
-  "pruefsumme": "f390f780a6e6",
+  "pruefsumme": "e8067fa37991",
   "lizenz": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
   "lizenz_url": "https://www.govdata.de/dl-de/by-2-0",
   "quellenvermerk": "Datenquelle: Statistisches Bundesamt (Destatis), Genesis-Online, Tabelle 22421-0010, 12411-0013, Abrufdatum 2026-09-19 bis 2026-09-24; Datenlizenz by-2-0 (https://www.govdata.de/dl-de/by-2-0); eigene Berechnung — die Daten wurden verändert."
