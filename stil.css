@@ -50,3 +50,6 @@ label.schalter .beleg { flex-basis: 100%; }
 .wege li { margin: .2rem 0; }
 .wege .wegzahl { display: inline-block; min-width: 6.5rem; text-align: right; margin-right: .6rem;
   font-variant-numeric: tabular-nums; font-weight: 600; }
+.kennzeichnung { margin: 0 0 1rem; padding: .7rem .9rem; border-left: 4px solid #b26b00;
+  background: #fff7ea; font-size: var(--klein); }
+.kennzeichnung b { display: block; margin-bottom: .2rem; }

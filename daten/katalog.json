@@ -6,6 +6,7 @@
     "wert": "krankenhaus",
     "name": "Krankenhausfälle",
     "sachachse": "Diagnose",
+    "kennzeichnung": null,
     "gebiet_bezeichnung": "Gebiet",
     "sachen": [
      {
@@ -928,8 +929,9 @@
    },
    {
     "wert": "pflege",
-    "name": "Pflegebedürftige",
+    "name": "Pflegebedürftige (ohne einen Teil von Pflegegrad 1)",
     "sachachse": null,
+    "kennzeichnung": "ohne_pg1",
     "gebiet_bezeichnung": "Bundesland",
     "sachen": [],
     "gebiete": [

@@ -3,28 +3,24 @@
   "-|01|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 21.631926597058666,
-   "einwohner": 0.719995271685713,
-   "alterung": 4.878668645306374,
-   "rest": 16.033262680066578,
+   "beobachtet": 12.929340500511554,
+   "einwohner": 0.7229715805800514,
+   "alterung": 4.959497809465082,
+   "rest": 7.246871110466421,
    "absolut": {
-    "basis": 130349.0,
-    "beobachtet": 28197.0,
-    "einwohner": 938.50663668961,
-    "alterung": 6359.295792470406,
-    "rest": 20899.197570839984
+    "basis": 123154.0,
+    "beobachtet": 15923.0,
+    "einwohner": 890.3684203475565,
+    "alterung": 6107.819932268627,
+    "rest": 8924.811647383816
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 11974.38592345612
-    },
     {
      "weg": "angehoerige",
      "personen": 9084.100869042522
@@ -42,28 +38,24 @@
   "-|02|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 16.764306498545103,
-   "einwohner": 0.37816330085423727,
-   "alterung": 2.328986722507339,
-   "rest": 14.057156475183527,
+   "beobachtet": 11.064706765480626,
+   "einwohner": 0.3789120215519328,
+   "alterung": 2.361628545542815,
+   "rest": 8.324166198385878,
    "absolut": {
-    "basis": 77325.0,
-    "beobachtet": 12963.0,
-    "einwohner": 292.414772385539,
-    "alterung": 1800.8889831787997,
-    "rest": 10869.696244435661
+    "basis": 73269.0,
+    "beobachtet": 8107.0,
+    "einwohner": 277.62504907088567,
+    "alterung": 1730.3416190337653,
+    "rest": 6099.033331895349
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 4770.66291254031
-    },
     {
      "weg": "angehoerige",
      "personen": 5568.4399024538725
@@ -81,28 +73,24 @@
   "-|03|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 18.991353519413487,
-   "einwohner": 0.3683601950682025,
-   "alterung": 2.7410309263753443,
-   "rest": 15.881962397969938,
+   "beobachtet": 11.126663448941597,
+   "einwohner": 0.36664127936903823,
+   "alterung": 2.7656455792138965,
+   "rest": 7.994376590358663,
    "absolut": {
-    "basis": 456255.0,
-    "beobachtet": 86649.0,
-    "einwohner": 1680.6618080084274,
-    "alterung": 12506.090653133828,
-    "rest": 72462.24753885774
+    "basis": 435090.0,
+    "beobachtet": 48411.0,
+    "einwohner": 1595.2195424067486,
+    "alterung": 12033.047350601742,
+    "rest": 34782.73310699151
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 37679.51443186622
-    },
     {
      "weg": "angehoerige",
      "personen": 38768.94095693962
@@ -120,28 +108,24 @@
   "-|04|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 21.61036557149468,
-   "einwohner": -0.6691575591062432,
-   "alterung": 2.424683283342005,
-   "rest": 19.854839847258916,
+   "beobachtet": 14.760695932140425,
+   "einwohner": -0.6800760614422517,
+   "alterung": 2.49987784876852,
+   "rest": 12.940894144814157,
    "absolut": {
-    "basis": 34576.0,
-    "beobachtet": 7472.0,
-    "einwohner": -231.36791763657465,
-    "alterung": 838.3584920483315,
-    "rest": 6865.009425588243
+    "basis": 32302.0,
+    "beobachtet": 4768.0,
+    "einwohner": -219.67816936707615,
+    "alterung": 807.5105427092074,
+    "rest": 4180.167626657869
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 2684.841798930373
-    },
     {
      "weg": "angehoerige",
      "personen": 3737.5131476555616
@@ -159,28 +143,24 @@
   "-|05|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 23.52301119082433,
-   "einwohner": -0.11534580364776263,
-   "alterung": 2.423120508065941,
-   "rest": 21.215236486406152,
+   "beobachtet": 15.411767402415824,
+   "einwohner": -0.11532224708608267,
+   "alterung": 2.461549890732997,
+   "rest": 13.06553975876891,
    "absolut": {
-    "basis": 964987.0,
-    "beobachtet": 226994.0,
-    "einwohner": -1113.0720102464352,
-    "alterung": 23382.79789717028,
-    "rest": 204724.27411307616
+    "basis": 916209.0,
+    "beobachtet": 141204.0,
+    "einwohner": -1056.5928068049272,
+    "alterung": 22552.94163838588,
+    "rest": 119707.65116841905
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 85016.62294465715
-    },
     {
      "weg": "angehoerige",
      "personen": 124505.16810607148
@@ -198,28 +178,24 @@
   "-|06|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 18.587620270848824,
-   "einwohner": 0.10644626873253306,
-   "alterung": 2.6718098258307843,
-   "rest": 15.809364176285507,
+   "beobachtet": 12.20403371097361,
+   "einwohner": 0.10590005254494125,
+   "alterung": 2.6848960619106363,
+   "rest": 9.413237596518032,
    "absolut": {
-    "basis": 310653.0,
-    "beobachtet": 57743.0,
-    "einwohner": 330.67852720567595,
-    "alterung": 8300.057378238107,
-    "rest": 49112.264094556216
+    "basis": 296402.0,
+    "beobachtet": 36173.0,
+    "einwohner": 313.88987374425676,
+    "alterung": 7958.085625424364,
+    "rest": 27901.02450083138
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 21211.239593724855
-    },
     {
      "weg": "angehoerige",
      "personen": 28802.222167620817
@@ -237,28 +213,24 @@
   "-|07|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 19.069794976024628,
-   "einwohner": 0.3107757333025621,
-   "alterung": 2.5819011479704836,
-   "rest": 16.17711809475158,
+   "beobachtet": 11.016068472476801,
+   "einwohner": 0.312302902523138,
+   "alterung": 2.6294074127151834,
+   "rest": 8.074358157238478,
    "absolut": {
-    "basis": 202708.0,
-    "beobachtet": 38656.0,
-    "einwohner": 629.9672734629576,
-    "alterung": 5233.720179028008,
-    "rest": 32792.312547509035
+    "basis": 191493.0,
+    "beobachtet": 21095.0,
+    "einwohner": 598.0381971286326,
+    "alterung": 5035.131136830686,
+    "rest": 15461.830666040682
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 17330.481881468346
-    },
     {
      "weg": "angehoerige",
      "personen": 16813.910901878364
@@ -274,30 +246,26 @@
    ]
   },
   "-|08|2019-2021": {
-   "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
+   "urteil": "Die Veränderung geht überwiegend auf die Alterung zurück — aber nicht vollständig.",
    "zeigt_ergebnis": true,
-   "beobachtet": 14.512844528546575,
-   "einwohner": 0.24364438949519732,
-   "alterung": 3.505789539819362,
-   "rest": 10.763410599232015,
+   "beobachtet": 6.5237899367807355,
+   "einwohner": 0.24398448929566974,
+   "alterung": 3.5509110100186563,
+   "rest": 2.7288944374664093,
    "absolut": {
-    "basis": 471913.0,
-    "beobachtet": 68488.0,
-    "einwohner": 1149.7895477984705,
-    "alterung": 16544.276591047746,
-    "rest": 50793.93386115378
+    "basis": 447332.0,
+    "beobachtet": 29183.0,
+    "einwohner": 1091.4206956561054,
+    "alterung": 15884.361239336655,
+    "rest": 12207.218065007239
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 38586.7157961465
-    },
     {
      "weg": "angehoerige",
      "personen": 22709.88017792307
@@ -315,28 +283,24 @@
   "-|09|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 17.510508215513948,
-   "einwohner": 0.4992956934069761,
-   "alterung": 3.287588503049153,
-   "rest": 13.723624019057818,
+   "beobachtet": 8.92497763864043,
+   "einwohner": 0.5011969148523817,
+   "alterung": 3.3286180022005807,
+   "rest": 5.095162721587467,
    "absolut": {
-    "basis": 491996.0,
-    "beobachtet": 86151.0,
-    "einwohner": 2456.514839734586,
-    "alterung": 16174.80393146171,
-    "rest": 67519.6812288037
+    "basis": 465088.0,
+    "beobachtet": 41509.0,
+    "einwohner": 2331.0067073486453,
+    "alterung": 15481.002894074638,
+    "rest": 23696.99039857672
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 43822.690830227075
-    },
     {
      "weg": "angehoerige",
      "personen": 32315.488133887353
@@ -354,28 +318,24 @@
   "-|10|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 27.546187497740338,
-   "einwohner": -0.4426809886794831,
-   "alterung": 2.700857421653995,
-   "rest": 25.288011064765826,
+   "beobachtet": 18.80772621009466,
+   "einwohner": -0.44532520980815954,
+   "alterung": 2.773235746654024,
+   "rest": 16.479815673248797,
    "absolut": {
-    "basis": 55318.0,
-    "beobachtet": 15238.0,
-    "einwohner": -244.88226931771646,
-    "alterung": 1494.060308510557,
-    "rest": 13988.82196080716
+    "basis": 52186.0,
+    "beobachtet": 9815.0,
+    "einwohner": -232.39741399048614,
+    "alterung": 1447.240806748869,
+    "rest": 8600.156607241617
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 5388.665353565542
-    },
     {
      "weg": "angehoerige",
      "personen": 8001.028681825486
@@ -393,28 +353,24 @@
   "-|11|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 17.065660453553086,
-   "einwohner": 0.22099328751076552,
-   "alterung": 2.7945009858059633,
-   "rest": 14.050166180236356,
+   "beobachtet": 10.03952463075674,
+   "einwohner": 0.2229285757858554,
+   "alterung": 2.8568838662967044,
+   "rest": 6.959712188674179,
    "absolut": {
-    "basis": 158482.0,
-    "beobachtet": 27046.0,
-    "einwohner": 350.2345819128114,
-    "alterung": 4428.781052325006,
-    "rest": 22266.984365762182
+    "basis": 149021.0,
+    "beobachtet": 14961.0,
+    "einwohner": 332.2103929218396,
+    "alterung": 4257.356906394012,
+    "rest": 10371.432700684149
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 11895.551665078
-    },
     {
      "weg": "angehoerige",
      "personen": 10781.05805589899
@@ -432,28 +388,24 @@
   "-|12|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 19.922582824038294,
-   "einwohner": 0.5709378802377018,
-   "alterung": 3.329592777532684,
-   "rest": 16.02205216626791,
+   "beobachtet": 12.454294913774286,
+   "einwohner": 0.5686736457031301,
+   "alterung": 3.3828626768797703,
+   "rest": 8.502758591191386,
    "absolut": {
-    "basis": 153971.0,
-    "beobachtet": 30675.0,
-    "einwohner": 879.0787635807918,
-    "alterung": 5126.607295494849,
-    "rest": 24669.31394092436
+    "basis": 146592.0,
+    "beobachtet": 18257.0,
+    "einwohner": 833.6300707091324,
+    "alterung": 4959.006055291593,
+    "rest": 12464.363873999275
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 12204.95006692506
-    },
     {
      "weg": "angehoerige",
      "personen": 13409.577061839547
@@ -471,28 +423,24 @@
   "-|13|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 19.292011340246223,
-   "einwohner": 0.16197264789970725,
-   "alterung": 3.554554872220116,
-   "rest": 15.575483820126399,
+   "beobachtet": 10.657568492448926,
+   "einwohner": 0.16207798635068713,
+   "alterung": 3.6286459402665945,
+   "rest": 6.866844565831644,
    "absolut": {
-    "basis": 102996.0,
-    "beobachtet": 19870.0,
-    "einwohner": 166.82534843078247,
-    "alterung": 3661.0493361918307,
-    "rest": 16042.125315377387
+    "basis": 97602.0,
+    "beobachtet": 10402.0,
+    "einwohner": 158.19135623799767,
+    "alterung": 3541.6310106190012,
+    "rest": 6702.177633143001
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 9339.947682234424
-    },
     {
      "weg": "angehoerige",
      "personen": 6677.195379411241
@@ -510,28 +458,24 @@
   "-|14|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 23.8672790775561,
-   "einwohner": -0.6838078349613995,
-   "alterung": 2.083262377584469,
-   "rest": 22.46782453493303,
+   "beobachtet": 14.707234312840571,
+   "einwohner": -0.6805534041520904,
+   "alterung": 2.099687962339208,
+   "rest": 13.288099754653455,
    "absolut": {
-    "basis": 250812.0,
-    "beobachtet": 59862.0,
-    "einwohner": -1715.0721070233856,
-    "alterung": 5225.072034467158,
-    "rest": 56352.00007255623
+    "basis": 239304.0,
+    "beobachtet": 35195.0,
+    "einwohner": -1628.5915182721185,
+    "alterung": 5024.637281396219,
+    "rest": 31798.954236875903
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 24553.045835680357
-    },
     {
      "weg": "angehoerige",
      "personen": 29718.08254516432
@@ -549,28 +493,24 @@
   "-|15|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 28.28366956629033,
-   "einwohner": -1.1490757487996126,
-   "alterung": 3.409838577390979,
-   "rest": 26.022906737698968,
+   "beobachtet": 18.909889894468584,
+   "einwohner": -1.1544118207600447,
+   "alterung": 3.47829744730309,
+   "rest": 16.586004267925542,
    "absolut": {
-    "basis": 129672.0,
-    "beobachtet": 36676.0,
-    "einwohner": -1490.0295049834335,
-    "alterung": 4421.60588007443,
-    "rest": 33744.423624909
+    "basis": 122428.0,
+    "beobachtet": 23151.0,
+    "einwohner": -1413.3233039201075,
+    "alterung": 4258.409998784227,
+    "rest": 20305.91330513588
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 13438.510319773117
-    },
     {
      "weg": "angehoerige",
      "personen": 19069.248482923656
@@ -588,28 +528,24 @@
   "-|16|2019-2021": {
    "urteil": "Die Alterung erklärt nur einen kleineren Teil. Das meiste hat einen anderen Ursprung.",
    "zeigt_ergebnis": true,
-   "beobachtet": 22.760192341731077,
-   "einwohner": -1.0188470821551632,
-   "alterung": 2.9904431358658266,
-   "rest": 20.78859628802041,
+   "beobachtet": 14.360277136258661,
+   "einwohner": -1.0086817465384235,
+   "alterung": 2.992227123790524,
+   "rest": 12.37673175900656,
    "absolut": {
-    "basis": 135592.0,
-    "beobachtet": 30861.0,
-    "einwohner": -1381.4751356358288,
-    "alterung": 4054.8016567831914,
-    "rest": 28187.673478852637
+    "basis": 129900.0,
+    "beobachtet": 18654.0,
+    "einwohner": -1310.2775887534121,
+    "alterung": 3886.9030338038906,
+    "rest": 16077.374554949522
    },
    "pruefung": {
     "zustand": "nicht_geprueft",
     "bruchjahr": null,
     "zeitraum": "2019-2021",
-    "grund": "Die Pflegestatistik wächst seit der Pflegereform 2017 um rund 20 % alle zwei Jahre. Ein Sprung durch die Zählweise lässt sich davon nicht trennen."
+    "grund": "Gegen die Zählung der Pflegekassen ließen sich die Pflegegrade 2 bis 5 prüfen: Dort springt nichts. Enthalten sind aber auch Menschen im Pflegegrad 1 mit Pflegedienst oder Heim; ihre Erfassung lässt sich nicht einzeln prüfen."
    },
    "wege": [
-    {
-     "weg": "pflegegrad1",
-     "personen": 12110.298923903129
-    },
     {
      "weg": "angehoerige",
      "personen": 14914.706799784411
@@ -629,7 +565,7 @@
   "quelle": "Statistisches Bundesamt (Destatis), Genesis-Online",
   "tabelle": "22421-0010, 12411-0013",
   "abrufdatum": "2026-09-19 bis 2026-09-24",
-  "pruefsumme": "e8067fa37991",
+  "pruefsumme": "2235899a5e97",
   "lizenz": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
   "lizenz_url": "https://www.govdata.de/dl-de/by-2-0",
   "quellenvermerk": "Datenquelle: Statistisches Bundesamt (Destatis), Genesis-Online, Tabelle 22421-0010, 12411-0013, Abrufdatum 2026-09-19 bis 2026-09-24; Datenlizenz by-2-0 (https://www.govdata.de/dl-de/by-2-0); eigene Berechnung — die Daten wurden verändert."
