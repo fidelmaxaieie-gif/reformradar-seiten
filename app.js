@@ -86,8 +86,20 @@ function wegeblock(e) {
     <ul>${zeilen}</ul><p class="hinweis">${esc(text("wege.hinweis"))}</p></section>`;
 }
 
+// Was am Outcome bewusst fehlt (Spec-Nachtrag N) — steht IMMER ueber dem Ergebnis, auch wenn
+// keines gezeigt wird. Der Outcome traegt den Schluessel, der Text kommt aus texte.json.
+function kennzeichnungsblock(o) {
+  if (!o.kennzeichnung) return "";
+  const k = o.kennzeichnung;
+  return `<section class="kennzeichnung"><b>${esc(text(`kennzeichnung.${k}.titel`))}</b>
+    <div>${esc(text(`kennzeichnung.${k}.satz`))}
+      <button type="button" class="hilfe" data-hilfe="kennzeichnung.${esc(k)}"
+              aria-label="Erklärung in Leichter Sprache" aria-expanded="false">?</button>
+      <div class="leicht" hidden></div></div></section>`;
+}
+
 function zeichne(e, zeitraumName) {
-  const urteil = `<p class="urteil">${esc(e.urteil)}</p>`;
+  const urteil = kennzeichnungsblock(gewaehlterOutcome()) + `<p class="urteil">${esc(e.urteil)}</p>`;
   if (!e.zeigt_ergebnis) {
     $("ergebnis").innerHTML = urteil + pruefzeile(e.pruefung, zeitraumName) +
       `<p>${esc(text("bruch_hinweis", { bruchjahr: e.pruefung.bruchjahr }))}</p>`;
