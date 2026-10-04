@@ -48,9 +48,36 @@
 <p class="hinweis">Zerlegung in fester Reihenfolge: erst Ausgaben je Versichertem, dann Beitragsbasis je Versichertem, dann die Hebel in der Reihenfolge der Regler. Eine andere Reihenfolge verschöbe die Zeilen, nicht den Satz. Die Zeilen sind einzeln gerundet; ihre Summe kann vom Satz um 0,01 abweichen.</p>
 <p class="hinweis">Die Zahl der Versicherten kürzt sich im Beitragssatz heraus: weniger Versicherte senken Ausgaben und Beitragsbasis im gleichen Verhältnis. Die beiden Zeilen zeigen deshalb Werte je Versichertem.</p>
 
+<section id="pflege">
+<h2>Pflegebedarf je Land</h2>
+<p class="unterzeile">Wie viele Menschen mit Pflegeleistung gibt es bis 2040 — zu Hause durch Angehörige, mit Pflegedienst oder im Heim?</p>
+<form id="pflege-regler" aria-label="Regler Pflegebedarf">
+  <fieldset><legend>Auswahl</legend>
+    <label>Land <select id="p-land"></select>
+      <small class="beleg">16 Länder — Destatis 22421-0010 (Pflegestatistik 15.12.2023), 12411-0013 (Bevölkerung 31.12.2023).</small></label>
+    <label>Bevölkerungsvariante <select id="p-variante"></select>
+      <small class="beleg">jung · moderat · alt — Destatis 12421-0004 (Varianten 05, 02, 04), je Land.</small></label>
+    <label>Zieljahr <input id="p-jahr" type="range" min="2025" max="2040" step="1"> <output for="p-jahr"></output>
+      <small class="beleg">2025–2040 — Ausgangspunkt ist 2023 (gezählt).</small></label>
+  </fieldset>
+  <fieldset><legend>Häufigkeit</legend>
+    <label>Häufigkeit ändert sich wie 2019–2023, abklingend <input id="p-trend" type="range" min="0" max="1" step="0.05"> <output for="p-trend"></output>
+      <small class="beleg" id="p-beleg-trend"></small></label>
+    <label>Halbwertszeit des Trends <input id="p-halbwertszeit" type="range" min="2" step="1"> <output for="p-halbwertszeit"></output>
+      <small class="beleg" id="p-beleg-halbwertszeit"></small></label>
+  </fieldset>
+</form>
+<div id="p-ergebnis" aria-live="polite"></div>
+<p class="pflicht">Wenn-dann-Rechnung mit Häufigkeiten von 2023, keine Prognose. Gezählt: Pflegegeld, Pflegedienst, Heim — ohne Pflegegrad 1 ohne Leistung.</p>
+<p class="hinweis" id="p-probe"></p>
+<p class="hinweis" id="p-quellenvermerk"></p>
+</section>
+<!-- /pflege -->
+
 <section id="annahmen"><h2>Woher die Zahlen kommen</h2><ul id="quellen"></ul></section>
 
 <footer><p id="quellenvermerk"></p></footer>
 <script type="module" src="rechner_app.js"></script>
+<script type="module" src="pflege_app.js"></script>
 </body>
 </html>

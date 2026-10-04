@@ -53,3 +53,10 @@ label.schalter .beleg { flex-basis: 100%; }
 .kennzeichnung { margin: 0 0 1rem; padding: .7rem .9rem; border-left: 4px solid #b26b00;
   background: #fff7ea; font-size: var(--klein); }
 .kennzeichnung b { display: block; margin-bottom: .2rem; }
+
+#pflege { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 2px solid #333; }
+.pflege-tabelle { border-collapse: collapse; margin: .8rem 0 1.2rem; font-variant-numeric: tabular-nums; }
+.pflege-tabelle th, .pflege-tabelle td { padding: .25rem .8rem; text-align: right; }
+.pflege-tabelle th:first-child { text-align: left; font-weight: 400; }
+.pflege-tabelle .summe { border-top: 1px solid #999; font-weight: 600; }
+.zahl.haeufigkeit { color: #7c2d12; } .zahl.start { color: #1e3a8a; }
