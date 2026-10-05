@@ -1,0 +1,9 @@
+/* Zusatz-Stil der Intensiv-Seite (nach stil.css geladen); hält stil.css der anderen Seiten unberührt */
+ul.pflicht { padding-left: 1.6rem; }
+#grafik { width: 100%; height: auto; background: #fafafa; }
+#grafik .gitter { stroke: #e5e5e5; } #grafik .achse { font-size: 11px; fill: #666; }
+#grafik .verlauf { fill: none; stroke: #1a1a1a; stroke-width: 1.5; }
+#grafik .intervall { stroke-width: 1; } #grafik .pruefung { stroke: #bbb; fill: #bbb; }
+#grafik .live { stroke: #1e3a8a; fill: #1e3a8a; } #grafik .aktuell { stroke: #b91c1c; fill: #b91c1c; }
+figcaption { font-size: var(--klein); color: #555; }
+#grafik-feld { margin: 1rem 0; }
