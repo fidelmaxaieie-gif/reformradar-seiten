@@ -1,5 +1,6 @@
 // Liest die Regler des Pflege-Abschnitts, ruft rechnePflege(), zeichnet. Rechnet NICHT selbst (Paritaet).
 import { rechnePflege, tausender } from "./pflege.js";
+import { rechnePersonal } from "./personal.js";
 
 const $ = (id) => document.getElementById(id);
 const WEG_NAMEN = { angehoerige: "zu Hause allein durch Angehörige",
@@ -16,6 +17,41 @@ function personen(x) {
 }
 function prozent(x) { return `${x < 0 ? "−" : "+"}${Math.abs(x * 100).toFixed(1).replace(".", ",")} %`; }
 function melde(t) { $("p-ergebnis").innerHTML = `<p class="fehler">${esc(t)}</p>`; }
+
+// Personal-Teil (Spec 2026-10-03-pflegepersonal): eigene Datei, eigener Fehler — bricht er ab,
+// bleibt der Pflege-Abschnitt heil.
+const SEKTOR_NAMEN = { ambulant: "ambulant", stationaer: "stationär" };
+let personal = null;
+let personalFehler = "";
+function komma(x, stellen) { return x.toFixed(stellen).replace(".", ","); }
+
+function zeichnePersonal(b, e, r) {
+  const ziel = $("p-personal");
+  if (personal === null) {
+    ziel.innerHTML = `<p class="fehler">${esc(personalFehler)}</p>`;
+    return;
+  }
+  try {
+    const name = b.laender.find((l) => l.code === r.land).name;
+    const p = rechnePersonal(personal, e, r.land, r.jahr, name);
+    const davon = p.sektoren.map((s) => `${SEKTOR_NAMEN[s.sektor]} ${personen(s.neu)}`).join(", ");
+    const q = personal.quote[r.land];
+    const jeJahr = p.neu > 0 ? `≈ ${tausender(p.je_jahr)} je Jahr; ` : "";
+    ziel.innerHTML = `<p class="urteil">${esc(p.urteil)}</p>
+      <div class="zeile"><div class="zahl start">${tausender(p.bestand_2023)}</div>
+      <div class="text"><b>Personal 2023 gezählt</b>alle Beschäftigten der Dienste und Heime, in Köpfen</div></div>
+      <div class="zeile"><div class="zahl">${personen(p.veraenderung)}</div>
+      <div class="text"><b>Veränderung des Bestands bis ${r.jahr}</b>noch da: ${tausender(p.bestand_ziel)}</div></div>
+      <div class="zeile"><div class="zahl">${personen(p.mehrbedarf)}</div>
+      <div class="text"><b>Mehrbedarf durch Pflegebedürftige</b>gebraucht ${r.jahr}: ${tausender(p.bedarf_ziel)}</div></div>
+      <div class="zeile ergebnis"><div class="zahl">${personen(p.neu)}</div>
+      <div class="text"><b>Neu nötig bis ${r.jahr}</b>${jeJahr}davon ${esc(davon)}</div></div>
+      <p class="beleg">Personal je Pflegebedürftigem 2023 in ${esc(name)}: ambulant ${komma(q.ambulant, 2)}, `
+      + `stationär ${komma(q.stationaer, 2)} — Destatis 22411-0015, 22412-0016, 22421-0010.</p>`;
+  } catch (f) {
+    ziel.innerHTML = `<p class="fehler">${esc(f.message)}</p>`;
+  }
+}
 
 function regler() {
   return { land: $("p-land").value, variante: $("p-variante").value, jahr: Number($("p-jahr").value),
@@ -45,9 +81,42 @@ function zeichne(b) {
       <div class="text"><b>2023 gezählt</b></div></div>${fall}
       <div class="zeile ergebnis"><div class="zahl">${tausender(e.gesamt_ziel)}</div>
       <div class="text"><b>${r.jahr}</b>bei den gewählten Annahmen</div></div>`;
+    zeichnePersonal(b, e, r);
   } catch (f) {
     melde(f.message);
+    $("p-personal").innerHTML = "";
   }
+}
+
+try {
+  const a = await fetch("daten/personal.json");
+  if (!a.ok) throw new Error(`Datei daten/personal.json fehlt (HTTP ${a.status}).`);
+  const datei = await a.json();
+  const geladen = datei.daten;
+  const vermerk = datei.beleg.quellenvermerk;
+  if (!vermerk) throw new Error("daten/personal.json ohne Quellenvermerk.");
+  let verbleib;
+  let probe = "";
+  if (geladen.modus === "rente") {
+    const v = geladen.proben;
+    verbleib = "Ausscheiden mit 65";
+    probe = "Der gemessene Verbleib im Beruf hat seine Proben nicht bestanden "
+      + `(Split-Half ${v.v1.gleiches_vorzeichen} von ${v.v1.anzahl} gleichsinnig, nötig ${v.v1.huerde}; `
+      + `Rückblick 2021→2023 Fehler ${komma(v.v2.mape_verbleib * 100, 1)} % gegen `
+      + `${komma(v.v2.mape_rente * 100, 1)} % mit Ausscheiden mit 65). Gerechnet wird deshalb: `
+      + "wer 65 oder älter ist, scheidet aus, sonst niemand.";
+  } else if (geladen.modus === "gemessen") {
+    verbleib = "Verbleib im Beruf wie 2019–2023";
+  } else {
+    throw new Error(`daten/personal.json: unbekannter Verbleib-Modus ${geladen.modus}.`);
+  }
+  // Erst wenn alles gelesen ist, wird geschrieben — ein halber Stand darf nicht neben Zahlen stehen.
+  $("p-personal-quellenvermerk").textContent = vermerk;
+  $("p-personal-verbleib").textContent = verbleib;
+  $("p-personal-probe").textContent = probe;
+  personal = geladen;
+} catch (f) {
+  personalFehler = f.message;
 }
 
 try {

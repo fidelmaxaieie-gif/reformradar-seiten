@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reformradar — Intensiv-Auslastung in 4 Wochen</title>
+<link rel="stylesheet" href="stil.css">
+<link rel="stylesheet" href="intensiv.css">
+</head>
+<body>
+<header>
+  <h1>Wie voll werden die Intensivstationen in vier Wochen?</h1>
+  <p class="unterzeile">Auslastung der Intensivbetten für Erwachsene, bundesweit, 28 Tage voraus — jede Woche neu.
+  <a href="index.html">Zum Werkzeug</a> · <a href="rechner.html">Zum Rechner</a></p>
+</header>
+
+<p id="veraltet" class="fehler" hidden></p>
+<section id="vorhersage" aria-live="polite">
+  <p id="hauptsatz">Die Vorhersage wird geladen …</p>
+  <p id="urteil" class="urteil"></p>
+  <p id="ausfall" class="hinweis" hidden></p>
+</section>
+
+<ul class="pflicht">
+  <li>Vorhersage eines statistischen Modells, keine Lagebewertung.</li>
+  <li>Nur bundesweit und nur 28 Tage voraus: bei 7 und 14 Tagen war das Modell im Test nicht besser als „wie zuletzt".</li>
+  <li>Seit 2023 melden weniger Intensivstationen an das Register; die Auslastung ist davon nach unserer Prüfung bundesweit kaum betroffen, die Bettenzahlen schon.</li>
+</ul>
+
+<figure id="grafik-feld">
+  <svg id="grafik" role="img" aria-label="Auslastung und Vorhersagen" viewBox="0 0 720 300"></svg>
+  <figcaption>Linie: Auslastung (7-Tage-Mittel). Grau: Vorhersagen im Test 2023–2026. Blau: Vorhersagen
+  seit Start der Seite. Rot: die aktuelle Vorhersage. Striche: 80-%-Intervall.</figcaption>
+</figure>
+
+<section id="bilanz-pruefung"><h2>Wie gut war das Modell im Test?</h2><p id="pruefung-text"></p></section>
+<section id="bilanz-live"><h2>Wie gut ist es seit dem Start der Seite?</h2><p id="live-text"></p></section>
+<section id="quellen-feld"><h2>Woher die Zahlen kommen</h2><ul id="quellen"></ul>
+  <p class="text">Daten: Robert Koch-Institut, Lizenz CC BY 4.0. Modell: Gradient Boosting auf der Auslastung
+  und den Meldedaten zu Influenza, Atemwegserkrankungen, COVID-19-Klinikaufnahmen und schweren
+  Atemwegsinfekten; vorab festgelegt und an 139 Wochen geprüft (143 Mittwoche, an vier fehlte der Stand des Tages).</p></section>
+
+<footer><span id="stand"></span></footer>
+<script type="module" src="intensiv_app.js"></script>
+</body>
+</html>
