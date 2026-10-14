@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-10-05T17:19:22",
+ "erzeugt": "2026-10-14T18:00:17",
  "commit": "b7f1c3efdcad6007e642eaee09d30b1847781a7a",
  "veraltet_nach_tagen": 9,
  "mindest_live": 8,
@@ -11,39 +11,39 @@
   "statsmodels": "0.15.0"
  },
  "aktuell": {
-  "ursprung": "2026-09-30",
-  "zieltag": "2026-10-28",
-  "art": "nachgerechnet",
-  "prognose": 82.79291777618428,
-  "unten": 81.47200890767927,
-  "oben": 84.39701712464186,
-  "heute": 81.71438379223302,
+  "ursprung": "2026-10-14",
+  "zieltag": "2026-11-11",
+  "art": "woche",
+  "prognose": 82.87911073181228,
+  "unten": 81.55904045980266,
+  "oben": 84.4790409735583,
+  "heute": 81.91170392525751,
   "urteil": "Keine deutliche Änderung zu erwarten."
  },
  "quellen": [
   {
    "quelle": "divi",
-   "tag": "2026-09-30",
+   "tag": "2026-10-14",
    "url": "https://github.com/robert-koch-institut/Intensivkapazitaeten_und_COVID-19-Intensivbettenbelegung_in_Deutschland"
   },
   {
    "quelle": "influenza",
-   "tag": "2026-09-24",
+   "tag": "2026-10-08",
    "url": "https://github.com/robert-koch-institut/Influenzafaelle_in_Deutschland"
   },
   {
    "quelle": "are",
-   "tag": "2026-09-24",
+   "tag": "2026-10-08",
    "url": "https://github.com/robert-koch-institut/ARE-Konsultationsinzidenz"
   },
   {
    "quelle": "covid",
-   "tag": "2026-09-30",
+   "tag": "2026-10-14",
    "url": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland"
   },
   {
    "quelle": "sari",
-   "tag": "2026-09-24",
+   "tag": "2026-10-08",
    "url": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz"
   }
  ],
@@ -4207,6 +4207,42 @@
   [
    "2026-10-05",
    82.5281
+  ],
+  [
+   "2026-10-06",
+   82.3976
+  ],
+  [
+   "2026-10-07",
+   82.423
+  ],
+  [
+   "2026-10-08",
+   82.2921
+  ],
+  [
+   "2026-10-09",
+   82.2174
+  ],
+  [
+   "2026-10-10",
+   82.0733
+  ],
+  [
+   "2026-10-11",
+   81.9974
+  ],
+  [
+   "2026-10-12",
+   81.9003
+  ],
+  [
+   "2026-10-13",
+   81.9815
+  ],
+  [
+   "2026-10-14",
+   81.9117
   ]
  ],
  "pruefung": [
@@ -5222,7 +5258,7 @@
    "unten": 80.05542355734296,
    "oben": 82.98794332911599,
    "heute": 81.11605892136713,
-   "wahr": null
+   "wahr": 82.42296007526707
   },
   {
    "ursprung": "2026-09-16",
@@ -5233,7 +5269,7 @@
    "unten": 80.5213325184569,
    "oben": 83.45134843862645,
    "heute": 80.90097698383777,
-   "wahr": null
+   "wahr": 81.91170392525751
   },
   {
    "ursprung": "2026-09-23",
@@ -5256,6 +5292,28 @@
    "oben": 84.39701712464186,
    "heute": 81.71438379223302,
    "wahr": null
+  },
+  {
+   "ursprung": "2026-10-07",
+   "zieltag": "2026-11-04",
+   "art": "nachgerechnet",
+   "grund": "",
+   "prognose": 83.29698598915554,
+   "unten": 81.97649641889824,
+   "oben": 84.89900078425735,
+   "heute": 82.42296007526707,
+   "wahr": null
+  },
+  {
+   "ursprung": "2026-10-14",
+   "zieltag": "2026-11-11",
+   "art": "woche",
+   "grund": "",
+   "prognose": 82.87911073181228,
+   "unten": 81.55904045980266,
+   "oben": 84.4790409735583,
+   "heute": 81.91170392525751,
+   "wahr": null
   }
  ],
  "bilanz_pruefung": {
@@ -5270,7 +5328,7 @@
   "bis": "2026-09-02"
  },
  "bilanz_live": {
-  "n_aufgeloest": 0,
+  "n_aufgeloest": 2,
   "mae": null,
   "mae_s0": null,
   "abdeckung": null
