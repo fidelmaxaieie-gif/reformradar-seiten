@@ -19,6 +19,6 @@ Keine Beratung. Quellen und Vermerke stehen auf den Seiten selbst; Daten des Sta
 Bundesamts unter Datenlizenz Deutschland – Namensnennung – Version 2.0, Daten des Robert
 Koch-Instituts unter CC BY 4.0.
 
-Gebaut aus dem (privaten) Forschungs-Repository, Stand `dc45798`. Die Intensiv-Vorhersage
+Gebaut aus dem (privaten) Forschungs-Repository, Stand `4e63aa3`. Die Intensiv-Vorhersage
 (`intensiv.*`, `daten/intensiv.json`, `daten/intensiv_live.csv`) schreibt ein wöchentlicher Lauf
 fort; `daten/intensiv_live.csv` ist ihr Protokoll.
