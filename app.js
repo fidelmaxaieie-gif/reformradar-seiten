@@ -4,6 +4,11 @@
 //
 // Jeder Fehlschlag wird SICHTBAR gemeldet: fehlende Datei, fehlender Schluessel,
 // fehlender Text. Ein leerer Hauptbereich waere ein stiller Ausfall.
+import { hinweis, lies, schreibe, unbekannt } from "./permalink.js";
+import { ZERLEGUNG_SCHLUESSEL, aussageZerlegung, prozentZerlegung, schemaZerlegung, schemaZerlegungOutcome } from "./seiten.js";
+import { datenstand, quelleGenesis, zitierzeile } from "./zitat.js";
+import { adresse, ersetzeAdresse, meldeDatenstand, verbirgZitat, zeigeZitat } from "./rahmen.js";
+
 const $ = (id) => document.getElementById(id);
 
 class Fehlt extends Error {}
@@ -36,17 +41,14 @@ function text(pfad, ersetzungen = {}) {
 function fuelle(select, eintraege) {
   select.innerHTML = eintraege
     .map((e) => `<option value="${esc(e.wert)}">${esc(e.name)}</option>`).join("");
-  select.disabled = eintraege.length < 2;
-}
-
-function prozent(x) {
-  return (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(1).replace(".", ",") + " %";
+  select.hidden = eintraege.length < 2;
+  select.nextElementSibling.textContent = eintraege.length < 2 ? (eintraege[0]?.name ?? "") : "";
 }
 
 function zeile(klasse, zahl, pfad, hilfe, ersetzungen) {
   const wort = typeof zahl === "string";
   return `<div class="zeile ${klasse === "rest" ? "ergebnis" : ""}">
-    <div class="zahl ${klasse}${wort ? " wort" : ""}">${wort ? esc(zahl) : prozent(zahl)}</div>
+    <div class="zahl ${klasse}${wort ? " wort" : ""}">${wort ? esc(zahl) : prozentZerlegung(zahl)}</div>
     <div class="text"><b>${esc(text(pfad + ".titel", ersetzungen))}</b>${esc(text(pfad + ".satz", ersetzungen))}
       <button type="button" class="hilfe" data-hilfe="${esc(hilfe)}"
               aria-label="Erklärung in Leichter Sprache" aria-expanded="false">?</button>
@@ -103,6 +105,7 @@ function zeichne(e, zeitraumName) {
   if (!e.zeigt_ergebnis) {
     $("ergebnis").innerHTML = urteil + pruefzeile(e.pruefung, zeitraumName) +
       `<p>${esc(text("bruch_hinweis", { bruchjahr: e.pruefung.bruchjahr }))}</p>`;
+    verbirgZitat($("zitat")); $("druck-zerlegung").textContent = "";
     return;
   }
   $("ergebnis").innerHTML = urteil +
@@ -112,6 +115,22 @@ function zeichne(e, zeitraumName) {
     zeile("alterung", e.alterung, "zeilen.alterung", "alterung") +
     zeile("rest", e.rest, "zeilen.rest", "rest") +
     wegeblock(e);
+  const o = gewaehlterOutcome();
+  const name = (id) => $(id).selectedOptions[0]?.textContent ?? "";
+  const teile = { outcome: o.name, sache: o.sachachse === null ? null : name("sache"), gebiet: name("gebiet"),
+                  zeitraum: zeitraumName };
+  const datei = daten[o.wert];
+  $("druck-zerlegung").textContent = `Auswahl: ${[teile.outcome, teile.sache, teile.gebiet, teile.zeitraum].filter((x) => x).join(", ")}`;
+  try {
+    zeigeZitat($("zitat"), zitierzeile({
+      aussage: aussageZerlegung(teile, e), einstellungen: null, pflichtsatz: e.urteil,
+      quelle: quelleGenesis(datei.beleg), stand: datenstand([datei.beleg.abrufdatum]),
+      link: adresse(schreibe(schreibe("", { z: o.wert }, schemaZerlegungOutcome(katalog), "", true), zitatZustand(o), schemaZerlegung(katalog, o.wert), "", true), null),
+    }));
+  } catch (f) {
+    verbirgZitat($("zitat"));
+    melde(f.message);
+  }
 }
 
 $("ergebnis").addEventListener("click", (ev) => {
@@ -131,6 +150,10 @@ $("ergebnis").addEventListener("click", (ev) => {
 function gewaehlterOutcome() {
   return katalog.daten.outcomes.find((x) => x.wert === $("outcome").value);
 }
+// Die aktuelle Auswahl der Regler (Zitierlink und Adresszeile).
+function zitatZustand(o) {
+  return { g: $("gebiet").value, t: $("zeitraum").value, ...(o.sachachse === null ? {} : { s: $("sache").value }) };
+}
 
 async function aktualisiere() {
   const o = gewaehlterOutcome();
@@ -139,6 +162,7 @@ async function aktualisiere() {
     const datei = daten[o.wert];
     // Der Lizenzvermerk steht IMMER da, auch wenn kein Ergebnis gezeigt wird.
     $("quellenvermerk").textContent = datei.beleg.quellenvermerk;
+    meldeDatenstand("zerlegung", datei.beleg.abrufdatum);
     const sache = o.sachachse === null ? katalog.daten.keine_sache : $("sache").value;
     const schluessel = `${sache}|${$("gebiet").value}|${$("zeitraum").value}`;
     const eintrag = datei.daten[schluessel];
@@ -147,13 +171,16 @@ async function aktualisiere() {
         "Das ist ein Fehler im Bau der Seite.");
     }
     const zeitraumName = o.zeitraeume.find((z) => z.wert === $("zeitraum").value).name;
+    const sz = schemaZerlegung(katalog, o.wert);
+    ersetzeAdresse(schreibe(schreibe("", { z: o.wert }, schemaZerlegungOutcome(katalog)), zitatZustand(o), sz));
     zeichne(eintrag, zeitraumName);
   } catch (f) {
+    verbirgZitat($("zitat")); $("druck-zerlegung").textContent = "";
     melde(f instanceof Fehlt ? f.message : `Unerwarteter Fehler: ${f.message}`);
   }
 }
 
-function outcomeGewechselt() {
+function outcomeGewechselt(start = null) {
   const o = gewaehlterOutcome();
   $("sache-feld").hidden = o.sachachse === null;
   if (o.sachachse !== null) {
@@ -163,6 +190,11 @@ function outcomeGewechselt() {
   $("gebiet-name").textContent = o.gebiet_bezeichnung;
   fuelle($("gebiet"), o.gebiete);
   fuelle($("zeitraum"), o.zeitraeume);
+  if (start) {
+    if (start.s !== undefined) $("sache").value = start.s;
+    $("gebiet").value = start.g;
+    $("zeitraum").value = start.t;
+  }
   aktualisiere();
 }
 
@@ -171,9 +203,16 @@ let katalog, texte;
 try {
   [katalog, texte] = await Promise.all([laden("daten/katalog.json"), laden("texte.json")]);
   fuelle($("outcome"), katalog.daten.outcomes);
-  $("outcome").addEventListener("change", outcomeGewechselt);
+  const erst = lies(location.search, schemaZerlegungOutcome(katalog));
+  $("outcome").value = erst.zustand.z;
+  const zweit = lies(location.search, schemaZerlegung(katalog, erst.zustand.z));
+  // `s` ist als Schluessel erlaubt, gilt aber nur mit Sachachse; sonst nicht still verschlucken.
+  const ohneSache = !("s" in schemaZerlegung(katalog, erst.zustand.z)) && new URLSearchParams(location.search).has("s") ? ["s"] : [];
+  const satz = hinweis([...erst.ungueltig, ...zweit.ungueltig, ...ohneSache, ...unbekannt(location.search, ZERLEGUNG_SCHLUESSEL)]);
+  if (satz) { $("link-hinweis").textContent = satz; $("link-hinweis").hidden = false; }
+  $("outcome").addEventListener("change", () => outcomeGewechselt());
   for (const id of ["sache", "gebiet", "zeitraum"]) $(id).addEventListener("change", aktualisiere);
-  outcomeGewechselt();
+  outcomeGewechselt(zweit.zustand);
 } catch (f) {
   melde(f instanceof Fehlt ? f.message : `Unerwarteter Fehler: ${f.message}`);
 }

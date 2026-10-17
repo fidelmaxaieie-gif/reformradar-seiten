@@ -1,5 +1,8 @@
 // Zeichnet die Seite aus daten/intensiv.json. Rechnet NICHTS Inhaltliches: Zahlen und Urteilssatz kommen aus dem Bau.
 import { ausfallSatz, datum, heuteIso, prozent, veraltet } from "./intensiv.js";
+import { aussageIntensiv } from "./intensiv_aussage.js";
+import { quelleRki, zitierzeile } from "./zitat.js";
+import { adresse, meldeDatenstand, verbirgZitat, zeigeZitat } from "./rahmen.js";
 
 const $ = (id) => document.getElementById(id);
 const QUELLEN = { divi: "Intensivregister (DIVI)", influenza: "Influenza-Meldefälle",
@@ -59,26 +62,40 @@ async function start() {
   let d;
   try {
     const antwort = await fetch("daten/intensiv.json", { cache: "no-store" });
+    if (!antwort.ok) throw new Error(`Datei daten/intensiv.json fehlt (HTTP ${antwort.status}).`);
     d = await antwort.json();
   } catch (f) {
     $("hauptsatz").innerHTML = `<span class="fehler">Die Daten ließen sich nicht laden: ${esc(f.message)}</span>`;
+    $("grafik-laedt").textContent = "";
     return;
   }
   const a = d.aktuell;
+  let zitatAusfall = "";
   if (!a) {
     $("hauptsatz").textContent = "Noch keine Vorhersage.";
   } else {
     $("hauptsatz").innerHTML =
       `Am <b>${datum(a.zieltag)}</b> erwartet das Modell eine Auslastung der Intensivbetten von ` +
-      `<span class="zahl wort">${prozent(a.prognose)}</span> — mit 80 % Wahrscheinlichkeit zwischen ` +
+      `<span class="hauptzahl">${prozent(a.prognose)}</span> — mit 80 % Wahrscheinlichkeit zwischen ` +
       `${prozent(a.unten)} und ${prozent(a.oben)}. Stand ${datum(a.ursprung)}: ${prozent(a.heute)}.`;
     $("urteil").textContent = a.urteil;
     if (veraltet(a.ursprung, heuteIso(), d.veraltet_nach_tagen)) {
       $("veraltet").hidden = false;
       $("veraltet").textContent = `Diese Vorhersage ist vom ${datum(a.ursprung)} und nicht mehr aktuell.`;
     }
+    try {
+      meldeDatenstand("intensiv", a.ursprung);
+      zeigeZitat($("zitat"), zitierzeile({
+        aussage: aussageIntensiv(a), einstellungen: null,
+        pflichtsatz: document.querySelector("ul.pflicht li").textContent,
+        quelle: quelleRki(d.quellen, QUELLEN), stand: datum(a.ursprung), link: adresse("", null),
+      }));
+    } catch (f) {
+      verbirgZitat($("zitat"));
+      zitatAusfall = `Zitierzeile nicht verfügbar: ${f.message}`;
+    }
   }
-  const ausfall = ausfallSatz(d.live);
+  const ausfall = [ausfallSatz(d.live), zitatAusfall].filter((x) => x).join(" ");
   if (ausfall) {
     $("ausfall").hidden = false;
     $("ausfall").textContent = ausfall;
@@ -87,7 +104,12 @@ async function start() {
     `<li><a href="${esc(q.url)}">${esc(QUELLEN[q.quelle] ?? q.quelle)}</a> — Stand ${datum(q.tag)}</li>`).join("");
   const lib = Object.entries(d.bibliotheken ?? {}).map(([n, v]) => `${n} ${v}`).join(", ");
   $("stand").textContent = `Gebaut ${d.erzeugt} · Code ${d.commit.slice(0, 7)}` + (lib ? ` · ${lib}` : "");
-  bilanzen(d);
-  zeichne(d);
+  try {
+    bilanzen(d);
+    zeichne(d);
+    $("grafik-laedt").remove();
+  } catch (f) {
+    $("grafik-laedt").textContent = `Die Grafik ließ sich nicht zeichnen: ${f.message}`;
+  }
 }
 start();

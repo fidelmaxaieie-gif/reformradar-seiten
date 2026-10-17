@@ -1,5 +1,9 @@
 // Liest Regler, ruft rechne(), zeichnet. Rechnet NICHT selbst (Paritaetstest).
 import { rechne } from "./rechner.js";
+import { hinweis, lies, schreibe, unbekannt } from "./permalink.js";
+import { PFLEGE_SCHLUESSEL, aussageBeitragssatz, einstellungenBeitragssatz, punkte, schemaBeitragssatz } from "./seiten.js";
+import { einstellungenText, quelleGenesis, zitierzeile, datenstand } from "./zitat.js";
+import { adresse, ersetzeAdresse, meldeDatenstand, setzeLeiste, verbirgZitat, zeigeZitat, beobachteAbschnitte } from "./rahmen.js";
 
 const $ = (id) => document.getElementById(id);
 const TITEL = {
@@ -19,12 +23,6 @@ function esc(s) {
   return String(s).replace(/[&<>"]/g, (z) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[z]);
 }
 function melde(t) { $("ergebnis").innerHTML = `<p class="fehler">${esc(t)}</p>`; }
-function punkte(x, start) {
-  const s = Math.abs(x).toFixed(2).replace(".", ",");
-  if (start) return `${s} %`;
-  if (Math.abs(x) < 0.005) return `±${s}`;
-  return `${x < 0 ? "−" : "+"}${s}`;
-}
 // Ein Prozentwert mit deutschem Komma und echtem Minuszeichen (nicht dem Bindestrich-Minus).
 function prozentSigniert(x) {
   const s = Math.abs(x).toFixed(1).replace(".", ",");
@@ -43,10 +41,11 @@ function regler() {
   };
 }
 
+let schema, beleg;
 function zeichne(b) {
   const r = regler();
   $("honorar").disabled = !r.pkv || b.konstanten.mehrumsatz === null;
-  for (const o of document.querySelectorAll("output")) {
+  for (const o of $("regler").querySelectorAll("output")) {
     const id = o.htmlFor.value;
     const v = $(id).value;
     o.textContent = id === "jahr" ? v
@@ -62,6 +61,21 @@ function zeichne(b) {
   $("ergebnis").innerHTML = `<p class="urteil">${esc(e.urteil)}</p>${zeilen}
     <div class="zeile ergebnis"><div class="zahl">${punkte(e.satz, true)}</div>
     <div class="text"><b>nötiger Beitragssatz ${r.jahr}</b>bei den gewählten Annahmen</div></div>`;
+  const suche = schreibe(location.search, r, schema);
+  ersetzeAdresse(suche);
+  const einstellungen = einstellungenText(einstellungenBeitragssatz(b, r));
+  $("druck-beitragssatz").textContent = `Einstellungen: ${einstellungen}`;
+  const aussage = aussageBeitragssatz(r, e);
+  setzeLeiste("beitragssatz", aussage);
+  try {
+    zeigeZitat($("zitat-beitragssatz"), zitierzeile({
+      aussage, einstellungen, pflichtsatz: $("pflicht-beitragssatz").textContent,
+      quelle: quelleGenesis(beleg), stand: datenstand([beleg.abrufdatum]), link: adresse(schreibe("", r, schema, "", true), "beitragssatz"),
+    }));
+  } catch (f) {
+    verbirgZitat($("zitat-beitragssatz"));
+    melde(f.message);
+  }
 }
 
 try {
@@ -71,10 +85,18 @@ try {
   const b = datei.daten;
   $("variante").innerHTML = Object.entries(b.varianten_namen)
     .map(([w, n]) => `<option value="${esc(w)}">${esc(n)}</option>`).join("");
-  for (const [id, wert] of Object.entries(b.voreinstellung)) {
+  schema = schemaBeitragssatz(b);
+  beleg = datei.beleg;
+  const { zustand, ungueltig } = lies(location.search, schema);
+  const fremd = unbekannt(location.search, [...Object.keys(schema), ...PFLEGE_SCHLUESSEL.map((k) => `p_${k}`)]);
+  const satz = hinweis([...ungueltig, ...fremd]);
+  if (satz) { $("link-hinweis").textContent = satz; $("link-hinweis").hidden = false; }
+  for (const [id, wert] of Object.entries(zustand)) {
     const el = $(id);
     if (el.type === "checkbox") el.checked = wert; else el.value = wert;
   }
+  meldeDatenstand("beitragssatz", beleg.abrufdatum);
+  beobachteAbschnitte(["beitragssatz", "pflege"]);
   if (!b.proben.pkv_bestanden) { $("pkv").checked = false; $("pkv").disabled = true; }
   if (b.konstanten.mehrumsatz === null) {
     $("honorar-feld").hidden = true;

@@ -1,9 +1,21 @@
 /* Zusatz-Stil der Intensiv-Seite (nach stil.css geladen); hält stil.css der anderen Seiten unberührt */
 ul.pflicht { padding-left: 1.6rem; }
-#grafik { width: 100%; height: auto; background: #fafafa; }
-#grafik .gitter { stroke: #e5e5e5; } #grafik .achse { font-size: 11px; fill: #666; }
-#grafik .verlauf { fill: none; stroke: #1a1a1a; stroke-width: 1.5; }
-#grafik .intervall { stroke-width: 1; } #grafik .pruefung { stroke: #bbb; fill: #bbb; }
-#grafik .live { stroke: #1e3a8a; fill: #1e3a8a; } #grafik .aktuell { stroke: #b91c1c; fill: #b91c1c; }
-figcaption { font-size: var(--klein); color: #555; }
-#grafik-feld { margin: 1rem 0; }
+#grafik-feld { margin: 1rem 0; position: relative; }
+#grafik { width: 100%; height: auto; aspect-ratio: 720 / 300; display: block; }
+#grafik .gitter { stroke: var(--linie); } #grafik .achse { font-size: 11px; fill: var(--gedaempft); }
+#grafik .verlauf { fill: none; stroke: var(--grafik-verlauf); stroke-width: 1.5; }
+#grafik .intervall { stroke-width: 1; }
+#grafik .pruefung { stroke: var(--grafik-pruefung); fill: var(--grafik-pruefung); }
+#grafik .live { stroke: var(--grafik-live); fill: var(--grafik-live); }
+#grafik .aktuell { stroke: var(--grafik-aktuell); fill: var(--grafik-aktuell); }
+#grafik-laedt { position: absolute; inset: 2rem 0 auto 0; text-align: center; color: var(--gedaempft); }
+.legende { font-size: var(--klein); color: var(--gedaempft); display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin: 0 0 .3rem; }
+.legende .muster { display: inline-block; width: .9rem; height: .2rem; vertical-align: middle; margin-right: .3rem; }
+.legende .muster.verlauf { background: var(--grafik-verlauf); }
+.legende .muster.pruefung { background: var(--grafik-pruefung); }
+.legende .muster.live { background: var(--grafik-live); }
+.legende .muster.aktuell { background: var(--grafik-aktuell); height: .55rem; width: .55rem; border-radius: 50%; }
+.hauptzahl { font-size: 1.6rem; font-weight: 700; color: var(--akzent); font-variant-numeric: tabular-nums; }
+figcaption { font-size: var(--klein); color: var(--gedaempft); }
+#bilanz-pruefung p, #bilanz-live p { font-variant-numeric: tabular-nums; }
+@media print { #grafik-laedt { display: none; } }
