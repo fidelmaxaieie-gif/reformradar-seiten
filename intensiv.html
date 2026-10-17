@@ -8,10 +8,16 @@
 <link rel="stylesheet" href="intensiv.css">
 </head>
 <body>
+<nav class="kopf" aria-label="Reformradar">
+  <a class="marke" href="index.html">Reformradar</a>
+  <a href="index.html">Zerlegung</a><a href="rechner.html#beitragssatz">Beitragssatz</a>
+  <a href="rechner.html#pflege">Pflegebedarf</a><a aria-current="page" href="intensiv.html">Intensiv</a>
+  <span class="kopf-rechts"><span id="datenstand"></span>
+  <button type="button" id="drucken">Drucken / PDF</button></span>
+</nav>
 <header>
   <h1>Wie voll werden die Intensivstationen in vier Wochen?</h1>
-  <p class="unterzeile">Auslastung der Intensivbetten für Erwachsene, bundesweit, 28 Tage voraus — jede Woche neu.
-  <a href="index.html">Zum Werkzeug</a> · <a href="rechner.html">Zum Rechner</a></p>
+  <p class="unterzeile">Auslastung der Intensivbetten für Erwachsene, bundesweit, 28 Tage voraus — jede Woche neu.</p>
 </header>
 
 <p id="veraltet" class="fehler" hidden></p>
@@ -27,8 +33,15 @@
   <li>Seit 2023 melden weniger Intensivstationen an das Register; die Auslastung ist davon nach unserer Prüfung bundesweit kaum betroffen, die Bettenzahlen schon.</li>
 </ul>
 
+<div class="zitat" id="zitat" hidden><p class="zitat-titel">Zum Zitieren</p><p class="zitat-text"></p><button type="button" class="kopieren">Kopieren</button><span class="kopier-status" aria-live="polite"></span></div>
+
 <figure id="grafik-feld">
+  <p class="legende"><span><span class="muster verlauf"></span>Auslastung (7-Tage-Mittel)</span>
+  <span><span class="muster pruefung"></span>Vorhersagen im Test 2023–2026</span>
+  <span><span class="muster live"></span>Vorhersagen seit Start der Seite</span>
+  <span><span class="muster aktuell"></span>aktuelle Vorhersage</span></p>
   <svg id="grafik" role="img" aria-label="Auslastung und Vorhersagen" viewBox="0 0 720 300"></svg>
+  <p id="grafik-laedt">Die Grafik wird geladen …</p>
   <figcaption>Linie: Auslastung (7-Tage-Mittel). Grau: Vorhersagen im Test 2023–2026. Blau: Vorhersagen
   seit Start der Seite. Rot: die aktuelle Vorhersage. Striche: 80-%-Intervall.</figcaption>
 </figure>
@@ -41,6 +54,7 @@
   Atemwegsinfekten; vorab festgelegt und an 139 Wochen geprüft (143 Mittwoche, an vier fehlte der Stand des Tages).</p></section>
 
 <footer><span id="stand"></span></footer>
+<script type="module" src="rahmen.js"></script>
 <script type="module" src="intensiv_app.js"></script>
 </body>
 </html>

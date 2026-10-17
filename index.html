@@ -7,28 +7,38 @@
 <link rel="stylesheet" href="stil.css">
 </head>
 <body>
+<nav class="kopf" aria-label="Reformradar">
+  <a class="marke" href="index.html">Reformradar</a>
+  <a aria-current="page" href="index.html">Zerlegung</a><a href="rechner.html#beitragssatz">Beitragssatz</a>
+  <a href="rechner.html#pflege">Pflegebedarf</a><a href="intensiv.html">Intensiv</a>
+  <span class="kopf-rechts"><span id="datenstand"></span>
+  <button type="button" id="drucken">Drucken / PDF</button></span>
+</nav>
 <header>
   <h1>Wie viel davon ist Alterung?</h1>
   <p class="unterzeile">Eine Zahl hat sich verändert. Dieses Werkzeug rechnet aus,
   wie viel davon allein daran liegt, dass die Bevölkerung älter geworden ist —
-  und wie viel daran, dass mehr oder weniger Menschen hier leben.
-  <a href="rechner.html">Zum Beitragssatz-Rechner</a> · <a href="intensiv.html">Zur Intensiv-Vorhersage</a></p>
+  und wie viel daran, dass mehr oder weniger Menschen hier leben.</p>
 </header>
 
 <form id="auswahl" aria-label="Auswahl">
-  <label>Zahl <select id="outcome"></select></label>
-  <label id="sache-feld" hidden><span id="sache-name"></span> <select id="sache"></select></label>
-  <label><span id="gebiet-name">Gebiet</span> <select id="gebiet"></select></label>
-  <label>Zeitraum <select id="zeitraum"></select></label>
+  <label>Zahl <select id="outcome"></select><span class="einzelwert"></span></label>
+  <label id="sache-feld" hidden><span id="sache-name"></span> <select id="sache"></select><span class="einzelwert"></span></label>
+  <label><span id="gebiet-name">Gebiet</span> <select id="gebiet"></select><span class="einzelwert"></span></label>
+  <label>Zeitraum <select id="zeitraum"></select><span class="einzelwert"></span></label>
 </form>
 
+<p class="link-hinweis" id="link-hinweis" hidden></p>
 <main id="ergebnis" aria-live="polite">
   <noscript><p class="fehler">Diese Seite braucht JavaScript.</p></noscript>
 </main>
+<p class="druck-einstellungen" id="druck-zerlegung"></p>
+<div class="zitat" id="zitat" hidden><p class="zitat-titel">Zum Zitieren</p><p class="zitat-text"></p><button type="button" class="kopieren">Kopieren</button><span class="kopier-status" aria-live="polite"></span></div>
 
 <footer>
   <p id="quellenvermerk"></p>
 </footer>
+<script type="module" src="rahmen.js"></script>
 <script type="module" src="app.js"></script>
 </body>
 </html>

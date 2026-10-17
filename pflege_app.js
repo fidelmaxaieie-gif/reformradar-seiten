@@ -1,6 +1,10 @@
 // Liest die Regler des Pflege-Abschnitts, ruft rechnePflege(), zeichnet. Rechnet NICHT selbst (Paritaet).
 import { rechnePflege, tausender } from "./pflege.js";
 import { rechnePersonal } from "./personal.js";
+import { hinweis, lies, schreibe } from "./permalink.js";
+import { aussagePersonal, aussagePflege, einstellungenPflege, komma, personen, schemaPflege } from "./seiten.js";
+import { datenstand, einstellungenText, quelleGenesis, zitierzeile } from "./zitat.js";
+import { adresse, ersetzeAdresse, meldeDatenstand, setzeLeiste, verbirgZitat, zeigeZitat } from "./rahmen.js";
 
 const $ = (id) => document.getElementById(id);
 const WEG_NAMEN = { angehoerige: "zu Hause allein durch Angehörige",
@@ -11,10 +15,6 @@ const ZEILEN = { einwohner: "Einwohnerzahl", alterung: "Alterung",
 function esc(s) {
   return String(s).replace(/[&<>"]/g, (z) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[z]);
 }
-function personen(x) {
-  const t = tausender(x);
-  return t === "0" ? "±0" : `${x < 0 ? "−" : "+"}${t}`;
-}
 function prozent(x) { return `${x < 0 ? "−" : "+"}${Math.abs(x * 100).toFixed(1).replace(".", ",")} %`; }
 function melde(t) { $("p-ergebnis").innerHTML = `<p class="fehler">${esc(t)}</p>`; }
 
@@ -23,12 +23,13 @@ function melde(t) { $("p-ergebnis").innerHTML = `<p class="fehler">${esc(t)}</p>
 const SEKTOR_NAMEN = { ambulant: "ambulant", stationaer: "stationär" };
 let personal = null;
 let personalFehler = "";
-function komma(x, stellen) { return x.toFixed(stellen).replace(".", ","); }
+let schema, belegPflege, belegPersonal;
 
 function zeichnePersonal(b, e, r) {
   const ziel = $("p-personal");
   if (personal === null) {
     ziel.innerHTML = `<p class="fehler">${esc(personalFehler)}</p>`;
+    verbirgZitat($("zitat-personal"));
     return;
   }
   try {
@@ -48,8 +49,14 @@ function zeichnePersonal(b, e, r) {
       <div class="text"><b>Neu nötig bis ${r.jahr}</b>${jeJahr}davon ${esc(davon)}</div></div>
       <p class="beleg">Personal je Pflegebedürftigem 2023 in ${esc(name)}: ambulant ${komma(q.ambulant, 2)}, `
       + `stationär ${komma(q.stationaer, 2)} — Destatis 22411-0015, 22412-0016, 22421-0010.</p>`;
+    zeigeZitat($("zitat-personal"), zitierzeile({
+      aussage: aussagePersonal(name, r, p), einstellungen: einstellungenText(einstellungenPflege(b, r)),
+      pflichtsatz: $("pflicht-personal").textContent, quelle: quelleGenesis(belegPersonal),
+      stand: datenstand([belegPersonal.abrufdatum]), link: adresse(schreibe("", r, schema, "p_", true), "pflege"),
+    }));
   } catch (f) {
     ziel.innerHTML = `<p class="fehler">${esc(f.message)}</p>`;
+    verbirgZitat($("zitat-personal"));
   }
 }
 
@@ -81,9 +88,23 @@ function zeichne(b) {
       <div class="text"><b>2023 gezählt</b></div></div>${fall}
       <div class="zeile ergebnis"><div class="zahl">${tausender(e.gesamt_ziel)}</div>
       <div class="text"><b>${r.jahr}</b>bei den gewählten Annahmen</div></div>`;
+    const suche = schreibe(location.search, r, schema, "p_");
+    ersetzeAdresse(suche);
+    const einstellungen = einstellungenText(einstellungenPflege(b, r));
+    $("druck-pflege").textContent = `Einstellungen: ${einstellungen}`;
+    const aussage = aussagePflege(b, r, e);
+    setzeLeiste("pflege", aussage);
+    zeigeZitat($("zitat-pflege"), zitierzeile({
+      aussage, einstellungen, pflichtsatz: $("pflicht-pflege").textContent, quelle: quelleGenesis(belegPflege),
+      stand: datenstand([belegPflege.abrufdatum]), link: adresse(schreibe("", r, schema, "p_", true), "pflege"),
+    }));
     zeichnePersonal(b, e, r);
   } catch (f) {
     melde(f.message);
+    verbirgZitat($("zitat-pflege"));
+    verbirgZitat($("zitat-personal"));
+    $("druck-pflege").textContent = "";
+    setzeLeiste("pflege", "");
     $("p-personal").innerHTML = "";
   }
 }
@@ -95,6 +116,7 @@ try {
   const geladen = datei.daten;
   const vermerk = datei.beleg.quellenvermerk;
   if (!vermerk) throw new Error("daten/personal.json ohne Quellenvermerk.");
+  belegPersonal = datei.beleg;
   let verbleib;
   let probe = "";
   if (geladen.modus === "rente") {
@@ -114,6 +136,7 @@ try {
   $("p-personal-quellenvermerk").textContent = vermerk;
   $("p-personal-verbleib").textContent = verbleib;
   $("p-personal-probe").textContent = probe;
+  meldeDatenstand("personal", belegPersonal.abrufdatum);
   personal = geladen;
 } catch (f) {
   personalFehler = f.message;
@@ -133,8 +156,13 @@ try {
   $("p-jahr").min = b.jahre[0];
   $("p-jahr").max = b.jahre[b.jahre.length - 1];
   const vor = b.voreinstellung;
-  for (const [id, wert] of [["p-land", vor.land], ["p-variante", vor.variante], ["p-jahr", vor.jahr],
-    ["p-trend", vor.trend], ["p-halbwertszeit", vor.halbwertszeit]]) $(id).value = wert;
+  schema = schemaPflege(b);
+  belegPflege = datei.beleg;
+  const { zustand, ungueltig } = lies(location.search, schema, "p_");
+  const satz = hinweis(ungueltig);
+  if (satz) { $("p-link-hinweis").textContent = satz; $("p-link-hinweis").hidden = false; }
+  for (const k of ["land", "variante", "jahr", "trend", "halbwertszeit"]) $(`p-${k}`).value = zustand[k];
+  meldeDatenstand("pflege", belegPflege.abrufdatum);
   const p = b.proben;
   const mittel = (k) => {
     const werte = Object.entries(b.tau[k]).flatMap(([, g]) => Object.entries(g)

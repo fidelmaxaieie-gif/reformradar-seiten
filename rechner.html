@@ -6,84 +6,113 @@
 <title>Reformradar — Beitragssatz-Rechner</title>
 <link rel="stylesheet" href="stil.css">
 </head>
-<body>
+<body class="breit">
+<nav class="kopf" aria-label="Reformradar">
+  <a class="marke" href="index.html">Reformradar</a>
+  <a href="index.html">Zerlegung</a><a aria-current="page" href="rechner.html#beitragssatz">Beitragssatz</a>
+  <a href="rechner.html#pflege">Pflegebedarf</a><a href="intensiv.html">Intensiv</a>
+  <span class="kopf-rechts"><span id="datenstand"></span>
+  <button type="button" id="drucken">Drucken / PDF</button></span>
+</nav>
 <header>
   <h1>Was die Demografie den Beitragssatz kostet</h1>
   <p class="unterzeile">Welchen GKV-Beitragssatz bräuchte es, wenn sich nur die Bevölkerung
-  verändert — und was ändert eine Reform daran? <a href="index.html">Zum Werkzeug „Wie viel davon ist Alterung?"</a> · <a href="intensiv.html">Zur Intensiv-Vorhersage</a></p>
+  verändert — und was ändert eine Reform daran?</p>
 </header>
 
+<section id="beitragssatz" class="abschnitt">
+<div class="spalten">
+<div class="spalte-regler">
 <form id="regler" aria-label="Regler">
   <fieldset><legend>Demografie</legend>
     <label>Bevölkerungsvariante <select id="variante"></select>
       <small class="beleg">jung · moderat · alt — Destatis 12421-0002 (Varianten 05, 02, 04). Wie sich Geburten, Lebenserwartung und Wanderung entwickeln.</small></label>
-    <label>Zieljahr <input id="jahr" type="range" min="2025" max="2035" step="1"> <output for="jahr"></output>
+    <label>Zieljahr <output for="jahr"></output> <input id="jahr" type="range" min="2025" max="2035" step="1">
       <small class="beleg">2025–2035 — Destatis 12421-0002. 2025 ist der Ausgangspunkt.</small></label>
-    <label>Wirkung der gesetzlichen Verschiebung des Rentenbeginns <input id="regelalter" type="range" min="0" max="1" step="0.05"> <output for="regelalter"></output>
+    <label>Wirkung der gesetzlichen Verschiebung des Rentenbeginns <output for="regelalter"></output> <input id="regelalter" type="range" min="0" max="1" step="0.05">
       <small class="beleg" id="beleg-regelalter"></small></label>
   </fieldset>
   <fieldset><legend>Reform</legend>
     <label class="schalter"><input id="pkv" type="checkbox"> Privatversicherte einbeziehen
       <small class="beleg">an/aus — Mikrozensus 2023 (12251-0201, 12251-0203). Alle Privatversicherten werden gesetzlich versichert, zum Stichtag, ohne Verhaltensänderung.</small></label>
-    <label id="honorar-feld">Honorarausgleich <input id="honorar" type="range" min="0" max="1" step="0.05"> <output for="honorar"></output>
+    <label id="honorar-feld">Honorarausgleich <output for="honorar"></output> <input id="honorar" type="range" min="0" max="1" step="0.05">
       <small class="beleg" id="beleg-honorar"></small></label>
   </fieldset>
   <fieldset><legend>Datenannahmen</legend>
-    <label>Faktor netto → brutto <input id="faktor" type="range" min="1.2" max="1.6" step="0.05"> <output for="faktor"></output>
+    <label>Faktor netto → brutto <output for="faktor"></output> <input id="faktor" type="range" min="1.2" max="1.6" step="0.05">
       <small class="beleg">1,2–1,6 — Annahme. Rechnet das Nettoeinkommen des Mikrozensus in Bruttoeinkommen um; Beamte liegen unten, Angestellte oben.</small></label>
     <label>Einkommen der Spitzenklasse
       <select id="spitze"><option value="bbg">an der Beitragsbemessungsgrenze</option><option value="3500">3.500 € netto × Faktor</option></select>
       <small class="beleg">an der BBG · 3.500 € netto × Faktor — Annahme. Die Mikrozensus-Klasse „3.000 € und mehr" ist nach oben offen.</small></label>
-    <label>Kosten der Privatversicherten relativ zur GKV <input id="morbiditaet" type="range" min="0.85" max="1" step="0.01"> <output for="morbiditaet"></output>
+    <label>Kosten der Privatversicherten relativ zur GKV <output for="morbiditaet"></output> <input id="morbiditaet" type="range" min="0.85" max="1" step="0.01">
       <small class="beleg">85–100 % — Annahme. Wie teuer Privatversicherte je Alter im Vergleich zu GKV-Versicherten sind (Risikoselektion).</small></label>
   </fieldset>
 </form>
-
+</div>
+<div class="spalte-ergebnis klebt">
+<p class="link-hinweis" id="link-hinweis" hidden></p>
 <main id="ergebnis" aria-live="polite">
   <noscript><p class="fehler">Diese Seite braucht JavaScript.</p></noscript>
 </main>
-<p class="pflicht">Statische Rechnung ohne Verhaltensänderung, Preise und Einkommen von 2024.</p>
+<p class="pflicht" id="pflicht-beitragssatz">Statische Rechnung ohne Verhaltensänderung, Preise und Einkommen von 2024.</p>
+<p class="druck-einstellungen" id="druck-beitragssatz"></p>
+<div class="zitat" id="zitat-beitragssatz" hidden><p class="zitat-titel">Zum Zitieren</p><p class="zitat-text"></p><button type="button" class="kopieren">Kopieren</button><span class="kopier-status" aria-live="polite"></span></div>
+</div>
+</div>
 <p class="hinweis" id="hinweis-datenstaende"></p>
 <p id="probe"></p>
 <p class="hinweis">Zerlegung in fester Reihenfolge: erst Ausgaben je Versichertem, dann Beitragsbasis je Versichertem, dann die Hebel in der Reihenfolge der Regler. Eine andere Reihenfolge verschöbe die Zeilen, nicht den Satz. Die Zeilen sind einzeln gerundet; ihre Summe kann vom Satz um 0,01 abweichen.</p>
 <p class="hinweis">Die Zahl der Versicherten kürzt sich im Beitragssatz heraus: weniger Versicherte senken Ausgaben und Beitragsbasis im gleichen Verhältnis. Die beiden Zeilen zeigen deshalb Werte je Versichertem.</p>
+</section>
 
-<section id="pflege">
+<section id="pflege" class="abschnitt">
 <h2>Pflegebedarf je Land</h2>
 <p class="unterzeile">Wie viele Menschen mit Pflegeleistung gibt es bis 2040 — zu Hause durch Angehörige, mit Pflegedienst oder im Heim?</p>
+<div class="spalten">
+<div class="spalte-regler">
 <form id="pflege-regler" aria-label="Regler Pflegebedarf">
   <fieldset><legend>Auswahl</legend>
     <label>Land <select id="p-land"></select>
       <small class="beleg">16 Länder — Destatis 22421-0010 (Pflegestatistik 15.12.2023), 12411-0013 (Bevölkerung 31.12.2023).</small></label>
     <label>Bevölkerungsvariante <select id="p-variante"></select>
       <small class="beleg">jung · moderat · alt — Destatis 12421-0004 (Varianten 05, 02, 04), je Land.</small></label>
-    <label>Zieljahr <input id="p-jahr" type="range" min="2025" max="2040" step="1"> <output for="p-jahr"></output>
+    <label>Zieljahr <output for="p-jahr"></output> <input id="p-jahr" type="range" min="2025" max="2040" step="1">
       <small class="beleg">2025–2040 — Ausgangspunkt ist 2023 (gezählt).</small></label>
   </fieldset>
   <fieldset><legend>Häufigkeit</legend>
-    <label>Häufigkeit ändert sich wie 2019–2023, abklingend <input id="p-trend" type="range" min="0" max="1" step="0.05"> <output for="p-trend"></output>
+    <label>Häufigkeit ändert sich wie 2019–2023, abklingend <output for="p-trend"></output> <input id="p-trend" type="range" min="0" max="1" step="0.05">
       <small class="beleg" id="p-beleg-trend"></small></label>
-    <label>Halbwertszeit des Trends <input id="p-halbwertszeit" type="range" min="2" step="1"> <output for="p-halbwertszeit"></output>
+    <label>Halbwertszeit des Trends <output for="p-halbwertszeit"></output> <input id="p-halbwertszeit" type="range" min="2" step="1">
       <small class="beleg" id="p-beleg-halbwertszeit"></small></label>
   </fieldset>
 </form>
-<div id="p-ergebnis" aria-live="polite"></div>
-<p class="pflicht">Wenn-dann-Rechnung mit Häufigkeiten von 2023, keine Prognose. Gezählt: Pflegegeld, Pflegedienst, Heim — ohne Pflegegrad 1 ohne Leistung.</p>
 <p class="hinweis" id="p-probe"></p>
+</div>
+<div class="spalte-ergebnis">
+<p class="link-hinweis" id="p-link-hinweis" hidden></p>
+<div id="p-ergebnis" aria-live="polite"></div>
+<p class="pflicht" id="pflicht-pflege">Wenn-dann-Rechnung mit Häufigkeiten von 2023, keine Prognose. Gezählt: Pflegegeld, Pflegedienst, Heim — ohne Pflegegrad 1 ohne Leistung.</p>
+<p class="druck-einstellungen" id="druck-pflege"></p>
+<div class="zitat" id="zitat-pflege" hidden><p class="zitat-titel">Zum Zitieren</p><p class="zitat-text"></p><button type="button" class="kopieren">Kopieren</button><span class="kopier-status" aria-live="polite"></span></div>
 <p class="hinweis" id="p-quellenvermerk"></p>
 <h3>Personal der Pflegedienste und Heime</h3>
 <p class="unterzeile">Wie viele Beschäftigte brauchen Pflegedienste und Heime dann — wie viele vom Bestand 2023 sind noch da, und wie viele müssen neu dazukommen? Gezählt sind alle Beschäftigten, auch Verwaltung und Hauswirtschaft (rund ein Viertel); in der körperbezogenen Pflege arbeiten 64 %.</p>
 <div id="p-personal" aria-live="polite"></div>
-<p class="pflicht">Wenn-dann-Rechnung in Köpfen: Personal je Pflegebedürftigem und Teilzeitquote wie 2023, <span id="p-personal-verbleib">Annahme zum Verbleib nicht geladen</span>. Ohne Krankenhauspflege.</p>
+<p class="pflicht" id="pflicht-personal">Wenn-dann-Rechnung in Köpfen: Personal je Pflegebedürftigem und Teilzeitquote wie 2023, <span id="p-personal-verbleib">Annahme zum Verbleib nicht geladen</span>. Ohne Krankenhauspflege.</p>
+<div class="zitat" id="zitat-personal" hidden><p class="zitat-titel">Zum Zitieren</p><p class="zitat-text"></p><button type="button" class="kopieren">Kopieren</button><span class="kopier-status" aria-live="polite"></span></div>
 <p class="hinweis" id="p-personal-probe"></p>
 <p class="hinweis">Zweite Zählung: Die Bundesagentur für Arbeit zählt in Pflegeheimen, Altenheimen und ambulanter Betreuung (Wirtschaftszweige 871, 873, 881) von Dezember 2019 bis Dezember 2023 +3,6 % Beschäftigte, die Pflegestatistik +3,8 % — ein Zählbruch im Personal ist nicht erkennbar (Bundesagentur für Arbeit, Beschäftigte nach Wirtschaftszweigen, Dezember 2019 und 2023; Pflegestatistik 22411-0015, 22412-0016).</p>
 <p class="hinweis" id="p-personal-quellenvermerk"></p>
+</div>
+</div>
 </section>
 <!-- /pflege -->
 
 <section id="annahmen"><h2>Woher die Zahlen kommen</h2><ul id="quellen"></ul></section>
 
 <footer><p id="quellenvermerk"></p></footer>
+<div class="leiste" id="leiste" aria-hidden="true"></div>
+<script type="module" src="rahmen.js"></script>
 <script type="module" src="rechner_app.js"></script>
 <script type="module" src="pflege_app.js"></script>
 </body>
