@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-11T18:00:23",
+ "erzeugt": "2026-11-18T18:05:05",
  "commit": "4e63aa3ba8e349fb62475c6f0fd44ed0cf873a7c",
  "veraltet_nach_tagen": 9,
  "mindest_live": 8,
@@ -11,39 +11,39 @@
   "statsmodels": "0.15.0"
  },
  "aktuell": {
-  "ursprung": "2026-11-11",
-  "zieltag": "2026-12-09",
+  "ursprung": "2026-11-18",
+  "zieltag": "2026-12-16",
   "art": "woche",
-  "prognose": 84.25710132435603,
-  "unten": 82.96688825185188,
-  "oben": 85.78992611292517,
-  "heute": 82.97489837759466,
+  "prognose": 83.80871645011729,
+  "unten": 82.52596767748952,
+  "oben": 85.32476487539222,
+  "heute": 84.09106263461244,
   "urteil": "Keine deutliche Änderung zu erwarten."
  },
  "quellen": [
   {
    "quelle": "divi",
-   "tag": "2026-11-11",
+   "tag": "2026-11-18",
    "url": "https://github.com/robert-koch-institut/Intensivkapazitaeten_und_COVID-19-Intensivbettenbelegung_in_Deutschland"
   },
   {
    "quelle": "influenza",
-   "tag": "2026-11-11",
+   "tag": "2026-11-13",
    "url": "https://github.com/robert-koch-institut/Influenzafaelle_in_Deutschland"
   },
   {
    "quelle": "are",
-   "tag": "2026-11-05",
+   "tag": "2026-11-12",
    "url": "https://github.com/robert-koch-institut/ARE-Konsultationsinzidenz"
   },
   {
    "quelle": "covid",
-   "tag": "2026-11-11",
+   "tag": "2026-11-15",
    "url": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland"
   },
   {
    "quelle": "sari",
-   "tag": "2026-11-05",
+   "tag": "2026-11-12",
    "url": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz"
   }
  ],
@@ -4354,7 +4354,35 @@
   ],
   [
    "2026-11-11",
-   82.9749
+   82.9761
+  ],
+  [
+   "2026-11-12",
+   83.1341
+  ],
+  [
+   "2026-11-13",
+   83.3329
+  ],
+  [
+   "2026-11-14",
+   83.4972
+  ],
+  [
+   "2026-11-15",
+   83.6483
+  ],
+  [
+   "2026-11-16",
+   83.7805
+  ],
+  [
+   "2026-11-17",
+   83.9638
+  ],
+  [
+   "2026-11-18",
+   84.0911
   ]
  ],
  "pruefung": [
@@ -5436,7 +5464,7 @@
    "unten": 82.16140260337941,
    "oben": 85.05716245396447,
    "heute": 82.71467677735272,
-   "wahr": null
+   "wahr": 84.09106263461244
   },
   {
    "ursprung": "2026-10-28",
@@ -5470,6 +5498,17 @@
    "oben": 85.78992611292517,
    "heute": 82.97489837759466,
    "wahr": null
+  },
+  {
+   "ursprung": "2026-11-18",
+   "zieltag": "2026-12-16",
+   "art": "woche",
+   "grund": "",
+   "prognose": 83.80871645011729,
+   "unten": 82.52596767748952,
+   "oben": 85.32476487539222,
+   "heute": 84.09106263461244,
+   "wahr": null
   }
  ],
  "bilanz_pruefung": {
@@ -5484,7 +5523,7 @@
   "bis": "2026-09-02"
  },
  "bilanz_live": {
-  "n_aufgeloest": 6,
+  "n_aufgeloest": 7,
   "mae": null,
   "mae_s0": null,
   "abdeckung": null
