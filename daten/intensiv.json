@@ -1,5 +1,5 @@
 {
- "erzeugt": "2026-11-18T18:05:05",
+ "erzeugt": "2026-11-25T18:00:49",
  "commit": "4e63aa3ba8e349fb62475c6f0fd44ed0cf873a7c",
  "veraltet_nach_tagen": 9,
  "mindest_live": 8,
@@ -11,39 +11,39 @@
   "statsmodels": "0.15.0"
  },
  "aktuell": {
-  "ursprung": "2026-11-18",
-  "zieltag": "2026-12-16",
+  "ursprung": "2026-11-25",
+  "zieltag": "2026-12-23",
   "art": "woche",
-  "prognose": 83.80871645011729,
-  "unten": 82.52596767748952,
-  "oben": 85.32476487539222,
-  "heute": 84.09106263461244,
-  "urteil": "Keine deutliche Änderung zu erwarten."
+  "prognose": 82.59790888474046,
+  "unten": 81.32262441198907,
+  "oben": 84.09718094672117,
+  "heute": 84.66613441125946,
+  "urteil": "Die Auslastung sinkt voraussichtlich."
  },
  "quellen": [
   {
    "quelle": "divi",
-   "tag": "2026-11-18",
+   "tag": "2026-11-25",
    "url": "https://github.com/robert-koch-institut/Intensivkapazitaeten_und_COVID-19-Intensivbettenbelegung_in_Deutschland"
   },
   {
    "quelle": "influenza",
-   "tag": "2026-11-13",
+   "tag": "2026-11-19",
    "url": "https://github.com/robert-koch-institut/Influenzafaelle_in_Deutschland"
   },
   {
    "quelle": "are",
-   "tag": "2026-11-12",
+   "tag": "2026-11-19",
    "url": "https://github.com/robert-koch-institut/ARE-Konsultationsinzidenz"
   },
   {
    "quelle": "covid",
-   "tag": "2026-11-15",
+   "tag": "2026-11-25",
    "url": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland"
   },
   {
    "quelle": "sari",
-   "tag": "2026-11-12",
+   "tag": "2026-11-19",
    "url": "https://github.com/robert-koch-institut/SARI-Hospitalisierungsinzidenz"
   }
  ],
@@ -3610,43 +3610,43 @@
   ],
   [
    "2026-05-09",
-   83.0196
+   83.0263
   ],
   [
    "2026-05-10",
-   83.2311
+   83.2444
   ],
   [
    "2026-05-11",
-   83.3332
+   83.3533
   ],
   [
    "2026-05-12",
-   83.418
+   83.4449
   ],
   [
    "2026-05-13",
-   83.5692
+   83.5961
   ],
   [
    "2026-05-14",
-   83.6304
+   83.6572
   ],
   [
    "2026-05-15",
-   83.4396
+   83.4665
   ],
   [
    "2026-05-16",
-   83.3019
+   83.3221
   ],
   [
    "2026-05-17",
-   83.1368
+   83.1503
   ],
   [
    "2026-05-18",
-   82.9492
+   82.956
   ],
   [
    "2026-05-19",
@@ -4382,7 +4382,35 @@
   ],
   [
    "2026-11-18",
-   84.0911
+   84.0969
+  ],
+  [
+   "2026-11-19",
+   84.1338
+  ],
+  [
+   "2026-11-20",
+   84.2549
+  ],
+  [
+   "2026-11-21",
+   84.4662
+  ],
+  [
+   "2026-11-22",
+   84.5984
+  ],
+  [
+   "2026-11-23",
+   84.69
+  ],
+  [
+   "2026-11-24",
+   84.7046
+  ],
+  [
+   "2026-11-25",
+   84.6661
   ]
  ],
  "pruefung": [
@@ -5475,7 +5503,7 @@
    "unten": 82.75414489074505,
    "oben": 85.62566407815952,
    "heute": 83.11040407479494,
-   "wahr": null
+   "wahr": 84.66613441125946
   },
   {
    "ursprung": "2026-11-04",
@@ -5509,6 +5537,17 @@
    "oben": 85.32476487539222,
    "heute": 84.09106263461244,
    "wahr": null
+  },
+  {
+   "ursprung": "2026-11-25",
+   "zieltag": "2026-12-23",
+   "art": "woche",
+   "grund": "",
+   "prognose": 82.59790888474046,
+   "unten": 81.32262441198907,
+   "oben": 84.09718094672117,
+   "heute": 84.66613441125946,
+   "wahr": null
   }
  ],
  "bilanz_pruefung": {
@@ -5523,9 +5562,9 @@
   "bis": "2026-09-02"
  },
  "bilanz_live": {
-  "n_aufgeloest": 7,
-  "mae": null,
-  "mae_s0": null,
-  "abdeckung": null
+  "n_aufgeloest": 8,
+  "mae": 0.4323561130943574,
+  "mae_s0": 1.1604814352666377,
+  "abdeckung": 1.0
  }
 }
